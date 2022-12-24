@@ -1,4 +1,4 @@
-const { series, src, dest } = require('gulp');
+const { parallel, src, dest } = require('gulp');
 const cleanCSS = require('gulp-clean-css');
 const sourcemaps = require('gulp-sourcemaps');
 const autoprefixer = require('autoprefixer');
@@ -7,8 +7,9 @@ const browserSync = require('browser-sync');
 const connectPhp = require('gulp-connect-php');
 const sass = require('gulp-sass')(require('sass'));
 const watch = require('gulp-watch');
+const babel = require('gulp-babel');
 
-function work() {
+function workCSS() {
     connectPhp.server({}, function () {
         browserSync({
             proxy: '127.0.0.1:8000',
@@ -29,4 +30,16 @@ function work() {
     }).on('change', browserSync.reload);
 }
 
-exports.default = series(work);
+function workJS() {
+    return watch('./src/js/**/*.js', function () {
+        src('./src/js/**/*.js')
+            .pipe(sourcemaps.init())
+            .pipe(babel({
+                presets: ['@babel/env']
+            }))
+            .pipe(sourcemaps.write('.'))
+            .pipe(dest('./assets/js/'))
+    }).on('change', browserSync.reload);
+}
+
+exports.default = parallel(workJS, workCSS);

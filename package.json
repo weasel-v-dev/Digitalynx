@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve" : "gulp"
+    "serve": "gulp"
   },
   "author": "",
   "license": "MIT",
@@ -16,7 +16,10 @@
     "gulp-sourcemaps": "^3.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
     "autoprefixer": "^8.6.5",
+    "gulp-babel": "^8.0.0",
     "gulp-connect-php": "^1.0.3",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
