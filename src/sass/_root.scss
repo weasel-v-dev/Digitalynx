@@ -1,0 +1,16 @@
+body {
+  background: #6ad86d;
+  color: white;
+
+  filter: blur(.3);
+}
+div {
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      text-transform: uppercase;
+    }
+  }
+}
