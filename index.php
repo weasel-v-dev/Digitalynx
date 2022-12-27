@@ -1,15 +1,19 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <title>Document</title>
-</head>
-<body>
-dfdsfsdfs
-<script src="/assets/js/main.js"></script>
-</body>
-</html>
+<?php include 'sections/header.php' ?>
+
+ <div class="glass-wrap">
+    <h2 class="main__title">Мы воплотим все Вашы идеи в реальность</h2>
+     <div class="glass-inner">
+        <div>
+            <div class="glass d-flex justify-content-center align-items-center">
+                <h1>
+                    <span class="black">Lynx</span><span class="white">foundation</span>
+                </h1>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-5 w-100">
+                <a href="#" class="cta">Cвязаться</a>
+                <a href="#" class="link">Оценить портфолио</a>
+            </div>
+        </div>
+     </div>
+ </div>
+<?php include 'sections/footer.php' ?>

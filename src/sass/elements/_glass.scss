@@ -1,0 +1,19 @@
+.glass {
+  width: 711px;
+  height: 458px;
+  background-image: url('../img/glass.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+  &-wrap {
+    position: absolute;
+    top: 56%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+  &-inner {
+    justify-content: center;
+    display: flex;
+  }
+}

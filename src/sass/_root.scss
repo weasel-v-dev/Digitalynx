@@ -1,16 +1,43 @@
-body {
-  background: #6ad86d;
-  color: white;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 
-  filter: blur(.3);
+body {
+  height: 100vh;
+  background-image: url('../img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-div {
-  div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    a {
-      text-transform: uppercase;
-    }
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 600;
+  opacity: .86;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 185px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 0.5;
+
+  .black {
+    display: block;
+    text-shadow: 0px 6px 6px rgb(1, 1, 4);
+    color: black;
+    opacity: .70;
+  }
+  .white {
+    font-size: 72px;
+    color: white;
+    opacity: 0.57;
   }
 }
+
+
+
