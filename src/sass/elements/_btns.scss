@@ -40,20 +40,28 @@
 }
 
 .link {
-
   color: black;
   opacity: 0.89;
   font-weight: 500;
   font-family: 'Comfortaa', cursive;
-  border-bottom: 2px solid black;
-  white-space: nowrap;
   pointer-events: auto;
+  position: relative;
+  &::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    bottom: 30%;
+    @media screen and (max-width: 767px){
+      bottom: 0;
+    }
+  }
   &:hover {
     color: black;
   }
   @media screen and (min-width: 767px){
-    width: 152px;
-    height: 49px;
     line-height: 3;
 
     font-size: 20px;
