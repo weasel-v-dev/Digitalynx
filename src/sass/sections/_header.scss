@@ -1,5 +1,8 @@
 header {
+  padding-top: 15px;
+  @media screen and (min-width: 998px){
 
+  }
   @media screen and (min-width: 1200px){
     padding-top: 30px;
     position: relative;
@@ -7,6 +10,9 @@ header {
     padding-right: 15px;
   }
   .logo {
-
+    height: 58px;
+    @media screen and (min-width: 998px){
+      height: 69px;
+    }
   }
 }
