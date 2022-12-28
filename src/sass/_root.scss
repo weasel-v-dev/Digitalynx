@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+html {
+  height: -webkit-fill-available;
+}
 
 body {
-  height: 100vh;
+
   background-image: url('../img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  @media screen and (min-height: 550px){
+    height: 100vh;
+    min-height: -webkit-fill-available;
+  }
 }
 
 .live-color {

@@ -16,6 +16,11 @@
     @media screen and (max-width: 767px) {
       top: 49%;
     }
+    @media screen and (max-height: 550px){
+      position: static;
+      height: 0;
+      margin-top: 50px;
+    }
 
   }
   &-inner {

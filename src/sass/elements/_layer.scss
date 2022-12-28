@@ -40,7 +40,7 @@ $violet: #7d00fc;
     }
   }
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     padding: 0;
     position: absolute;
     bottom: 0;
@@ -73,7 +73,7 @@ $violet: #7d00fc;
 }
 
 footer {
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) and (min-height: 550px){
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -91,7 +91,11 @@ footer {
   bottom: 53px;
   position: absolute;
   left: 20px;
-  @media screen and (max-width: 767px){
+  @media screen and (max-height: 550px){
+    position: static;
+    margin-left: 15px;
+  }
+  @media screen and (max-width: 767px) and (min-height: 550px){
     bottom: 110px;
     left: auto;
     right: -50%;
@@ -153,6 +157,8 @@ ul.layer {
   font-size: 20px;
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
+  position: relative;
+  z-index: 11;
   @media screen and (min-width: 1600px){
     font-size: 24px;
   }

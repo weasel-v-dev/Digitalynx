@@ -24,7 +24,7 @@
 <div class="container-fluid">
     <header class="d-flex align-items-center justify-content-between">
         <a href="#">
-            <img src="/assets/img/logo.svg" class="logo" height="69px" alt="digital lynx">
+            <img src="/assets/img/logo.png" class="logo" alt="digital lynx">
         </a>
         <div>
             <div>

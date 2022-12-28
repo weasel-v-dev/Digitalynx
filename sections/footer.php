@@ -15,7 +15,7 @@
             </li>
         </ul>
     </footer>
-    <script src="/assets/js/rainbow.js"></script>
+    <script src="/rainbow.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>

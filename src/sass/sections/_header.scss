@@ -11,6 +11,8 @@ header {
   }
   .logo {
     height: 58px;
+    position: relative;
+    z-index: 11;
     @media screen and (min-width: 998px){
       height: 69px;
     }
