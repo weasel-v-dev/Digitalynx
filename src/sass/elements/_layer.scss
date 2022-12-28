@@ -167,6 +167,10 @@ ul.layer {
     right: 105px;
     bottom: 105px;
   }
+  @media screen and (min-width: 767px) and (max-height: 550px) {
+    right: 30px;
+    bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) {

@@ -5,14 +5,16 @@ html {
 }
 
 body {
-
   background-image: url('../img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  height: 100%;
+  position: relative;
+  min-height: -webkit-fill-available;
   @media screen and (min-height: 550px){
+    position: static;
+    background-position: center;
     height: 100vh;
-    min-height: -webkit-fill-available;
   }
 }
 
