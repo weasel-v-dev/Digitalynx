@@ -1,0 +1,18 @@
+.main {
+  &__title {
+
+    font-size: 20px;
+    margin-right: 30px;
+
+    text-align: right;
+
+    @media screen and (min-width: 998px){
+      font-size: 24px;
+      white-space: nowrap;
+    }
+    @media screen and (min-width: 1600px) {
+      margin-right: 70px;
+      font-size: 36px;
+    }
+  }
+}
