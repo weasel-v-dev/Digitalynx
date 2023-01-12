@@ -5,7 +5,7 @@
                 <a href="#"><img src="/assets/img/bh.svg" alt="Behance"></a>
             </li>
             <li>
-                <a href="#"><img src="/assets/img/tg.svg" alt="Telegram"></a>
+                <a href="https://t.me/SerbianLynx"><img src="/assets/img/tg.svg" alt="Telegram"></a>
             </li>
             <li>
                 <a href="#"><img src="/assets/img/sk.svg" alt="Skype"></a>

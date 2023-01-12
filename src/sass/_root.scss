@@ -9,12 +9,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  min-height: 100vh;
   position: relative;
   min-height: -webkit-fill-available;
   @media screen and (min-height: 550px){
     position: static;
     background-position: center;
     height: 100vh;
+    min-height: 100vh;
   }
 }
 
@@ -30,13 +32,13 @@ a {
   text-decoration: none;
 }
 
-h2 {
+.main__subtitle {
   font-family: 'Comfortaa', cursive;
   font-weight: 600;
   opacity: .86;
 }
 
-h1 {
+.main__title {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 133px;
@@ -70,6 +72,3 @@ h1 {
     font-size: 77px;
   }
 }
-
-
-
