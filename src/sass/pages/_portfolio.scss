@@ -1,0 +1,56 @@
+.portfolio {
+  max-width: 1440px;
+  &__item {
+    width: 592px;
+    > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 368px;
+    }
+  }
+}
+
+/* the slides */
+.slick-slide {
+  //padding: 0 100px;
+  img {
+    max-width: 228px;
+     transition: all .3s ease-in;
+
+  }
+}
+
+
+.slick-current {
+  img {
+    max-width: 500px;
+     transition: all .3s ease-in;
+
+
+  }
+}
+
+.slick-slide {
+
+  .glass {
+    transition: all .3s ease-in;
+    height: 250px;
+    width: 250px;
+    background-image: url('../img/s.png');
+  }
+
+}
+
+.slick-current {
+  .glass {
+    transition: all .3s ease-in;
+    width: 592px;
+    height: 368px;
+    background-image: url('../img/glass.png');
+  }
+}
+
+.slick-current.slick-center{
+  //padding: 0 40px;
+}

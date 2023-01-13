@@ -3,7 +3,7 @@
     <h1 class="main__subtitle">Мы воплотим все Вашы идеи в реальность</h1>
      <div class="glass-inner">
         <div>
-            <div class="glass d-flex justify-content-center align-items-center">
+            <div class="glass glass--standart d-flex justify-content-center align-items-center">
                 <h2 class="main__title">
                     <span class="black">Lynx</span><span class="white">foundation</span>
                 </h2>

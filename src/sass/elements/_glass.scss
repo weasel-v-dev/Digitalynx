@@ -1,7 +1,5 @@
 .glass {
-  width: 492px;
-  height: 328px;
-  background-image: url('../img/glass.png');
+
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -12,7 +10,7 @@
     top: 56%;
     transform: translateY(-50%);
     width: 100%;
-    pointer-events: none;
+    //pointer-events: none;
     @media screen and (max-width: 767px) {
       top: 49%;
     }
@@ -26,15 +24,20 @@
   &-inner {
     justify-content: center;
     display: flex;
+  }
 
-  }
-  @media screen and (max-width: 767px){
-    width: 310px;
-    height: 220px;
-  }
-  @media screen and (min-width: 1200px){
-    width: 711px;
-    height: 458px;
+  &--standart {
+    background-image: url('../img/glass.png');
+    width: 492px;
+    height: 328px;
+    @media screen and (max-width: 767px){
+      width: 310px;
+      height: 220px;
+    }
+    @media screen and (min-width: 1200px){
+      width: 711px;
+      height: 458px;
+    }
   }
 
 }

@@ -10,7 +10,7 @@
         src="https://code.jquery.com/jquery-3.6.3.min.js"
         integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
         crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!--    <script-->
     <!--        src="https://code.jquery.com/jquery-3.6.3.slim.min.js"-->
     <!--        integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="-->
@@ -22,7 +22,7 @@
 <canvas class="live-color"></canvas>
 <div class="container-fluid">
     <header class="d-flex align-items-center justify-content-between">
-        <a href="#">
+        <a href="/">
             <img src="/assets/img/logo.png" class="logo" alt="digital lynx">
         </a>
         <div>
