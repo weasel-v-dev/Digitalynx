@@ -21,7 +21,7 @@
 <body>
 <canvas class="live-color"></canvas>
 <div class="container-fluid">
-    <header class="d-flex align-items-center justify-content-between">
+    <header class="d-flex align-items-center justify-content-between mx-xl-3 me-xl-3">
         <a href="/">
             <img src="/assets/img/logo.png" class="logo" alt="digital lynx">
         </a>

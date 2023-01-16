@@ -1,7 +1,9 @@
 .portfolio {
   max-width: 1440px;
+
   &__item {
     width: 592px;
+
     > div {
       display: flex;
       justify-content: center;
@@ -9,25 +11,55 @@
       height: 368px;
     }
   }
+
+  &__header {
+    position: absolute;
+    top: 87%;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 1;
+  }
+
+  &__title {
+    font-size: 103px;
+    text-shadow: 0 6px 6px rgb(91, 91, 91);
+    text-transform: uppercase;
+    transition: opacity .3s ease-in, top .3s ease-in;
+    top: 0;
+    position: relative;
+  }
+
+  &__subtitle {
+    font-size: 72px;
+    color: rgba(178, 175, 175, 0.5);
+    text-align: right;
+    margin-right: -50px;
+    transition: opacity .3s ease-in, margin-right .3s ease-in;
+  }
+
+  &__title, &__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+  }
 }
 
 /* the slides */
 .slick-slide {
-  //padding: 0 100px;
-  img {
-    max-width: 228px;
-     transition: all .3s ease-in;
 
+  img {
+    filter: blur(2px);
+    max-width: 228px;
+    transition: all .3s ease-in;
   }
 }
 
 
 .slick-current {
   img {
+    filter: none;
     max-width: 500px;
-     transition: all .3s ease-in;
-
-
+    transition: all .3s ease-in;
   }
 }
 
