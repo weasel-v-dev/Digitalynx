@@ -40,4 +40,18 @@
     }
   }
 
+  &__visible {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 10px;
+    cursor: pointer;
+    transition: opacity .2s ease-in;
+    @media screen and (min-width: 490px){
+      width: 20px;
+    }
+    @media screen and (min-width: 668px){
+      width: 40px;
+    }
+  }
 }

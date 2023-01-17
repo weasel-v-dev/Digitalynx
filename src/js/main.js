@@ -30,13 +30,11 @@
             arrows: false,
             adaptiveHeight: false,
             variableWidth: true,
+
             responsive: [
                 {
-                    breakpoint: 560,
+                    breakpoint: 490,
                     settings: {
-                        // vertical: true,
-                        // verticalScrolling: true,
-                        // adaptiveHeight: true
                     }
                 }
             ]
@@ -57,6 +55,10 @@
             }, 100)
         }
 
+        $('.glass-visible-js').css({
+            opacity: 0
+        });
+
         $titlePortfolio.css({
             opacity: 0,
             top: '30px'
@@ -71,6 +73,9 @@
         $titlePortfolio.css({
             opacity: 1,
             top: 0
+        });
+        $('.glass-visible-js').css({
+            opacity: 1
         });
         $('.portfolio-subtitle-js').css({
             opacity: 1,
@@ -89,4 +94,25 @@
             $(this).slick('slickNext');
         }
     }));
+
+    $('.slider-nav .slick-slide').on('click', function (event) {
+        $('.slider-for').slick('slickGoTo', $(this).data('slickIndex'));
+    });
+
+    $('.portfolio-modal-shadow-js').click(function () {
+        $('.portfolio-modal-js').css({
+            opacity: 0,
+            pointerEvents: 'none'
+        })
+    });
+
+    $('.portfolio-item-js').each(function () {
+        $(this).find('.glass-visible-js').click(function () {
+            $('.portfolio-modal-js').css({
+                opacity: 1,
+                pointerEvents: 'auto'
+            });
+            $('.portfolio-modal-page-js').append(`<img src="${$(this).data('link')}" alt=""/>`);
+        });
+    });
 })(jQuery);

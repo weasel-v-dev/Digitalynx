@@ -8,80 +8,67 @@
         <h3 class="portfolio__subtitle portfolio-subtitle-js">project</h3>
     </div>
     <div class="portfolio mx-auto">
-
-        <div class="portfolio__item" data-name="Laura">
+        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/bitcoin-property_ru.png" data-name="Laura">
             <div>
-                <div class="glass d-flex justify-content-center align-items-center">
+                <div class="glass position-relative d-flex justify-content-center align-items-center">
+                    <img class="glass__visible glass-visible-js" src=/assets/img/eye2.svg alt="show presentation">
                     <div>
                         <img src="/assets/img/l.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio__item" data-name="UsEnglish">
+        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/bitcoin-property_ru.png" data-name="Laura">
             <div>
-                <div class="glass d-flex justify-content-center align-items-center">
+                <div class="glass position-relative d-flex justify-content-center align-items-center">
+                    <img class="glass__visible glass-visible-js" src=/assets/img/eye2.svg alt="show presentation">
                     <div>
                         <img src="/assets/img/l.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio__item" data-name="ItDelight">
+        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/bitcoin-property_ru.png" data-name="Laura">
             <div>
-                <div class="glass d-flex justify-content-center align-items-center">
+                <div class="glass position-relative d-flex justify-content-center align-items-center">
+                    <img class="glass__visible glass-visible-js" src=/assets/img/eye2.svg alt="show presentation">
                     <div>
                         <img src="/assets/img/l.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio__item" data-name="Laura">
+        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/bitcoin-property_ru.png" data-name="Laura">
             <div>
-                <div class="glass d-flex justify-content-center align-items-center">
+                <div class="glass position-relative d-flex justify-content-center align-items-center">
+                    <img class="glass__visible glass-visible-js" src=/assets/img/eye2.svg alt="show presentation">
                     <div>
                         <img src="/assets/img/l.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio__item" data-name="Laura">
+        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/bitcoin-property_ru.png" data-name="Laura">
             <div>
-                <div class="glass d-flex justify-content-center align-items-center">
+                <div class="glass position-relative d-flex justify-content-center align-items-center">
+                    <img class="glass__visible glass-visible-js" src=/assets/img/eye2.svg alt="show presentation">
                     <div>
                         <img src="/assets/img/l.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio__item" data-name="Laura">
-            <div>
-                <div class="glass d-flex justify-content-center align-items-center">
-                    <div>
-                        <img src="/assets/img/l.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio__item" data-name="Laura">
-            <div>
-                <div class="glass d-flex justify-content-center align-items-center">
-                    <div>
-                        <img src="/assets/img/l.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio__item" data-name="Laura">
-            <div>
-                <div class="glass d-flex justify-content-center align-items-center">
-                    <div>
-                        <img src="/assets/img/l.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
+    <div class="portfolio-nav">
+        <div class="prev"><img src="" alt=""></div>
+        <div class="next"><img src="" alt=""></div>
+    </div>
+</div>
+<div class="portfolio-modal portfolio-modal-js">
+
+    <div class="portfolio-modal__page portfolio-modal-page-js">
+        <img src="/portfolio/bitcoin-property_ru.png" alt="bitcoin property">
+    </div>
+    <div class="portfolio-modal__shadow portfolio-modal-shadow-js"></div>
 </div>
 <?php include 'sections/footer.php' ?>
