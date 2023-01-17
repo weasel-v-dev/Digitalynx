@@ -59,9 +59,10 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-nav">
-        <div class="prev"><img src="" alt=""></div>
-        <div class="next"><img src="" alt=""></div>
+    <div class="clue clue-js">
+        <img src="/assets/img/arr.svg" alt="icon">&nbsp;&nbsp;
+        <span>SWIPE</span>&nbsp;&nbsp;
+        <img src="/assets/img/arr.svg" alt="icon">
     </div>
 </div>
 <div class="portfolio-modal portfolio-modal-js">

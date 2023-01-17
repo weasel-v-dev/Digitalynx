@@ -59,6 +59,10 @@
             opacity: 0
         });
 
+        $('.clue-js').css({
+            opacity: 0
+        })
+
         $titlePortfolio.css({
             opacity: 0,
             top: '30px'
