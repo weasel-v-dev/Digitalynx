@@ -1,5 +1,13 @@
 .title-bread {
-  font-size: 30px;
+  font-size: 18px;
   text-align: right;
   font-family: 'Comfortaa', cursive;
+
+  @media screen and (min-width: 668px) {
+    font-size: 30px;
+    margin-bottom: 0;
+    position: relative;
+    top: -50px;
+    right: 50px;
+  }
 }

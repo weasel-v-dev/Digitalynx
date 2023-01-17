@@ -32,19 +32,11 @@
             variableWidth: true,
             responsive: [
                 {
-                    breakpoint: 768,
+                    breakpoint: 560,
                     settings: {
-                        arrows: false,
-                        centerMode: true,
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        slidesToShow: 1
+                        // vertical: true,
+                        // verticalScrolling: true,
+                        // adaptiveHeight: true
                     }
                 }
             ]
@@ -75,7 +67,7 @@
         })
     });
 
-    $portfolio.on('afterChange', function(event, slick, currentSlide, nextSlide){
+    $portfolio.on('afterChange', function(event, slick, currentSlide){
         $titlePortfolio.css({
             opacity: 1,
             top: 0

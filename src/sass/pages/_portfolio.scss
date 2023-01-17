@@ -1,88 +1,276 @@
 .portfolio {
-  max-width: 1440px;
+  max-width: 300px;
+  height: 350px;
+  @media screen and (min-width: 490px) {
+    max-width: 476px;
+    transform: scale(.85);
+    height: auto;
+  }
+  @media screen and (min-width: 520px) {
+    transform: scale(1);
+  }
+  @media screen and (min-width: 668px) {
+    max-width: 636px;
+  }
+  @media screen and (min-width: 900px) {
+    max-width: 900px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1100px;
+  }
+  @media screen and (min-width: 1300px) {
+    max-width: 1300px;
+  }
+  @media screen and (min-width: 1500px) {
+    max-width: 1440px;
+  }
 
   &__item {
-    width: 592px;
+    //width: 190px;
+    width: 250px;
+    height: 350px !important;
+    @media screen and (min-width: 390px) {
+      width: 290px;
+
+    }
+    @media screen and (min-width: 490px) {
+      width: 190px;
+      height: auto;
+    }
+    @media screen and (min-width: 668px) {
+      width: 230px;
+    }
+    @media screen and (min-width: 900px) {
+      width: 330px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 420px;
+    }
+    @media screen and (min-width: 1300px) {
+      width: 450px;
+    }
+    @media screen and (min-width: 1500px) {
+      width: 592px;
+    }
 
     > div {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 368px;
+      @media screen and (min-width: 1500px) {
+        height: 368px;
+      }
     }
   }
 
   &__header {
     position: absolute;
-    top: 87%;
+
     transform: translateX(-50%);
     left: 50%;
     z-index: 1;
+    top: 74%;
+    @media screen and (min-width: 390px) {
+      top: 77%;
+    }
+    @media screen and (min-width: 550px) {
+      top: 70%;
+    }
+    @media screen and (min-width: 668px) {
+      top: 73%
+    }
+    @media screen and (min-width: 900px) {
+      top: 76%;
+    }
+    @media screen and (min-width: 1200px) {
+      top: 82%;
+    }
+    @media screen and (min-width: 1300px) {
+      top: 84%;
+    }
+    @media screen and (min-width: 1500px) {
+      top: 89%;
+    }
   }
 
   &__title {
-    font-size: 103px;
+
     text-shadow: 0 6px 6px rgb(91, 91, 91);
     text-transform: uppercase;
     transition: opacity .3s ease-in, top .3s ease-in;
     top: 0;
     position: relative;
+    @media screen and (min-width: 390px) {
+      font-size: 27px;
+    }
+    @media screen and (min-width: 668px) {
+      font-size: 28px;
+    }
+    @media screen and (min-width: 900px) {
+      font-size: 50px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 93px;
+    }
+    @media screen and (min-width: 1500px) {
+      font-size: 103px;
+    }
   }
 
   &__subtitle {
-    font-size: 72px;
-    color: rgba(178, 175, 175, 0.5);
+
+    color: #676767;
     text-align: right;
     margin-right: -50px;
     transition: opacity .3s ease-in, margin-right .3s ease-in;
+    font-size: 18px;
+    @media screen and (min-width: 490px) {
+
+    }
+    @media screen and (min-width: 668px) {
+
+    }
+    @media screen and (min-width: 900px) {
+      font-size: 24px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 72px;
+      color: rgba(178, 175, 175, 0.5);
+    }
+    @media screen and (min-width: 1300px) {
+
+    }
+    @media screen and (min-width: 1500px) {
+    }
   }
 
   &__title, &__subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     line-height: 1;
+    @media screen and (min-width: 490px) {
+
+    }
+    @media screen and (min-width: 668px) {
+
+    }
+    @media screen and (min-width: 900px) {
+
+    }
+    @media screen and (min-width: 1200px) {
+
+    }
+    @media screen and (min-width: 1300px) {
+
+    }
+    @media screen and (min-width: 1500px) {
+
+    }
   }
 }
 
-/* the slides */
 .slick-slide {
+  .glass {
+    transition: all .3s ease-in;
 
+    background-image: url('../img/s.png');
+    //background-color: #000;
+
+    height: 60px;
+    width: 60px;
+
+    @media screen and (min-width: 490px) {
+      height: 96px;
+      width: 96px;
+    }
+
+    @media screen and (min-width: 668px) {
+      height: 123px;
+      width: 123px;
+    }
+
+    @media screen and (min-width: 900px) {
+      height: 153px;
+      width: 153px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      height: 250px;
+      width: 250px;
+    }
+  }
   img {
     filter: blur(2px);
-    max-width: 228px;
+
     transition: all .3s ease-in;
+
+    max-width: 80px;
+    @media screen and (min-width: 490px) {
+      max-width: 80px;
+    }
+    @media screen and (min-width: 668px) {
+      max-width: 100px;
+    }
+    @media screen and (min-width: 900px) {
+      max-width: 135px;
+    }
+    @media screen and (min-width: 1200px) {
+      max-width: 228px;
+    }
   }
 }
 
-
 .slick-current {
+  .glass {
+    transition: all .3s ease-in;
+    background-image: url('../img/glass.png');
+    width: 592px;
+
+
+    height: 163px;
+    @media screen and (min-width: 390px) {
+      height: 189px;
+    }
+
+    @media screen and (min-width: 490px) {
+      height: 124px;
+    }
+
+    @media screen and (min-width: 668px) {
+      height: 150px;
+    }
+
+    @media screen and (min-width: 900px) {
+      height: 234px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      height: 291px;
+    }
+
+    @media screen and (min-width: 1500px) {
+      height: 368px;
+    }
+  }
   img {
     filter: none;
-    max-width: 500px;
     transition: all .3s ease-in;
+    max-width: 170px;
+    @media screen and (min-width: 490px) {
+      max-width: 170px;
+    }
+    @media screen and (min-width: 668px) {
+      max-width: 200px;
+    }
+    @media screen and (min-width: 900px) {
+      max-width: 300px;
+    }
+    @media screen and (min-width: 1200px) {
+      max-width: 360px;
+    }
+    @media screen and (min-width: 1500px) {
+      max-width: 500px;
+    }
   }
-}
-
-.slick-slide {
-
-  .glass {
-    transition: all .3s ease-in;
-    height: 250px;
-    width: 250px;
-    background-image: url('../img/s.png');
-  }
-
-}
-
-.slick-current {
-  .glass {
-    transition: all .3s ease-in;
-    width: 592px;
-    height: 368px;
-    background-image: url('../img/glass.png');
-  }
-}
-
-.slick-current.slick-center{
-  //padding: 0 40px;
 }

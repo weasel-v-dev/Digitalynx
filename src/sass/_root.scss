@@ -3,23 +3,26 @@
 html {
   height: -webkit-fill-available;
 }
-
 body {
   background-image: url('../img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   min-height: 100vh;
+  overflow: hidden;
   position: relative;
   min-height: -webkit-fill-available;
+  
   @media screen and (min-height: 550px){
     position: static;
     background-position: center;
     height: 100vh;
     min-height: 100vh;
   }
+  @media screen and (min-width: 576px){
+    overflow: auto;
+  }
 }
-
 .live-color {
   position: absolute;
   width: 100%;
@@ -27,17 +30,14 @@ body {
   top: 0;
   left: 0;
 }
-
 a {
   text-decoration: none;
 }
-
 .main__subtitle {
   font-family: 'Comfortaa', cursive;
   font-weight: 600;
   opacity: .86;
 }
-
 .main__title {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -46,13 +46,11 @@ a {
   font-weight: 700;
   line-height: 0.5;
   margin-top: 0;
-
   .black {
     display: block;
     text-shadow: 0px 6px 6px rgb(1, 1, 4);
     color: black;
     opacity: .70;
-
   }
   .white {
     font-size: 49px;

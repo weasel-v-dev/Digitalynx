@@ -1,7 +1,7 @@
 <?php include 'sections/header.php' ?>
 <div class="glass-wrap d-flex flex-column">
     <div class="container-fluid">
-        <h1 class="title-bread mb-xl-5 mx-xl-3 me-xl-5">Портфолио</h1>
+        <h1 class="title-bread">Портфолио</h1>
     </div>
     <div class="portfolio__header">
         <h2 class="portfolio__title portfolio-title-js">Laura</h2>
