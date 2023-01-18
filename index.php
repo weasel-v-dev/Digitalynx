@@ -1,5 +1,5 @@
 <?php include 'sections/header.php' ?>
- <main class="glass-wrap">
+ <main class="glass-wrap glass-wrap--main">
     <h1 class="main__subtitle">Мы воплотим все Вашы идеи в реальность</h1>
      <div class="glass-inner">
         <div>
