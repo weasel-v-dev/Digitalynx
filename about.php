@@ -33,8 +33,8 @@
                     <span class="black step__black">Этапы</span>
                     <span class="white step__white" >работы</span>
                 </h2>
-                <div class="d-flex mx-2">
-                    <div class="step__dividers">
+                <div class="d-flex mb-2">
+                    <div class="step__dividers pe-4">
                         <h3 class="step__title">
                             Входные данные
                         </h3>
@@ -46,7 +46,7 @@
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div class="ps-4">
                         <h3 class="step__title">
                             Подготовка
                         </h3>
@@ -61,28 +61,30 @@
                     </div>
                 </div>
                 <div class="d-flex">
-                    <div>
+                    <div class="pe-4">
                         <h3 class="step__title">
-                            Входные данные
+                            Реализация
                         </h3>
                         <div class="d-flex">
                             <div class="step__number">1</div>
                             <p class="step__desc">
-                                Вы объясняете, что бы
-                                хотели увидеть в результате
+                                Вносим ваши коррективы,
+                                оговариваем сроки и
+                                приступаем к выполнению
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div class="ps-4">
                         <h3 class="step__title">
-                            Подготовка
+                            Достижение результата
                         </h3>
                         <div class="d-flex">
                             <div class="step__number">2</div>
                             <p class="step__desc">
-                                Мы показываем вам
-                                наши предложения на
-                                основе ваших пожеланий
+                                Показываем вам
+                                промежуточные результаты
+                                для коррекции. Отдаём вам
+                                готовый продукт
                             </p>
                         </div>
                     </div>
