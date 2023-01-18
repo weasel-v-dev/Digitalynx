@@ -64,7 +64,6 @@
         $portfolio.next(nextSlide);
     });
 
-
     $portfolio.on('afterChange', function(event, slick, currentSlide){
         $titlePortfolio.css({
             opacity: 1,
@@ -110,6 +109,7 @@
             $('.portfolio-modal-page-js').html(`<img src="${$(this).closest('.portfolio-item-js').data('image')}" alt="">`);
         });
     });
+
     let currentPage = 1;
     let stopWheel = 0;
     const $aboutWindow = $('.about-window-js');

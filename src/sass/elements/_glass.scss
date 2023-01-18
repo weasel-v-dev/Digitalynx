@@ -3,7 +3,7 @@
   background-size: contain;
   &-wrap {
     position: absolute;
-    //pointer-events: none;
+    pointer-events: none;
     top: 54%;
     transform: translateY(-50%);
     width: 100%;

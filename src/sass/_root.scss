@@ -59,6 +59,9 @@ a {
 }
 
 .step {
+  &__item {
+
+  }
   &__white {
     position: relative;
     right: -150px;
@@ -87,14 +90,22 @@ a {
   }
 
   &__dividers {
+    position: relative;
     &::before {
-
+      width: 1px;
+      height: 200%;
+      right: 0;
     }
     &::after {
-
+      width: 200%;
+      height: 1px;
+      bottom: 0;
     }
     &::before, &::after {
-
+      position: absolute;
+      background-color: #8b958c;
+      content: '';
+      display: block;
     }
   }
 }
