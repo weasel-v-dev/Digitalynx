@@ -15,8 +15,25 @@
     <!--        src="https://code.jquery.com/jquery-3.6.3.slim.min.js"-->
     <!--        integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="-->
     <!--        crossorigin="anonymous"></script>-->
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(92093615, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/92093615" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>Digitalynx</title>
+    <title>Веб студия Digital Lynx | Создания сайтов любой сложности</title>
 </head>
 <body>
 <canvas class="live-color"></canvas>
@@ -52,7 +69,7 @@
                         </ul>
                     </li>
                     <li class="d-none d-md-block">
-                        <a href="#"><img src="/assets/img/about.svg" alt="about" class="d-md-none"><span>О нас</span></a>
+                        <a href="/about.php"><img src="/assets/img/about.svg" alt="about" class="d-md-none"><span>О нас</span></a>
                     </li>
                     <li>
                         <a href="/offer.php"><img src="/assets/img/product.svg" alt="services" class="d-md-none"><span>Услуги</span></a>
@@ -65,4 +82,3 @@
         </div>
     </header>
 </div>
-    <main>

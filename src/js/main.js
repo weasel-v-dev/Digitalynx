@@ -30,7 +30,6 @@
             arrows: false,
             adaptiveHeight: false,
             variableWidth: true,
-
             responsive: [
                 {
                     breakpoint: 490,
@@ -44,17 +43,6 @@
     const $titlePortfolio = $('.portfolio-title-js');
 
     $portfolio.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-        let slidesLength = slick.$slides.length - 1,
-            isCurrentFirstOrLast = currentSlide === 0 || currentSlide === slidesLength,
-            isNextFirstOrLast = nextSlide === 0 || nextSlide === slidesLength;
-
-        if (isCurrentFirstOrLast && isNextFirstOrLast) {
-            let nextClone = $(event.currentTarget).find('.slick-cloned.slick-active');
-            setTimeout(function() {
-                nextClone.addClass('slick-current');
-            }, 100)
-        }
-
         $('.glass-visible-js').css({
             opacity: 0
         });
@@ -71,7 +59,9 @@
         $('.portfolio-subtitle-js').css({
             opacity: 0,
             marginRight: '-80px'
-        })
+        });
+
+        $portfolio.next(nextSlide);
     });
 
 
@@ -80,7 +70,6 @@
             opacity: 1,
             top: 0
         });
-
 
         $('.slick-center .glass-visible-js').css({
             opacity: 1
@@ -117,9 +106,55 @@
                 opacity: 1,
                 pointerEvents: 'auto'
             });
-            $('.portfolio-modal-page-js').append(`<img src="${$(this).data('link')}" alt=""/>`);
+            console.log($(this).closest('.portfolio-item-js').data('image'));
+            $('.portfolio-modal-page-js').html(`<img src="${$(this).closest('.portfolio-item-js').data('image')}" alt="">`);
         });
     });
+    let currentPage = 1;
+    let stopWheel = 0;
+    const $aboutWindow = $('.about-window-js');
+    $('.about-js').on('wheel', async function(e) {
+        console.log(stopWheel);
+        if(stopWheel) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            return false;
+        }
+        if (e.originalEvent.deltaY < 0) {
+            if(currentPage === 1) {
+                $aboutWindow[0].style.right = '0';
+                $aboutWindow[1].style.top = '150%';
+            }
+            else if (currentPage === 2) {
+                $aboutWindow[1].style.right = '0';
+                $aboutWindow[2].style.top = '150%';
+            }
+            --currentPage;
+        }
+        else {
+            if(currentPage === 1) {
+                $aboutWindow[0].style.right = '-100%';
+                $aboutWindow[1].style.top = '50%';
+            }
+            else if (currentPage === 2) {
+                $aboutWindow[1].style.right = '-100%';
+                $aboutWindow[2].style.top = '50%';
+            }
+            ++currentPage;
+        }
+        if(currentPage < 1) {
+            currentPage = 1;
+        }
+        if(currentPage > 2){
+            currentPage = 2;
+        }
 
+        stopWheel = 1;
+        await delay(500);
+        stopWheel = 0;
+    })
 
+    function delay(time) {
+        return new Promise(resolve => setTimeout(resolve, time));
+    }
 })(jQuery);

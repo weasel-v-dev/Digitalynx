@@ -1,4 +1,4 @@
-    </main>
+
     <footer>
         <ul class="layer soc js-soc">
             <li>

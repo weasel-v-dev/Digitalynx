@@ -144,36 +144,11 @@
     @media screen and (min-width: 1500px) {
     }
   }
-
-  &__title, &__subtitle {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    line-height: 1;
-    @media screen and (min-width: 490px) {
-
-    }
-    @media screen and (min-width: 668px) {
-
-    }
-    @media screen and (min-width: 900px) {
-
-    }
-    @media screen and (min-width: 1200px) {
-
-    }
-    @media screen and (min-width: 1300px) {
-
-    }
-    @media screen and (min-width: 1500px) {
-
-    }
-  }
 }
 
 .slick-slide {
   .glass {
     transition: all .3s ease-in;
-
     background-image: url('../img/s.png');
     //background-color: #000;
 
@@ -202,9 +177,7 @@
   }
   img {
     filter: blur(2px);
-
     transition: all .3s ease-in;
-
     max-width: 80px;
     @media screen and (min-width: 490px) {
       max-width: 80px;
@@ -216,7 +189,7 @@
       max-width: 135px;
     }
     @media screen and (min-width: 1200px) {
-      max-width: 228px;
+      max-width: 180px;
     }
   }
 }
@@ -227,27 +200,21 @@
     background-image: url('../img/glass.png');
     width: 592px;
     height: 163px;
-
     @media screen and (min-width: 390px) {
       height: 189px;
     }
-
     @media screen and (min-width: 490px) {
       height: 124px;
     }
-
     @media screen and (min-width: 668px) {
       height: 150px;
     }
-
     @media screen and (min-width: 900px) {
       height: 234px;
     }
-
     @media screen and (min-width: 1200px) {
       height: 291px;
     }
-
     @media screen and (min-width: 1500px) {
       height: 385px;
     }
@@ -293,44 +260,3 @@
       }
     }
   }
-
-.portfolio-modal {
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 11;
-  text-align: center;
-  overflow: auto;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  transition: opacity .3s ease-in;
-  pointer-events: none;
-  opacity: 0;
-  &__page {
-    max-width: 1400px;
-    width: calc(100% - 15px);
-    background-color: #fff;
-    display: inline-block;
-    border-radius: 20px;
-    overflow: hidden;
-
-    img {
-      max-width: 100%;
-    }
-    @media screen and (min-width: 490px) {
-      width: calc(100% - 100px);
-    }
-  }
-  &__shadow {
-    background-color: rgba(0,0,0,.5);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-  }
-}

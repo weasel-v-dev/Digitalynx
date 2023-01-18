@@ -1,16 +1,12 @@
 .glass {
-
   background-repeat: no-repeat;
   background-size: contain;
-
-
-
   &-wrap {
     position: absolute;
-    top: 56%;
+    //pointer-events: none;
+    top: 54%;
     transform: translateY(-50%);
     width: 100%;
-    //pointer-events: none;
     @media screen and (max-width: 767px) {
       top: 49%;
     }
@@ -19,48 +15,56 @@
       height: 0;
       margin-top: 50px;
     }
-
+    .title-bread {
+      @media screen and (min-width: 668px) {
+        position: relative;
+        top: -50px;
+        right: 50px;
+      }
+    }
   }
   &-inner {
     justify-content: center;
     display: flex;
   }
-
   &--standart {
     background-image: url('../img/glass.png');
     width: 492px;
     height: 328px;
-    @media screen and (max-width: 767px){
+    @media screen and (max-width: 767px) {
       width: 310px;
       height: 220px;
     }
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
       width: 711px;
       height: 458px;
     }
   }
-
   &__visible {
     position: absolute;
     top: 5px;
     right: 12px;
     width: 30px;
+    height: 30px;
     cursor: pointer;
     transition: opacity .2s ease-in;
     opacity: 0;
     pointer-events: none;
-
-    @media screen and (min-width: 900px){
+    background-image: url('/assets/img/eye2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media screen and (min-width: 900px) {
 
     }
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
       top: 15px;
       right: 15px;
       width: 40px;
+      height: 40px;
     }
   }
 }
-
 .slick-center .glass__visible  {
   opacity: 1;
   pointer-events: auto;
