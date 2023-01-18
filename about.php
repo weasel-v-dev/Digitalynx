@@ -33,6 +33,33 @@
                     <span class="black step__black">Этапы</span>
                     <span class="white step__white" >работы</span>
                 </h2>
+                <div class="d-flex mx-2">
+                    <div class="step__dividers">
+                        <h3 class="step__title">
+                            Входные данные
+                        </h3>
+                        <div class="d-flex">
+                            <div class="step__number">1</div>
+                            <p class="step__desc">
+                                Вы объясняете, что бы
+                                хотели увидеть в результате
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="step__title">
+                            Подготовка
+                        </h3>
+                        <div class="d-flex">
+                            <div class="step__number">2</div>
+                            <p class="step__desc">
+                                Мы показываем вам
+                                наши предложения на
+                                основе ваших пожеланий
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="d-flex">
                     <div>
                         <h3 class="step__title">
@@ -60,10 +87,6 @@
                         </div>
                     </div>
                 </div>
-<!--                <div class="d-flex">-->
-<!--                    <div></div>-->
-<!--                    <div></div>-->
-<!--                </div>-->
             </div>
         </div>
     </div>
