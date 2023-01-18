@@ -58,12 +58,12 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/lauramissmacaron_ru.png" data-name="Laura">
+        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/dor_ru.png" data-name="DorNakash">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
                     <div>
-                        <img src="/assets/img/l.png" alt="">
+                        <img src="/assets/img/dor.png" alt="">
                     </div>
                 </div>
             </div>
