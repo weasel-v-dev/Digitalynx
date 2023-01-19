@@ -1,14 +1,17 @@
 <?php include 'sections/header.php' ?>
 <main class="about about-js">
-    <div class="glass-wrap about__window about__window--1 about-window-js d-flex flex-column">
+    <div class="glass-wrap  d-flex flex-column">
         <div class="container-fluid">
             <h1 class="title-bread">О нас</h1>
         </div>
-        <div class="d-flex justify-content-center">
+        <div class="glass" style="opacity: 0;pointer-events: none">
+
+        </div>
+        <div class="d-flex justify-content-center glass-wrap about__window about__window--1 about-window-js ">
             <div class="glass">
-                <div class="about__title title-mega mb-xl-5">
+                <h2 class="about__title title-mega mb-xl-5">
                     <span class="black">Lynx</span><span class="white">foundation</span>
-                </div>
+                </h2>
                 <p class="mb-4">
                     Команда молодых, креативных людей. Создаем IT‑решения и помогаем
                     цифровизировать любую вашу идею. Среди проектов автоматизация
@@ -22,12 +25,7 @@
                 </p>
             </div>
         </div>
-    </div>
-    <div class="glass-wrap about__window about__window--2 about-window-js d-flex flex-column">
-        <div class="container-fluid">
-            <h1 class="title-bread">О нас</h1>
-        </div>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center glass-wrap about__window about__window--2 about-window-js ">
             <div class="glass step">
                 <h2 class="about__title title-mega mb-xl-5">
                     <span class="black step__black">Этапы</span>
@@ -91,12 +89,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="glass-wrap about__window about__window--3 about-window-js d-flex flex-column">
-        <div class="container-fluid">
-            <h1 class="title-bread">О нас</h1>
-        </div>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center glass-wrap about__window about__window--3 about-window-js ">
             <div class="glass glass--big step technology">
                 <h2 class="about__title title-mega mb-xl-5">
                     <span class="black step__black">Наши</span><span class="white step__white">технологии</span>
