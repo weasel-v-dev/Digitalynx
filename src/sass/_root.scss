@@ -13,13 +13,11 @@ body {
   overflow: hidden;
   position: relative;
   min-height: -webkit-fill-available;
-  
-  @media screen and (min-height: 550px){
-    background-position: center;
-    height: 100vh;
-    min-height: 100vh;
+  background-position: center;
+  @media screen and (max-height: 400px){
+    overflow: auto;
   }
-  @media screen and (min-width: 576px){
+  @media screen and (max-height: 735px) and (min-width: 1200px){
     overflow: auto;
   }
 }

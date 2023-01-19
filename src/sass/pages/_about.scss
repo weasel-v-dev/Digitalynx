@@ -16,15 +16,32 @@
       top: 200%;
     }
   }
+  //.glass {
+  //  background-image: url('../img/a.png');
+  //  width: 1391px;
+  //  min-height: 574px;
+  //  padding: 53px;
+  //  &--big {
+  //    background-image: url('../img/about-glass.png');
+  //  }
+  //}
+  //&__title {
+  //  margin-top: -89px;
+  //  font-size: 160px;
+  //  line-height: 0.4;
+  //  .white {
+  //    font-size: 60px;
+  //  }
+  //}
   .glass {
     background-image: url('../img/a.png');
     @media screen and (min-width: 1200px) {
-      height: 371px;
+      min-height: 371px;
       width: 900px;
       padding: 53px 50px;
     }
     @media screen and (min-width: 1500px) {
-      height: 574px;
+      min-height: 574px;
       width: 1391px;
       padding: 53px 83px;
     }
@@ -35,20 +52,19 @@
     &--big {
       //background-color: #000;
       background-image: url('../img/about-glass.png');
-      @media screen and (min-width: 1200px) {
-        height: 494px;
+      @media screen and (min-width: 1200px) and (max-width: 1500px) {
+        min-height: 494px;
         width: 1103px;
         padding: 53px 88px;
       }
     }
   }
   &__title {
-    font-size: 160px;
     line-height: 1;
     .white {
-      font-size: 60px;
-      @media screen and (min-width: 767px) {
-        font-size: 40px;
+      font-size: 40px;
+      @media screen and (min-width: 1500px) {
+        font-size: 60px;
       }
     }
     @media screen and (min-width: 767px) {
@@ -63,6 +79,7 @@
       margin-top: -89px;
       margin-bottom: 3rem;
       line-height: 0.4;
+      font-size: 160px;
     }
   }
 }

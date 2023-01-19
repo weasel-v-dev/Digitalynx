@@ -122,11 +122,19 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
               --currentPage;
             } else {
               if (currentPage === 1) {
-                $aboutWindow[0].style.right = '-100%';
-                $aboutWindow[1].style.top = '50%';
+                if (window.matchMedia('(min-width: 1200px)')) {
+                  $aboutWindow[0].style.right = '-100%';
+                  $aboutWindow[1].style.top = '50%';
+                } else {
+                  $aboutWindow[0].style.top = '-200%';
+                }
               } else if (currentPage === 2) {
-                $aboutWindow[1].style.right = '-100%';
-                $aboutWindow[2].style.top = '50%';
+                if (window.matchMedia('(min-width: 1200px)')) {
+                  $aboutWindow[1].style.right = '-100%';
+                  $aboutWindow[2].style.top = '50%';
+                } else {
+                  $aboutWindow[0].style.top = '-200%';
+                }
               }
               ++currentPage;
             }
