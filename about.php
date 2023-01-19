@@ -5,11 +5,100 @@
             <h1 class="title-bread">О нас</h1>
         </div>
         <div class="d-flex justify-content-center">
+            <div class="glass step technology">
+                <h2 class="about__title title-mega mb-xl-5">
+                    <span class="black step__black">Наши</span><span class="white step__white">технологии</span>
+                </h2>
+                <h3 class="step__title technology__divider technology__divider--1">Клиентская часть</h3>
+                <div class="d-flex flex-wrap">
+                    <figure>
+                        <img src="/assets/img/vue.svg" alt="Vue.js">
+                        <figcaption>Vue.js</figcaption>
+                    </figure>
+                    <figure>
+                        <img src=/assets/img/ang.svg alt="Angular">
+                        <figcaption>Angular</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/rjs.svg" alt="React.js">
+                        <figcaption>React.js</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/tjs.svg" alt="TypeScript">
+                        <figcaption>TypeScript</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/js.svg" alt="JavaScript">
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/jq.svg" alt="jQuery">
+                        <figcaption>jQuery</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/boot.svg" alt="Bootstrap">
+                        <figcaption>Bootstrap</figcaption>
+                    </figure>
+                </div>
+                <h3 class="step__title technology__divider technology__divider--2">Серверная часть</h3>
+                <div class="d-flex flex-wrap">
+                    <figure>
+                        <img src="/assets/img/php.svg" alt="PHP">
+                        <figcaption>PHP</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/laravel.svg" alt="Laravel">
+                        <figcaption>Laravel</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/njs.svg" alt="Node.js">
+                        <figcaption>Node.js</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/mysql.svg" alt="MySQL">
+                        <figcaption>MySQL</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/w.svg" alt="Wordpress">
+                        <figcaption>Wordpress</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/yii.svg" alt="Yii">
+                        <figcaption>Yii1, Yii2</figcaption>
+                    </figure>
+                </div>
+                <h3 class="step__title technology__divider technology__divider--3">Дизайн интерфейсов</h3>
+                <div class="d-flex flex-wrap">
+                    <figure>
+                        <img src="/assets/img/ill.svg" alt="Illustrator">
+                        <figcaption>Illustrator</figcaption>
+                    </figure>
+                    <figure>
+                        <img src=/assets/img/pt.svg alt="Photoshop">
+                        <figcaption>Photoshop</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/xd.svg" alt="XD">
+                        <figcaption>XD</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/img/fg.svg" alt="Figma">
+                        <figcaption>Figma</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="glass-wrap about__window about__window--2 about-window-js d-flex flex-column">
+        <div class="container-fluid">
+            <h1 class="title-bread">О нас</h1>
+        </div>
+        <div class="d-flex justify-content-center">
             <div class="glass">
                 <div class="about__title title-mega mb-xl-5">
                     <span class="black">Lynx</span><span class="white">foundation</span>
                 </div>
-                <p>
+                <p class="mb-4">
                     Команда молодых, креативных людей. Создаем IT‑решения и помогаем
                     цифровизировать любую вашу идею. Среди проектов автоматизация
                     бизнес‑процессов, онлайн‑сервисы и сайты, внедрение digital‑инструментов
@@ -23,7 +112,7 @@
             </div>
         </div>
     </div>
-    <div class="glass-wrap about__window about__window--2 about-window-js d-flex flex-column">
+    <div class="glass-wrap about__window about__window--3 about-window-js d-flex flex-column">
         <div class="container-fluid">
             <h1 class="title-bread">О нас</h1>
         </div>
@@ -92,28 +181,6 @@
             </div>
         </div>
     </div>
-    <div class="glass-wrap about__window about__window--3 about-window-js d-flex flex-column">
-        <div class="container-fluid">
-            <h1 class="title-bread">О нас</h1>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div class="glass">
-                <div class="about__title title-mega mb-xl-5">
-                    <span class="black">Lynx</span><span class="white">foundation</span>
-                </div>
-                <p>
-                    Команда молодых, креативных людей. Создаем IT‑решения и помогаем
-                    цифровизировать любую вашу идею. Среди проектов автоматизация
-                    бизнес‑процессов, онлайн‑сервисы и сайты, внедрение digital‑инструментов
-                    для продаж и маркетинга.
-                </p>
-                <p>
-                    Наши основные принципы — гибкость мышления, осознанность,
-                    прозрачность, скорость и качество работы, высокий клиентский сервис
-                    и нацеленность на результат. Работаем с людьми и для людей.
-                </p>
-            </div>
-        </div>
-    </div>
+
 </main>
 <?php include 'sections/footer.php' ?>

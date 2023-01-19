@@ -6,22 +6,19 @@
   &__window {
     right: 0;
     transition: right .5s ease-in-out, top .5s ease-in-out;
-    //@media screen and (min-width: 1500px){
-    //  top: 55%;
-    //}
     &--1 {
       top: 50%;
     }
     &--2 {
-      top: 150%
+      top: 150%;
     }
     &--3 {
-      top: 150%
+      top: 150%;
     }
   }
   .glass {
     background-image: url('../img/a.png');
-    max-width: 1391px;
+    width: 1391px;
     min-height: 574px;
     padding: 53px;
   }
@@ -33,13 +30,4 @@
       font-size: 60px;
     }
   }
-
-  &__step-black {
-
-  }
-  &__step-white {
-
-  }
-
-
 }

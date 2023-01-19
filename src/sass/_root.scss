@@ -71,7 +71,6 @@ a {
     left: -150px;
   }
   &__title {
-
     font-family: 'Comfortaa', cursive;
     font-size: 36px;
     font-weight: 700;
@@ -107,6 +106,50 @@ a {
       background-color: #8b958c;
       content: '';
       display: block;
+    }
+  }
+}
+
+.technology {
+  img {
+    max-height: 55px;
+    width: auto;
+  }
+  figure {
+    text-align: center;
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  @media screen and (min-width: 1400px){
+    &__divider {
+      position: relative;
+      &--1 {
+        &::before {
+          width: 70%;
+        }
+      }
+      &--2 {
+        &::before {
+          width: 72%;
+        }
+      }
+      &--3 {
+        &::before {
+          width: 65%;
+        }
+      }
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #8b958c;
+        height: 1px;
+      }
     }
   }
 }
