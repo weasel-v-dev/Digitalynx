@@ -5,7 +5,99 @@
             <h1 class="title-bread">О нас</h1>
         </div>
         <div class="d-flex justify-content-center">
-            <div class="glass step technology">
+            <div class="glass step">
+                <h2 class="about__title title-mega mb-xl-5">
+                    <span class="black step__black">Этапы</span>
+                    <span class="white step__white" >работы</span>
+                </h2>
+                <div class="d-flex">
+                    <div class="step__dividers pe-4 pb-4">
+                        <h3 class="step__title">
+                            Входные данные
+                        </h3>
+                        <div class="d-flex">
+                            <div class="step__number">1</div>
+                            <p class="step__desc">
+                                Вы объясняете, что бы
+                                хотели увидеть в результате
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ps-4 pb-4">
+                        <h3 class="step__title">
+                            Подготовка
+                        </h3>
+                        <div class="d-flex">
+                            <div class="step__number">2</div>
+                            <p class="step__desc">
+                                Мы показываем вам
+                                наши предложения на
+                                основе ваших пожеланий
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="pe-4 pt-4">
+                        <h3 class="step__title">
+                            Реализация
+                        </h3>
+                        <div class="d-flex">
+                            <div class="step__number">3</div>
+                            <p class="step__desc">
+                                Вносим ваши коррективы,
+                                оговариваем сроки и
+                                приступаем к выполнению
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ps-4 pt-4">
+                        <h3 class="step__title">
+                            Достижение результата
+                        </h3>
+                        <div class="d-flex">
+                            <div class="step__number">4</div>
+                            <p class="step__desc">
+                                Показываем вам
+                                промежуточные результаты
+                                для коррекции. Отдаём вам
+                                готовый продукт
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="glass-wrap about__window about__window--2 about-window-js d-flex flex-column">
+        <div class="container-fluid">
+            <h1 class="title-bread">О нас</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="glass">
+                <div class="about__title title-mega mb-xl-5">
+                    <span class="black">Lynx</span><span class="white">foundation</span>
+                </div>
+                <p class="mb-4">
+                    Команда молодых, креативных людей. Создаем IT‑решения и помогаем
+                    цифровизировать любую вашу идею. Среди проектов автоматизация
+                    бизнес‑процессов, онлайн‑сервисы и сайты, внедрение digital‑инструментов
+                    для продаж и маркетинга.
+                </p>
+                <p>
+                    Наши основные принципы — гибкость мышления, осознанность,
+                    прозрачность, скорость и качество работы, высокий клиентский сервис
+                    и нацеленность на результат. Работаем с людьми и для людей.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="glass-wrap about__window about__window--3 about-window-js d-flex flex-column">
+        <div class="container-fluid">
+            <h1 class="title-bread">О нас</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="glass glass--big step technology">
                 <h2 class="about__title title-mega mb-xl-5">
                     <span class="black step__black">Наши</span><span class="white step__white">технологии</span>
                 </h2>
@@ -89,98 +181,5 @@
             </div>
         </div>
     </div>
-    <div class="glass-wrap about__window about__window--2 about-window-js d-flex flex-column">
-        <div class="container-fluid">
-            <h1 class="title-bread">О нас</h1>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div class="glass">
-                <div class="about__title title-mega mb-xl-5">
-                    <span class="black">Lynx</span><span class="white">foundation</span>
-                </div>
-                <p class="mb-4">
-                    Команда молодых, креативных людей. Создаем IT‑решения и помогаем
-                    цифровизировать любую вашу идею. Среди проектов автоматизация
-                    бизнес‑процессов, онлайн‑сервисы и сайты, внедрение digital‑инструментов
-                    для продаж и маркетинга.
-                </p>
-                <p>
-                    Наши основные принципы — гибкость мышления, осознанность,
-                    прозрачность, скорость и качество работы, высокий клиентский сервис
-                    и нацеленность на результат. Работаем с людьми и для людей.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="glass-wrap about__window about__window--3 about-window-js d-flex flex-column">
-        <div class="container-fluid">
-            <h1 class="title-bread">О нас</h1>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div class="glass step">
-                <h2 class="about__title title-mega mb-xl-5">
-                    <span class="black step__black">Этапы</span>
-                    <span class="white step__white" >работы</span>
-                </h2>
-                <div class="d-flex mb-2">
-                    <div class="step__dividers pe-4">
-                        <h3 class="step__title">
-                            Входные данные
-                        </h3>
-                        <div class="d-flex">
-                            <div class="step__number">1</div>
-                            <p class="step__desc">
-                                Вы объясняете, что бы
-                                хотели увидеть в результате
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ps-4">
-                        <h3 class="step__title">
-                            Подготовка
-                        </h3>
-                        <div class="d-flex">
-                            <div class="step__number">2</div>
-                            <p class="step__desc">
-                                Мы показываем вам
-                                наши предложения на
-                                основе ваших пожеланий
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="pe-4">
-                        <h3 class="step__title">
-                            Реализация
-                        </h3>
-                        <div class="d-flex">
-                            <div class="step__number">3</div>
-                            <p class="step__desc">
-                                Вносим ваши коррективы,
-                                оговариваем сроки и
-                                приступаем к выполнению
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ps-4">
-                        <h3 class="step__title">
-                            Достижение результата
-                        </h3>
-                        <div class="d-flex">
-                            <div class="step__number">4</div>
-                            <p class="step__desc">
-                                Показываем вам
-                                промежуточные результаты
-                                для коррекции. Отдаём вам
-                                готовый продукт
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </main>
 <?php include 'sections/footer.php' ?>

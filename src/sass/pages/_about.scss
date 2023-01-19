@@ -21,6 +21,9 @@
     width: 1391px;
     min-height: 574px;
     padding: 53px;
+    &--big {
+      background-image: url('../img/about-glass.png');
+    }
   }
   &__title {
     margin-top: -89px;
