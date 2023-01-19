@@ -83,7 +83,7 @@
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
                     <div>
-                        <img src="/assets/img/itd.svg" alt="">
+                        <img src="/assets/img/itd.png" alt="">
                     </div>
                 </div>
             </div>
