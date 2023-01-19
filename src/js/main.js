@@ -123,11 +123,11 @@
         if (e.originalEvent.deltaY < 0) {
             if(currentPage === 1) {
                 $aboutWindow[0].style.right = '0';
-                $aboutWindow[1].style.top = '150%';
+                $aboutWindow[1].style.top = '200%';
             }
             else if (currentPage === 2) {
                 $aboutWindow[1].style.right = '0';
-                $aboutWindow[2].style.top = '150%';
+                $aboutWindow[2].style.top = '200%';
             }
             --currentPage;
         }
