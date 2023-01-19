@@ -68,6 +68,16 @@
                 </div>
             </div>
         </div>
+        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/gdb_ru.png" data-name="GDB">
+            <div>
+                <div class="glass position-relative d-flex justify-content-center align-items-center">
+                    <div class="glass__visible glass-visible-js"></div>
+                    <div>
+                        <img src="/assets/img/gdb.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="clue clue-js">
         <img src="/assets/img/arr.svg" alt="icon">&nbsp;&nbsp;
