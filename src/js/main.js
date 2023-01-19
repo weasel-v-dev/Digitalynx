@@ -113,7 +113,7 @@
     let currentPage = 1;
     let stopWheel = 0;
     const $aboutWindow = $('.about-window-js');
-    $('.about-js').on('wheel', async function(e) {
+    $('.about-js').on('wheel touchmove', async function(e) {
         console.log(stopWheel);
         if(stopWheel) {
             e.preventDefault();
