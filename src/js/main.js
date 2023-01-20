@@ -113,56 +113,45 @@
     let currentPage = 1;
     let stopWheel = 0;
     const $aboutWindow = $('.about-window-js');
-    $('.about-js').on('wheel touchmove', async function(e) {
-        console.log(stopWheel);
-        if(stopWheel) {
-            e.preventDefault();
-            e.stopImmediatePropagation();
-            return false;
-        }
-        if (e.originalEvent.deltaY < 0) {
-            if(currentPage === 1) {
-                $aboutWindow[0].style.right = '0';
-                $aboutWindow[1].style.top = '200%';
+    if(window.matchMedia('(min-width: 1200px)')) {
+        $('.about-js').on('wheel', async function (e) {
+            console.log(stopWheel);
+            if (stopWheel) {
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                return false;
             }
-            else if (currentPage === 2) {
-                $aboutWindow[1].style.right = '0';
-                $aboutWindow[2].style.top = '200%';
-            }
-            --currentPage;
-        }
-        else {
-            if(currentPage === 1) {
-                if(window.matchMedia('(min-width: 1200px)')) {
+            if (e.originalEvent.deltaY < 0) {
+                if (currentPage === 1) {
+                    $aboutWindow[0].style.right = '0';
+                    $aboutWindow[1].style.top = '200%';
+                } else if (currentPage === 2) {
+                    $aboutWindow[1].style.right = '0';
+                    $aboutWindow[2].style.top = '200%';
+                }
+                --currentPage;
+            } else {
+                if (currentPage === 1) {
                     $aboutWindow[0].style.right = '-100%';
                     $aboutWindow[1].style.top = '50%';
-                }
-                else {
-                    $aboutWindow[0].style.top = '-200%';
-                }
-            }
-            else if (currentPage === 2) {
-                if(window.matchMedia('(min-width: 1200px)')) {
+                } else if (currentPage === 2) {
                     $aboutWindow[1].style.right = '-100%';
                     $aboutWindow[2].style.top = '50%';
                 }
-                else {
-                    $aboutWindow[0].style.top = '-200%';
-                }
+                ++currentPage;
             }
-            ++currentPage;
-        }
-        if(currentPage < 1) {
-            currentPage = 1;
-        }
-        if(currentPage > 2){
-            currentPage = 2;
-        }
+            if (currentPage < 1) {
+                currentPage = 1;
+            }
+            if (currentPage > 2) {
+                currentPage = 2;
+            }
 
-        stopWheel = 1;
-        await delay(500);
-        stopWheel = 0;
-    });
+            stopWheel = 1;
+            await delay(500);
+            stopWheel = 0;
+        });
+    }
 
     function delay(time) {
         return new Promise(resolve => setTimeout(resolve, time));

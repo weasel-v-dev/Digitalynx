@@ -49,7 +49,6 @@
             <nav class="">
                 <ul class="d-flex align-items-center layer menu">
                     <li>
-
                         <a href="/portfolio.php"><img src="/assets/img/portfolio.svg" alt="portfolio" class="d-md-none"><span>Портфолио</span></a>
                     </li>
                     <li>
@@ -61,7 +60,7 @@
                         </a>
                         <ul class="layer menu-sub js-menu-sub">
                             <li>
-                                <a href="#"><img src="/assets/img/about.svg" alt="about"><span>О нас</span></a>
+                                <a href="/about.php"><img src="/assets/img/about.svg" alt="about"><span>О нас</span></a>
                             </li>
                             <li>
                                 <a href="#"><img src="/assets/img/blog.svg" alt="about"><span>Блог</span></a>

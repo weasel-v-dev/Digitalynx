@@ -11,9 +11,9 @@
                     <span class="black">Lynx</span><span class="white">foundation</span>
                 </h2>
                 <p class="mb-4">
-                    Команда молодых, креативных людей. Создаем IT‑решения и помогаем
+                    Команда молодых, креативных людей. Создаем IT—решения и помогаем
                     цифровизировать любую вашу идею. Среди проектов автоматизация
-                    бизнес‑процессов, онлайн‑сервисы и сайты, внедрение digital‑инструментов
+                    бизнес‑процессов, онлайн‑сервисы и сайты, внедрение digital—инструментов
                     для продаж и маркетинга.
                 </p>
                 <p>
@@ -93,7 +93,7 @@
                     <span class="black step__black">Наши</span><span class="white step__white">технологии</span>
                 </h2>
                 <h3 class="step__title technology__divider technology__divider--1 pt-4 pt-xl-0">Клиентская часть</h3>
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap justify-content-between justify-content-md-start technology__category">
                     <figure>
                         <img src="/assets/img/vue.svg" alt="Vue.js">
                         <figcaption>Vue.js</figcaption>
@@ -124,7 +124,7 @@
                     </figure>
                 </div>
                 <h3 class="step__title technology__divider technology__divider--2 pt-4 pt-xl-0">Серверная часть</h3>
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap justify-content-between justify-content-md-start technology__category">
                     <figure>
                         <img src="/assets/img/php.svg" alt="PHP">
                         <figcaption>PHP</figcaption>
@@ -151,7 +151,7 @@
                     </figure>
                 </div>
                 <h3 class="step__title technology__divider technology__divider--3 pt-4 pt-xl-0">Дизайн интерфейсов</h3>
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap justify-content-between justify-content-md-start technology__category">
                     <figure>
                         <img src="/assets/img/ill.svg" alt="Illustrator">
                         <figcaption>Illustrator</figcaption>

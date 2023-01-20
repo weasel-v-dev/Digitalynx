@@ -14,6 +14,9 @@ $violet: #7d00fc;
     transition: background-color .4s ease-in;
     &:hover {
       background-color: rgba(#DFA1CA, .18);
+      @media screen and (max-width: 767px){
+        background-color: #EED6F5;
+      }
     }
     @media screen and (min-width: 1200px){
       padding: 26px 23px;
@@ -25,6 +28,7 @@ $violet: #7d00fc;
     @media screen and (max-width: 767px){
       font-size: 14px;
       padding: 0;
+      background-color: #F1E2FE;
       & > span  {
         margin-top: 5px;
         display: block;
@@ -32,8 +36,6 @@ $violet: #7d00fc;
     }
     @media screen and (max-width: 575px){
       font-size: 12px;
-    }
-    @media screen and (max-width: 575px){
       & > span  {
         display: none;
       }
@@ -70,6 +72,9 @@ $violet: #7d00fc;
   background-color: rgba($violet, 0.11);
   border-radius: 20px;
   box-shadow: 0 3px 6px 1px rgba(91, 91, 91, 0.2);
+  @media screen and (max-width: 767px){
+    background-color: #F1E2FE;
+  }
 }
 
 footer {
