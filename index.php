@@ -1,6 +1,6 @@
 <?php include 'sections/header.php' ?>
  <main class="glass-wrap glass-wrap--main">
-    <h1 class="main__subtitle">Мы воплотим все Вашы идеи в реальность</h1>
+    <h1 class="main__subtitle">Мы воплотим все Ваши идеи в реальность</h1>
      <div class="glass-inner">
         <div>
             <div class="glass glass--standart d-flex justify-content-center align-items-center">

@@ -33,7 +33,7 @@
     <!-- /Yandex.Metrika counter -->
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>Веб студия Digital Lynx | Создания сайтов любой сложности</title>
+    <title>Веб студия Digital Lynx | Создание сайтов любой сложности</title>
 </head>
 <body>
 <canvas class="live-color"></canvas>
