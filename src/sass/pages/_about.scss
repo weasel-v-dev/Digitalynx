@@ -3,7 +3,20 @@
   min-height: calc(100% - 120px);
   overflow: hidden;
   position: relative;
+  &__shadow {
+    display: none;
+    @media screen and (min-height: 735px) and (min-width: 1200px){
+      opacity: 0;
+      pointer-events: none;
+      display: block;
+    }
+  }
   &__window {
+    @media screen and (max-height: 735px) and (min-width: 1200px){
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
     right: 0;
     transition: right .5s ease-in-out, top .5s ease-in-out;
     &--1 {
@@ -34,8 +47,11 @@
   //  }
   //}
   .glass {
-    background-image: url('../img/a.png');
+    background-image: url('../img/mobile-glass.png');
+    background-size: cover;
+    background-repeat: repeat;
     @media screen and (min-width: 1200px) {
+      background-image: url('../img/a.png');
       min-height: 371px;
       width: 900px;
       padding: 53px 50px;
@@ -51,7 +67,10 @@
     }
     &--big {
       //background-color: #000;
-      background-image: url('../img/about-glass.png');
+
+      @media screen and (min-width: 1200px) {
+        background-image: url('../img/about-glass.png');
+      }
       @media screen and (min-width: 1200px) and (max-width: 1500px) {
         min-height: 494px;
         width: 1103px;

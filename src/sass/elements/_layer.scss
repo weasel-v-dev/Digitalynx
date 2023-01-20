@@ -89,12 +89,8 @@ footer {
   padding-left: 0;
   width: 91px;
   bottom: 53px;
-  position: absolute;
+  position: fixed;
   left: 20px;
-  @media screen and (max-height: 550px){
-    position: static;
-    margin-left: 15px;
-  }
   @media screen and (max-width: 767px) and (min-height: 550px){
     bottom: 110px;
     left: auto;

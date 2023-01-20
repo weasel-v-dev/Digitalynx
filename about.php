@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <h1 class="title-bread">О нас</h1>
         </div>
-        <div class="glass" style="opacity: 0;pointer-events: none"></div>
+        <div class="glass about__shadow"></div>
         <div class="d-flex justify-content-center glass-wrap about__window about__window--1 about-window-js ">
             <div class="glass">
                 <h2 class="about__title title-mega">

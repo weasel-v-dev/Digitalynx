@@ -14,6 +14,7 @@ body {
   position: relative;
   min-height: -webkit-fill-available;
   background-position: center;
+  background-attachment: fixed;
   @media screen and (max-height: 400px){
     overflow: auto;
   }
@@ -22,7 +23,7 @@ body {
   }
 }
 .live-color {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
