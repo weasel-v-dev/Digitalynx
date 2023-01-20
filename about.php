@@ -29,8 +29,8 @@
                     <span class="black step__black">Этапы</span>
                     <span class="white step__white" >работы</span>
                 </h2>
-                <div class="d-flex">
-                    <div class="step__dividers pe-4 pb-4">
+                <div class="d-lg-flex">
+                    <div class="step__dividers pe-lg-4 pb-4">
                         <h3 class="step__title">
                             Входные данные
                         </h3>
@@ -42,8 +42,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="ps-4 pb-4">
-                        <h3 class="step__title">
+                    <div class="ps-lg-4 pb-lg-4">
+                        <h3 class="step__title step__title--divider">
                             Подготовка
                         </h3>
                         <div class="d-flex">
@@ -56,9 +56,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex">
-                    <div class="pe-4 pt-4">
-                        <h3 class="step__title">
+                <div class="d-lg-flex">
+                    <div class="pe-lg-4 pt-4">
+                        <h3 class="step__title  step__title--divider">
                             Реализация
                         </h3>
                         <div class="d-flex">
@@ -70,8 +70,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="ps-4 pt-4">
-                        <h3 class="step__title">
+                    <div class="ps-lg-4 pt-4">
+                        <h3 class="step__title  step__title--divider">
                             Достижение результата
                         </h3>
                         <div class="d-flex">
@@ -92,7 +92,7 @@
                 <h2 class="about__title title-mega">
                     <span class="black step__black">Наши</span><span class="white step__white">технологии</span>
                 </h2>
-                <h3 class="step__title technology__divider technology__divider--1">Клиентская часть</h3>
+                <h3 class="step__title technology__divider technology__divider--1 pt-4 pt-xl-0">Клиентская часть</h3>
                 <div class="d-flex flex-wrap">
                     <figure>
                         <img src="/assets/img/vue.svg" alt="Vue.js">
@@ -123,7 +123,7 @@
                         <figcaption>Bootstrap</figcaption>
                     </figure>
                 </div>
-                <h3 class="step__title technology__divider technology__divider--2">Серверная часть</h3>
+                <h3 class="step__title technology__divider technology__divider--2 pt-4 pt-xl-0">Серверная часть</h3>
                 <div class="d-flex flex-wrap">
                     <figure>
                         <img src="/assets/img/php.svg" alt="PHP">
@@ -150,7 +150,7 @@
                         <figcaption>Yii1, Yii2</figcaption>
                     </figure>
                 </div>
-                <h3 class="step__title technology__divider technology__divider--3">Дизайн интерфейсов</h3>
+                <h3 class="step__title technology__divider technology__divider--3 pt-4 pt-xl-0">Дизайн интерфейсов</h3>
                 <div class="d-flex flex-wrap">
                     <figure>
                         <img src="/assets/img/ill.svg" alt="Illustrator">

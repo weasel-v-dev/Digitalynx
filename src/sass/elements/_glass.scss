@@ -18,12 +18,11 @@
     @media screen and (max-width: 767px) {
       top: 49%;
     }
-    @media screen and (max-height: 734px) and (min-width: 1200px) {
+    @media screen and (max-height: 734px) {
       position: static;
       transform: scale(1);
-      padding-top: 30px;
-      padding-bottom: 30px;
-
+      //padding-top: 30px;
+      //padding-bottom: 30px;
     }
     .title-bread {
       margin-top: 50px;

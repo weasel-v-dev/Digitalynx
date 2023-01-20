@@ -42,7 +42,7 @@ $violet: #7d00fc;
 
   @media screen and (max-width: 767px) {
     padding: 0;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -89,8 +89,11 @@ footer {
   padding-left: 0;
   width: 91px;
   bottom: 53px;
-  position: fixed;
   left: 20px;
+  position: absolute;
+  @media screen and (min-width: 767px){
+    position: fixed;
+  }
   @media screen and (max-width: 767px) and (min-height: 550px){
     bottom: 110px;
     left: auto;
@@ -98,7 +101,6 @@ footer {
     transform: translateX(50%);
     padding-top: 20px;
     padding-bottom: 20px;
-
   }
   @media screen and (max-width: 575px){
     width: 50px;

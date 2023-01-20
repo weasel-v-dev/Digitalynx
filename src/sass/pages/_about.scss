@@ -5,16 +5,24 @@
   position: relative;
   &__shadow {
     display: none;
-    @media screen and (min-height: 735px) and (min-width: 1200px){
+    @media screen and (min-height: 735px) and (min-width: 1200px) {
       opacity: 0;
       pointer-events: none;
       display: block;
     }
   }
   &__window {
-    @media screen and (max-height: 735px) and (min-width: 1200px){
+    @media screen and (max-height: 735px){
       margin-top: 50px;
       margin-bottom: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    @media screen and (max-width: 1200px){
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     right: 0;
@@ -32,7 +40,7 @@
   //.glass {
   //  background-image: url('../img/a.png');
   //  width: 1391px;
-  //  min-height: 574px;
+  //  height: 574px;
   //  padding: 53px;
   //  &--big {
   //    background-image: url('../img/about-glass.png');
@@ -47,17 +55,33 @@
   //  }
   //}
   .glass {
-    background-image: url('../img/mobile-glass.png');
-    background-size: cover;
-    background-repeat: repeat;
+    @media screen and (max-width: 1199px) {
+      padding: 30px;
+      max-width: 898px;
+      background-image: url('../img/mobile-glass.png');
+      background-size: cover;
+      background-repeat: repeat;
+      position: relative;
+      border: 5px solid;
+      border-image-slice: 1;
+      border-width: 2px;
+      background-color: rgba(255,255,255,0.1);
+      border-image-source: linear-gradient(to left, rgba(#e4f4eb, .2), rgba(#fcecf5, .2));
+    }
+    @media screen and (max-width: 991px){
+      max-width: 537px;
+    }
+    @media screen and (max-width: 991px){
+      padding: 15px;
+    }
     @media screen and (min-width: 1200px) {
       background-image: url('../img/a.png');
-      min-height: 371px;
+      height: 371px;
       width: 900px;
       padding: 53px 50px;
     }
     @media screen and (min-width: 1500px) {
-      min-height: 574px;
+      height: 623px;
       width: 1391px;
       padding: 53px 83px;
     }
@@ -72,27 +96,45 @@
         background-image: url('../img/about-glass.png');
       }
       @media screen and (min-width: 1200px) and (max-width: 1500px) {
-        min-height: 494px;
+        height: 494px;
         width: 1103px;
-        padding: 53px 88px;
+        //padding: 53px 88px;
       }
     }
   }
   &__title {
-    line-height: 1;
+    line-height: .7;
+    font-size: 40px;
+    margin-top: -40px;
+    margin-bottom: 35px;
     .white {
-      font-size: 40px;
+      font-size: 19px;
+      @media screen and (min-width: 490px) {
+        font-size: 30px;
+        margin-top: -54px;
+
+      }
+      @media screen and (min-width: 668px) {
+        font-size: 40px;
+
+      }
       @media screen and (min-width: 1500px) {
         font-size: 60px;
       }
     }
-    @media screen and (min-width: 767px) {
+    @media screen and (min-width: 490px) {
+      font-size: 60px;
+
+    }
+    @media screen and (min-width: 668px) {
       font-size: 70px;
+      margin-top: -75px;
+      //margin-top: -75px;
+
+      //margin-bottom: 35px;
     }
     @media screen and (min-width: 1200px) {
       margin-top: -97px;
-      margin-bottom: 35px;
-      line-height: .7;
     }
     @media screen and (min-width: 1500px) {
       margin-top: -89px;
