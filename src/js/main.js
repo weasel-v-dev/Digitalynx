@@ -113,7 +113,7 @@
     let currentPage = 1;
     let stopWheel = 0;
     const $aboutWindow = $('.about-window-js');
-    $('.about-js').on('wheel', async function(e) {
+    $('.about-js').on('wheel touchmove', async function(e) {
         console.log(stopWheel);
         if(stopWheel) {
             e.preventDefault();
@@ -133,12 +133,22 @@
         }
         else {
             if(currentPage === 1) {
-                $aboutWindow[0].style.right = '-100%';
-                $aboutWindow[1].style.top = '50%';
+                if(window.matchMedia('(min-width: 1200px)')) {
+                    $aboutWindow[0].style.right = '-100%';
+                    $aboutWindow[1].style.top = '50%';
+                }
+                else {
+                    $aboutWindow[0].style.top = '-200%';
+                }
             }
             else if (currentPage === 2) {
-                $aboutWindow[1].style.right = '-100%';
-                $aboutWindow[2].style.top = '50%';
+                if(window.matchMedia('(min-width: 1200px)')) {
+                    $aboutWindow[1].style.right = '-100%';
+                    $aboutWindow[2].style.top = '50%';
+                }
+                else {
+                    $aboutWindow[0].style.top = '-200%';
+                }
             }
             ++currentPage;
         }
@@ -152,7 +162,7 @@
         stopWheel = 1;
         await delay(500);
         stopWheel = 0;
-    })
+    });
 
     function delay(time) {
         return new Promise(resolve => setTimeout(resolve, time));

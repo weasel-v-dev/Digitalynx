@@ -97,7 +97,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   var currentPage = 1;
   var stopWheel = 0;
   var $aboutWindow = $('.about-window-js');
-  $('.about-js').on('wheel', /*#__PURE__*/function () {
+  $('.about-js').on('wheel touchmove', /*#__PURE__*/function () {
     var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(e) {
       return _regeneratorRuntime().wrap(function _callee$(_context) {
         while (1) switch (_context.prev = _context.next) {
@@ -122,11 +122,19 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
               --currentPage;
             } else {
               if (currentPage === 1) {
-                $aboutWindow[0].style.right = '-100%';
-                $aboutWindow[1].style.top = '50%';
+                if (window.matchMedia('(min-width: 1200px)')) {
+                  $aboutWindow[0].style.right = '-100%';
+                  $aboutWindow[1].style.top = '50%';
+                } else {
+                  $aboutWindow[0].style.top = '-200%';
+                }
               } else if (currentPage === 2) {
-                $aboutWindow[1].style.right = '-100%';
-                $aboutWindow[2].style.top = '50%';
+                if (window.matchMedia('(min-width: 1200px)')) {
+                  $aboutWindow[1].style.right = '-100%';
+                  $aboutWindow[2].style.top = '50%';
+                } else {
+                  $aboutWindow[0].style.top = '-200%';
+                }
               }
               ++currentPage;
             }

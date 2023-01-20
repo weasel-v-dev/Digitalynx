@@ -7,7 +7,6 @@
     margin-bottom: 0;
   }
 }
-
 .title-mega {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -33,6 +32,17 @@
 p {
   font-family: 'Comfortaa', cursive;
   font-weight: 500;
-  font-size: 30px;
   margin-bottom: 0;
+
+  font-size: 18px;
+
+  //@media screen and (min-width: 576px){
+  //  font-size: 18px;
+  //}
+  @media screen and (min-width: 767px){
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1500px){
+    font-size: 27px;
+  }
 }
