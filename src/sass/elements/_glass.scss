@@ -2,13 +2,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   &-wrap {
-    &--main{
-      pointer-events: none;
-      position: absolute;
-      top: 54%;
-      transform: translateY(-50%);
-      width: 100%;
-    }
     @media screen and (min-height: 735px) and (min-width: 1200px) {
       position: absolute;
       top: 58%;
@@ -21,13 +14,15 @@
     @media screen and (max-height: 734px) {
       position: static;
       transform: scale(1);
-      //padding-top: 30px;
-      //padding-bottom: 30px;
+    }
+    @media screen and (max-width: 1200px) {
+      position: static;
+      transform: scale(1);
     }
     .title-bread {
       margin-top: 50px;
       margin-right: 30px;
-      @media screen and (min-height: 735px)  and (min-width: 668px) {
+      @media screen and (min-height: 735px) and (min-width: 668px) {
         margin-top: 0;
         margin-right: 0;
         position: relative;
@@ -37,6 +32,15 @@
       @media screen and (min-width: 1200px) {
         top: -95px;
       }
+    }
+    &--main{
+      pointer-events: none;
+      position: absolute;
+      top: 54%;
+      transform: translateY(-50%);
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
   }
   &-inner {
