@@ -54,24 +54,24 @@
                     <li>
                         <a href="/contacts.php"><img src="/assets/img/contacts.svg" alt="contacts" class="d-md-none"><span>Контакты</span></a>
                     </li>
-                    <li class="d-md-none">
-                        <a class="js-menu transparent-btn">
-                            <img src="/assets/img/menu.svg" alt="about"><span>Меню</span>
-                        </a>
-                        <ul class="layer menu-sub js-menu-sub">
-                            <li>
-                                <a href="/about.php"><img src="/assets/img/about.svg" alt="about"><span>О нас</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="/assets/img/blog.svg" alt="about"><span>Блог</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="d-none d-md-block">
-                        <a href="/about.php"><img src="/assets/img/about.svg" alt="about" class="d-md-none"><span>О нас</span></a>
+<!--                    <li class="d-md-none">-->
+<!--                        <a class="js-menu transparent-btn">-->
+<!--                            <img src="/assets/img/menu.svg" alt="about"><span>Меню</span>-->
+<!--                        </a>-->
+<!--                        <ul class="layer menu-sub js-menu-sub">-->
+<!--                            <li>-->
+<!--                                <a href="/about.php"><img src="/assets/img/about.svg" alt="about"><span>О нас</span></a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a href="#"><img src="/assets/img/blog.svg" alt="about"><span>Блог</span></a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+                    <li>
+                        <a href="/offer.php"><img src="/assets/img/product.svg" alt="services" class="d-md-none main-img"><span>Услуги</span></a>
                     </li>
                     <li>
-                        <a href="/offer.php"><img src="/assets/img/product.svg" alt="services" class="d-md-none"><span>Услуги</span></a>
+                        <a href="/about.php"><img src="/assets/img/about.svg" alt="about" class="d-md-none"><span>О нас</span></a>
                     </li>
                     <li class="d-md-none">
                         <a class="js-social"><img src="/assets/img/social.svg" alt="social" class="d-md-none"><span>Мы в сети</span></a>

@@ -55,6 +55,10 @@ $violet: #7d00fc;
 
     img {
       height: 28px;
+      &.main-img {
+        height: 38px;
+      }
+
     }
 
     & > li {
