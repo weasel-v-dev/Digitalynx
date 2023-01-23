@@ -11,7 +11,7 @@
                         <span class="black step__black">e-shop</span><span class="white step__white">уникальный</span>
                     </h2>
                     <div class="row pt-4">
-                        <div class="col-xxl-8">
+                        <div class="col-xl-8">
                             <h3 class="step__title">
                                 Уникальный интернет-магазин.
                             </h3>
@@ -32,21 +32,27 @@
                                 развитие.
                             </p>
                         </div>
-                        <div class="col-xxl-4">
-                            <ul class="offer__list">
-                                <li>- Проектирование</li>
-                                <li>- Разработка дизайн-макетов в трёх разрешениях</li>
-                                <li>- Адаптивная вёрстка дизайн-макетов</li>
-                                <li>- Внедрение вёрстки в «CRM»,</li>
-                                <li>- Программирование</li>
-                                <li>- Настройка интеграций</li>
-                                <li>- Тестирование, подготовка серверного окружения, запуск</li>
-                            </ul>
-                            <p class="offer__price">
-                                <span>стоимость</span>
-                                <span class="mb-3">от 1 990 000₽</span>
-                                <a href="https://t.me/SerbianLynx" class="cta mb-3 mb-md-0">Заказать</a>
-                            </p>
+                        <div class="col-xl-4">
+                            <div class="row">
+                                <div class="col-lg-6 col-xl-12">
+                                    <ul class="offer__list">
+                                        <li>- Проектирование</li>
+                                        <li>- Разработка дизайн-макетов в трёх разрешениях</li>
+                                        <li>- Адаптивная вёрстка дизайн-макетов</li>
+                                        <li>- Внедрение вёрстки в «CRM»,</li>
+                                        <li>- Программирование</li>
+                                        <li>- Настройка интеграций</li>
+                                        <li>- Тестирование, подготовка серверного окружения, запуск</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-xl-12">
+                                    <p class="offer__price">
+                                        <span>стоимость</span>
+                                        <span>от 1 990 000₽</span>
+                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,8 +62,8 @@
                     <h2 class="about__title title-mega">
                         <span class="black step__black">e-shop</span><span class="white step__white">базовый</span>
                     </h2>
-                    <div class="row pt-4">
-                        <div class="col-xxl-8">
+                    <div class="row pt-3">
+                        <div class="col-xl-8">
                             <h3 class="step__title">
                                 Индивидуальный дизайн и базовый функционал
                             </h3>
@@ -75,27 +81,33 @@
                                 Такой подход позволяет использовать наши готовые
                                 наработки и существенно снизить затраты.
                             </p>
-                            <p class="step__desc offer__desc">
+                            <p class="step__desc offer__desc offer__desc--hide">
                                 Если функционал потребуется расширить — мы с
                                 радостью сделаем это после запуска проекта в рамках
                                 поддержки.
                             </p>
                         </div>
-                        <div class="col-xxl-4">
-                            <ul class="offer__list">
-                                <li>- Проектирование</li>
-                                <li>- Разработка дизайн-макетов в трёх разрешениях</li>
-                                <li>- Адаптивная вёрстка дизайн-макетов</li>
-                                <li>- Внедрение вёрстки в «CRM»,</li>
-                                <li>- Программирование</li>
-                                <li>- Настройка интеграций</li>
-                                <li>- Тестирование, подготовка серверного окружения, запуск</li>
-                            </ul>
-                            <p class="offer__price ">
-                                <span>стоимость</span>
-                                <span class="mb-3">от 990 000₽</span>
-                                <a href="https://t.me/SerbianLynx" class="cta mb-3 mb-md-0">Заказать</a>
-                            </p>
+                        <div class="col-xl-4">
+                            <div class="row">
+                                <div class="col-lg-6 col-xl-12">
+                                    <ul class="offer__list">
+                                        <li>- Проектирование</li>
+                                        <li>- Разработка дизайн-макетов в трёх разрешениях</li>
+                                        <li>- Адаптивная вёрстка дизайн-макетов</li>
+                                        <li>- Внедрение вёрстки в «CRM»,</li>
+                                        <li>- Программирование</li>
+                                        <li>- Настройка интеграций</li>
+                                        <li>- Тестирование, подготовка серверного окружения, запуск</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-xl-12">
+                                    <p class="offer__price">
+                                        <span>стоимость</span>
+                                        <span>от 990 000₽</span>
+                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -106,7 +118,7 @@
                         <span class="black step__black">e-shop</span><span class="white step__white">настройка</span>
                     </h2>
                     <div class="row pt-4">
-                        <div class="col-xxl-8">
+                        <div class="col-xl-8">
                             <h3 class="step__title">
                                 Готовое решение
                             </h3>
@@ -121,22 +133,27 @@
                                 интернет-магазина.
                             </p>
                         </div>
-                        <div class="col-xxl-4">
-                            <ul class="offer__list">
-                                <li>- Подбор и настройка хостинга</li>
-                                <li>- Установка готового решения на хостинг и настройка</li>
-                                <li>- Наполнение сайта контентом</li>
-                                <li>- Онлайн-оплата (Visa, MasterCard,
-                                    Яндекс.Деньги, WebMoney, PayPal)</li>
-                                <li>- Доставка (EMS, UPS и тд.)</li>
-                                <li>- Тестирование и запуск сайта</li>
-                                <li>- Обучение работе с сайтом (2 часа)</li>
-                            </ul>
-                            <p class="offer__price">
-                                <span>стоимость</span>
-                                <span class="mb-3">от 220 000₽</span>
-                                <a href="https://t.me/SerbianLynx" class="cta mb-3 mb-md-0">Заказать</a>
-                            </p>
+                        <div class="col-xl-4">
+                            <div class="row">
+                                <div class="col-lg-6 col-xl-12">
+                                    <ul class="offer__list">
+                                        <li>- Подбор и настройка хостинга</li>
+                                        <li>- Наполнение сайта контентом</li>
+                                        <li>- Онлайн-оплата (Visa, MasterCard,
+                                            Яндекс.Деньги, WebMoney, PayPal)</li>
+                                        <li>- Доставка (EMS, UPS и тд.)</li>
+                                        <li>- Тестирование и запуск сайта</li>
+                                        <li>- Обучение работе с сайтом (2 часа)</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-xl-12">
+                                    <p class="offer__price">
+                                        <span>стоимость</span>
+                                        <span>от 220 000₽</span>
+                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,7 +164,7 @@
                         <span class="black step__black">landing</span><span class="white step__white">page</span>
                     </h2>
                     <div class="row pt-4">
-                        <div class="col-xxl-8">
+                        <div class="col-xl-8">
                             <h3 class="step__title">
                                 Посадочная страница
                             </h3>
@@ -159,22 +176,28 @@
                                 владельцу как можно больше писем, звонков, покупок.
                             </p>
                         </div>
-                        <div class="col-xxl-4">
-                            <ul class="offer__list">
-                                <li>- Проектирование</li>
-                                <li>- Разработка дизайн-макетов в трёх
-                                    разрешениях</li>
-                                <li>- Адаптивная вёрстка дизайн-макетов</li>
-                                <li>- Удобная система управления</li>
-                                <li>- Быстрый запуск</li>
-                                <li>- Тестирование и запуск сайта</li>
-                                <li>- Обучение работе с сайтом</li>
-                            </ul>
-                            <p class="offer__price">
-                                <span>стоимость</span>
-                                <span class="mb-3">от 100 000₽</span>
-                                <a href="https://t.me/SerbianLynx" class="cta mb-3 mb-md-0">Заказать</a>
-                            </p>
+                        <div class="col-xl-4">
+                            <div class="row">
+                                <div class="col-lg-6 col-xl-12">
+                                    <ul class="offer__list">
+                                        <li>- Проектирование</li>
+                                        <li>- Разработка дизайн-макетов в трёх
+                                            разрешениях</li>
+                                        <li>- Адаптивная вёрстка дизайн-макетов</li>
+                                        <li>- Удобная система управления</li>
+                                        <li>- Быстрый запуск</li>
+                                        <li>- Тестирование и запуск сайта</li>
+                                        <li>- Обучение работе с сайтом</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-xl-12">
+                                    <p class="offer__price">
+                                        <span>стоимость</span>
+                                        <span>от 100 000₽</span>
+                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -185,7 +208,7 @@
                         <span class="black step__black">визитка</span><span class="white step__white">сайт</span>
                     </h2>
                     <div class="row pt-4">
-                        <div class="col-xxl-8">
+                        <div class="col-xl-8">
                             <h3 class="step__title">
                                 Виртуальная визитная карточка компании
                             </h3>
@@ -198,22 +221,28 @@
                                 информировать о ее деятельности.
                             </p>
                         </div>
-                        <div class="col-xxl-4">
-                            <ul class="offer__list">
-                                <li>- Проектирование</li>
-                                <li>- Разработка дизайн-макетов в трёх
-                                    разрешениях</li>
-                                <li>- Адаптивная вёрстка дизайн-макетов</li>
-                                <li>- Удобная система управления</li>
-                                <li>- Быстрый запуск</li>
-                                <li>- Тестирование и запуск сайта</li>
-                                <li>- Обучение работе с сайтом</li>
-                            </ul>
-                            <p class="offer__price">
-                                <span>стоимость</span>
-                                <span class="mb-3">от 150 000₽</span>
-                                <a href="https://t.me/SerbianLynx" class="cta mb-3 mb-md-0">Заказать</a>
-                            </p>
+                        <div class="col-xl-4">
+                            <div class="row">
+                                <div class="col-lg-6 col-xl-12">
+                                    <ul class="offer__list">
+                                        <li>- Проектирование</li>
+                                        <li>- Разработка дизайн-макетов в трёх
+                                            разрешениях</li>
+                                        <li>- Адаптивная вёрстка дизайн-макетов</li>
+                                        <li>- Удобная система управления</li>
+                                        <li>- Быстрый запуск</li>
+                                        <li>- Тестирование и запуск сайта</li>
+                                        <li>- Обучение работе с сайтом</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-xl-12">
+                                    <p class="offer__price">
+                                        <span>стоимость</span>
+                                        <span>от 150 000₽</span>
+                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -224,7 +253,7 @@
                         <span class="black step__black">сайт</span><span class="white step__white">корпоративный</span>
                     </h2>
                     <div class="row pt-4">
-                        <div class="col-xxl-8">
+                        <div class="col-xl-8">
                             <h3 class="step__title">
                                 Имиджевый инструмент
                             </h3>
@@ -237,22 +266,28 @@
                                 услуг и товаров.
                             </p>
                         </div>
-                        <div class="col-xxl-4">
-                            <ul class="offer__list">
-                                <li>- Проектирование</li>
-                                <li>- Разработка дизайн-макетов в трёх
-                                    разрешениях</li>
-                                <li>- Адаптивная вёрстка дизайн-макетов</li>
-                                <li>- Удобная система управления</li>
-                                <li>- Быстрый запуск</li>
-                                <li>- Тестирование и запуск сайта</li>
-                                <li>- Обучение работе с сайтом</li>
-                            </ul>
-                            <p class="offer__price">
-                                <span>стоимость</span>
-                                <span class="mb-3">от 250 000₽</span>
-                                <a href="https://t.me/SerbianLynx" class="cta mb-3 mb-md-0">Заказать</a>
-                            </p>
+                        <div class="col-xl-4">
+                            <div class="row">
+                                <div class="col-lg-6 col-xl-12">
+                                    <ul class="offer__list">
+                                        <li>- Проектирование</li>
+                                        <li>- Разработка дизайн-макетов в трёх
+                                            разрешениях</li>
+                                        <li>- Адаптивная вёрстка дизайн-макетов</li>
+                                        <li>- Удобная система управления</li>
+                                        <li>- Быстрый запуск</li>
+                                        <li>- Тестирование и запуск сайта</li>
+                                        <li>- Обучение работе с сайтом</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-xl-12">
+                                    <p class="offer__price">
+                                        <span>стоимость</span>
+                                        <span>от 250 000₽</span>
+                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
