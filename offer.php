@@ -49,7 +49,7 @@
                                     <p class="offer__price">
                                         <span>стоимость</span>
                                         <span>от 1 990 000₽</span>
-                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                        <a href="https://t.me/SerbianLynx" class="cta cta--offer">Заказать</a>
                                     </p>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                     <p class="offer__price">
                                         <span>стоимость</span>
                                         <span>от 990 000₽</span>
-                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                        <a href="https://t.me/SerbianLynx" class="cta cta--offer">Заказать</a>
                                     </p>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@
                                     <p class="offer__price">
                                         <span>стоимость</span>
                                         <span>от 220 000₽</span>
-                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                        <a href="https://t.me/SerbianLynx" class="cta cta--offer">Заказать</a>
                                     </p>
                                 </div>
                             </div>
@@ -194,7 +194,7 @@
                                     <p class="offer__price">
                                         <span>стоимость</span>
                                         <span>от 100 000₽</span>
-                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                        <a href="https://t.me/SerbianLynx" class="cta cta--offer">Заказать</a>
                                     </p>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
                                     <p class="offer__price">
                                         <span>стоимость</span>
                                         <span>от 150 000₽</span>
-                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                        <a href="https://t.me/SerbianLynx" class="cta cta--offer">Заказать</a>
                                     </p>
                                 </div>
                             </div>
@@ -284,7 +284,7 @@
                                     <p class="offer__price">
                                         <span>стоимость</span>
                                         <span>от 250 000₽</span>
-                                        <a href="https://t.me/SerbianLynx" class="cta">Заказать</a>
+                                        <a href="https://t.me/SerbianLynx" class="cta cta--offer">Заказать</a>
                                     </p>
                                 </div>
                             </div>
