@@ -1,11 +1,11 @@
 <?php include 'sections/header.php' ?>
-<main class="about about-js">
+<main class="about page-js">
     <div class="glass-wrap d-flex flex-column">
         <div class="container-fluid">
             <h1 class="title-bread">О нас</h1>
         </div>
         <div class="glass about__shadow"></div>
-        <div class="d-flex justify-content-center glass-wrap about__window about__window--1 about-window-js ">
+        <div class="d-flex justify-content-center glass-wrap about__window about__window--1 about-window-js">
             <div class="glass">
                 <h2 class="about__title title-mega">
                     <span class="black">Lynx</span><span class="white">foundation</span>
@@ -23,7 +23,7 @@
                 </p>
             </div>
         </div>
-        <div class=" d-flex justify-content-center glass-wrap about__window about__window--2 about-window-js ">
+        <div class=" d-flex justify-content-center glass-wrap about__window about__window--2 about-window-js">
             <div class="glass step">
                 <h2 class="about__title title-mega">
                     <span class="black step__black">Этапы</span>
@@ -87,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <div class=" d-flex justify-content-center glass-wrap about__window about__window--3 about-window-js ">
+        <div class=" d-flex justify-content-center glass-wrap about__window about__window--3 about-window-js">
             <div class="glass glass--big step technology">
                 <h2 class="about__title title-mega">
                     <span class="black step__black">Наши</span><span class="white step__white">технологии</span>

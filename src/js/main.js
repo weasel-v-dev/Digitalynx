@@ -110,47 +110,114 @@
         });
     });
 
-    let currentPage = 1;
-    let stopWheel = 0;
-    const $aboutWindow = $('.about-window-js');
     if(window.matchMedia('(min-width: 1200px)')) {
-        $('.about-js').on('wheel', async function (e) {
-            console.log(stopWheel);
-            if (stopWheel) {
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                return false;
-            }
-            if (e.originalEvent.deltaY < 0) {
-                if (currentPage === 1) {
-                    $aboutWindow[0].style.right = '0';
-                    $aboutWindow[1].style.top = '200%';
-                } else if (currentPage === 2) {
-                    $aboutWindow[1].style.right = '0';
-                    $aboutWindow[2].style.top = '200%';
+        let currentPage = 1;
+        let stopWheel = 0;
+        const $aboutWindow = $('.about-window-js');
+        if($aboutWindow.length > 0) {
+            $('.page-js').on('wheel', async function (e) {
+                console.log(stopWheel);
+                if (stopWheel) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                    return false;
                 }
-                --currentPage;
-            } else {
-                if (currentPage === 1) {
-                    $aboutWindow[0].style.right = '-100%';
-                    $aboutWindow[1].style.top = '50%';
-                } else if (currentPage === 2) {
-                    $aboutWindow[1].style.right = '-100%';
-                    $aboutWindow[2].style.top = '50%';
+                if (e.originalEvent.deltaY < 0) {
+                    if (currentPage === 1) {
+                        $aboutWindow[0].style.right = '0';
+                        $aboutWindow[1].style.top = '200%';
+                    } else if (currentPage === 2) {
+                        $aboutWindow[1].style.right = '0';
+                        $aboutWindow[2].style.top = '200%';
+                    }
+                    --currentPage;
+                } else {
+                    if (currentPage === 1) {
+                        $aboutWindow[0].style.right = '-100%';
+                        $aboutWindow[1].style.top = '50%';
+                    } else if (currentPage === 2) {
+                        $aboutWindow[1].style.right = '-100%';
+                        $aboutWindow[2].style.top = '50%';
+                    }
+                    ++currentPage;
                 }
-                ++currentPage;
-            }
-            if (currentPage < 1) {
-                currentPage = 1;
-            }
-            if (currentPage > 2) {
-                currentPage = 2;
-            }
+                if (currentPage < 1) {
+                    currentPage = 1;
+                }
+                if (currentPage > 2) {
+                    currentPage = 2;
+                }
 
-            stopWheel = 1;
-            await delay(500);
-            stopWheel = 0;
-        });
+                stopWheel = 1;
+                await delay(500);
+                stopWheel = 0;
+            });
+        }
+        const $offerWindow = $('.offer-window-js');
+        if($offerWindow.length > 0) {
+            $('.page-js').on('wheel', async function (e) {
+                console.log(stopWheel);
+                if (stopWheel) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                    return false;
+                }
+                if (e.originalEvent.deltaY < 0) {
+                    if (currentPage === 1) {
+                        $offerWindow[0].style.right = '0';
+                        $offerWindow[1].style.top = '200%';
+                    } else if (currentPage === 2) {
+                        $offerWindow[1].style.right = '0';
+                        $offerWindow[2].style.top = '200%';
+                    } else if (currentPage === 3) {
+                        $offerWindow[2].style.right = '0';
+                        $offerWindow[3].style.top = '200%';
+                    } else if (currentPage === 4) {
+                        $offerWindow[3].style.right = '0';
+                        $offerWindow[4].style.top = '200%';
+                    } else if (currentPage === 5) {
+                        $offerWindow[4].style.right = '0';
+                        $offerWindow[5].style.top = '200%';
+                    } else if (currentPage === 6) {
+                        $offerWindow[5].style.right = '0';
+                        $offerWindow[6].style.top = '200%';
+                    }
+                    --currentPage;
+                }
+                else {
+                    if (currentPage === 1) {
+                        $offerWindow[0].style.right = '-100%';
+                        $offerWindow[1].style.top = '50%';
+                    } else if (currentPage === 2) {
+                        $offerWindow[1].style.right = '-100%';
+                        $offerWindow[2].style.top = '50%';
+                    } else if (currentPage === 3) {
+                        $offerWindow[2].style.right = '-100%';
+                        $offerWindow[3].style.top = '50%';
+                    } else if (currentPage === 4) {
+                        $offerWindow[3].style.right = '-100%';
+                        $offerWindow[4].style.top = '50%';
+                    } else if (currentPage === 5) {
+                        $offerWindow[4].style.right = '-100%';
+                        $offerWindow[5].style.top = '50%';
+                    } else if (currentPage === 6) {
+                        $offerWindow[5].style.right = '-100%';
+                        $offerWindow[6].style.top = '50%';
+                    }
+                    ++currentPage;
+                }
+                if (currentPage < 1) {
+                    currentPage = 1;
+                }
+                if (currentPage > 5) {
+                    currentPage = 5;
+                }
+
+                stopWheel = 1;
+                await delay(500);
+                stopWheel = 0;
+            });
+        }
     }
 
     function delay(time) {

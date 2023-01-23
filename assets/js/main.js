@@ -94,64 +94,147 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       $('.portfolio-modal-page-js').html("<img src=\"".concat($(this).closest('.portfolio-item-js').data('image'), "\" alt=\"\">"));
     });
   });
-  var currentPage = 1;
-  var stopWheel = 0;
-  var $aboutWindow = $('.about-window-js');
   if (window.matchMedia('(min-width: 1200px)')) {
-    $('.about-js').on('wheel', /*#__PURE__*/function () {
-      var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(e) {
-        return _regeneratorRuntime().wrap(function _callee$(_context) {
-          while (1) switch (_context.prev = _context.next) {
-            case 0:
-              console.log(stopWheel);
-              if (!stopWheel) {
-                _context.next = 5;
-                break;
-              }
-              e.preventDefault();
-              e.stopImmediatePropagation();
-              return _context.abrupt("return", false);
-            case 5:
-              if (e.originalEvent.deltaY < 0) {
-                if (currentPage === 1) {
-                  $aboutWindow[0].style.right = '0';
-                  $aboutWindow[1].style.top = '200%';
-                } else if (currentPage === 2) {
-                  $aboutWindow[1].style.right = '0';
-                  $aboutWindow[2].style.top = '200%';
+    var currentPage = 1;
+    var stopWheel = 0;
+    var $aboutWindow = $('.about-window-js');
+    if ($aboutWindow.length > 0) {
+      $('.page-js').on('wheel', /*#__PURE__*/function () {
+        var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(e) {
+          return _regeneratorRuntime().wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+              case 0:
+                console.log(stopWheel);
+                if (!stopWheel) {
+                  _context.next = 5;
+                  break;
                 }
-                --currentPage;
-              } else {
-                if (currentPage === 1) {
-                  $aboutWindow[0].style.right = '-100%';
-                  $aboutWindow[1].style.top = '50%';
-                } else if (currentPage === 2) {
-                  $aboutWindow[1].style.right = '-100%';
-                  $aboutWindow[2].style.top = '50%';
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                return _context.abrupt("return", false);
+              case 5:
+                if (e.originalEvent.deltaY < 0) {
+                  if (currentPage === 1) {
+                    $aboutWindow[0].style.right = '0';
+                    $aboutWindow[1].style.top = '200%';
+                  } else if (currentPage === 2) {
+                    $aboutWindow[1].style.right = '0';
+                    $aboutWindow[2].style.top = '200%';
+                  }
+                  --currentPage;
+                } else {
+                  if (currentPage === 1) {
+                    $aboutWindow[0].style.right = '-100%';
+                    $aboutWindow[1].style.top = '50%';
+                  } else if (currentPage === 2) {
+                    $aboutWindow[1].style.right = '-100%';
+                    $aboutWindow[2].style.top = '50%';
+                  }
+                  ++currentPage;
                 }
-                ++currentPage;
-              }
-              if (currentPage < 1) {
-                currentPage = 1;
-              }
-              if (currentPage > 2) {
-                currentPage = 2;
-              }
-              stopWheel = 1;
-              _context.next = 11;
-              return delay(500);
-            case 11:
-              stopWheel = 0;
-            case 12:
-            case "end":
-              return _context.stop();
-          }
-        }, _callee);
-      }));
-      return function (_x) {
-        return _ref.apply(this, arguments);
-      };
-    }());
+                if (currentPage < 1) {
+                  currentPage = 1;
+                }
+                if (currentPage > 2) {
+                  currentPage = 2;
+                }
+                stopWheel = 1;
+                _context.next = 11;
+                return delay(500);
+              case 11:
+                stopWheel = 0;
+              case 12:
+              case "end":
+                return _context.stop();
+            }
+          }, _callee);
+        }));
+        return function (_x) {
+          return _ref.apply(this, arguments);
+        };
+      }());
+    }
+    var $offerWindow = $('.offer-window-js');
+    if ($offerWindow.length > 0) {
+      $('.page-js').on('wheel', /*#__PURE__*/function () {
+        var _ref2 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(e) {
+          return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+              case 0:
+                console.log(stopWheel);
+                if (!stopWheel) {
+                  _context2.next = 5;
+                  break;
+                }
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                return _context2.abrupt("return", false);
+              case 5:
+                if (e.originalEvent.deltaY < 0) {
+                  if (currentPage === 1) {
+                    $offerWindow[0].style.right = '0';
+                    $offerWindow[1].style.top = '200%';
+                  } else if (currentPage === 2) {
+                    $offerWindow[1].style.right = '0';
+                    $offerWindow[2].style.top = '200%';
+                  } else if (currentPage === 3) {
+                    $offerWindow[2].style.right = '0';
+                    $offerWindow[3].style.top = '200%';
+                  } else if (currentPage === 4) {
+                    $offerWindow[3].style.right = '0';
+                    $offerWindow[4].style.top = '200%';
+                  } else if (currentPage === 5) {
+                    $offerWindow[4].style.right = '0';
+                    $offerWindow[5].style.top = '200%';
+                  } else if (currentPage === 6) {
+                    $offerWindow[5].style.right = '0';
+                    $offerWindow[6].style.top = '200%';
+                  }
+                  --currentPage;
+                } else {
+                  if (currentPage === 1) {
+                    $offerWindow[0].style.right = '-100%';
+                    $offerWindow[1].style.top = '50%';
+                  } else if (currentPage === 2) {
+                    $offerWindow[1].style.right = '-100%';
+                    $offerWindow[2].style.top = '50%';
+                  } else if (currentPage === 3) {
+                    $offerWindow[2].style.right = '-100%';
+                    $offerWindow[3].style.top = '50%';
+                  } else if (currentPage === 4) {
+                    $offerWindow[3].style.right = '-100%';
+                    $offerWindow[4].style.top = '50%';
+                  } else if (currentPage === 5) {
+                    $offerWindow[4].style.right = '-100%';
+                    $offerWindow[5].style.top = '50%';
+                  } else if (currentPage === 6) {
+                    $offerWindow[5].style.right = '-100%';
+                    $offerWindow[6].style.top = '50%';
+                  }
+                  ++currentPage;
+                }
+                if (currentPage < 1) {
+                  currentPage = 1;
+                }
+                if (currentPage > 5) {
+                  currentPage = 5;
+                }
+                stopWheel = 1;
+                _context2.next = 11;
+                return delay(500);
+              case 11:
+                stopWheel = 0;
+              case 12:
+              case "end":
+                return _context2.stop();
+            }
+          }, _callee2);
+        }));
+        return function (_x2) {
+          return _ref2.apply(this, arguments);
+        };
+      }());
+    }
   }
   function delay(time) {
     return new Promise(function (resolve) {
