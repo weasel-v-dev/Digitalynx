@@ -4,7 +4,7 @@
         <h1 class="title-bread">Портфолио</h1>
     </div>
     <div class="portfolio__header">
-        <h2 class="portfolio__title headline portfolio-title-js">Onlinemic</h2>
+        <h2 class="portfolio__title headline portfolio-title-js">Laura</h2>
         <h3 class="portfolio__subtitle headline portfolio-subtitle-js">project</h3>
     </div>
     <div class="portfolio mx-auto">
