@@ -56,7 +56,7 @@
         </a>
         <div>
             <div>
-                <button type="button" class="lang transparent-btn">EN</button>
+<!--                <button type="button" class="lang transparent-btn">EN</button>-->
             </div>
             <nav class="">
                 <ul class="d-flex align-items-center layer menu">
