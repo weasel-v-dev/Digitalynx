@@ -2,8 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="index,follow">
+    <title>Создание сайтов любой сложности | Веб-студия Digital Lynx</title>
+    <meta name="description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу." />
+    <meta name="keywords" content="Веб-сайт, интернет-магазин, landing page, e-commerce, корпоративный, визитка, бизнес, услуги, онлайн-сервисы" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:site_name" content="DigitaLynx — цифровизация Вашего бизнеса">
+    <meta property="og:url" content="https://digitalynx.org/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Создание сайтов любой сложности | Веб-студия Digital Lynx">
+    <meta property="og:description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script
@@ -33,9 +42,9 @@
     <!-- /Yandex.Metrika counter -->
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <meta name="robots" content="index,follow">
-    <title>Создание сайтов любой сложности | Веб студия Digital Lynx</title>
-    <meta name="description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу" />
+
+
+
 </head>
 <body>
 <canvas class="live-color"></canvas>
