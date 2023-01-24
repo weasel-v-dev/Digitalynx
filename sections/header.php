@@ -5,7 +5,7 @@
     <meta name="robots" content="index,follow">
     <title>Создание сайтов любой сложности | Веб-студия Digital Lynx</title>
     <meta name="description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу.">
-    <meta name="keywords" content="Веб-сайт, интернет-магазин, landing page, e-commerce, корпоративный, визитка, бизнес, услуги, онлайн-сервисы, digital, lynx, digitallynx">
+    <meta name="keywords" content="Веб-сайт, Веб-студія, интернет-магазин, landing page, e-commerce, корпоративный, визитка, бизнес, услуги, онлайн-сервисы, digital, lynx, digitallynx">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta property="og:locale" content="ru_RU">
@@ -24,6 +24,15 @@
         integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
         crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLMT5TY2K6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-VLMT5TY2K6');
+    </script>
     <script>
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();
