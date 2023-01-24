@@ -10,7 +10,7 @@
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-center mt-2 mt-lg-3 mt-xxl-5 w-100">
                 <a href="https://t.me/SerbianLynx" class="cta mb-3 mb-md-0">Cвязаться</a>
-                <a href="/portfolio.php" class="link">Оценить портфолио</a>
+                <a href="/portfolio" class="link">Оценить портфолио</a>
             </div>
         </div>
      </div>
