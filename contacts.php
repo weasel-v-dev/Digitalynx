@@ -46,8 +46,7 @@
                                             Локация:
                                         </h3>
                                         <p class="step__desc contacts__socials contacts__socials--only-desk pb-xl-3 pb-xxl-4 mb-3" align="center">
-                                            Мы - удаленная outsource команда со штаб-
-                                            квартирой в Белграде.
+                                            Мы - удаленная outsource команда со штаб-квартирой в Белграде.
                                         </p>
                                     </div>
                                     <div class="col-lg-6 col-xl-12">
