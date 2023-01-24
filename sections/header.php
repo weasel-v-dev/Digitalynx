@@ -33,7 +33,9 @@
     <!-- /Yandex.Metrika counter -->
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>Веб студия Digital Lynx | Создание сайтов любой сложности</title>
+    <meta name="robots" content="index,follow">
+    <title>Создание сайтов любой сложности | Веб студия Digital Lynx</title>
+    <meta name="description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу" />
 </head>
 <body>
 <canvas class="live-color"></canvas>
