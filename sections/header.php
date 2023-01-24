@@ -5,7 +5,7 @@
     <meta name="robots" content="index,follow">
     <title>Создание сайтов любой сложности | Веб-студия Digital Lynx</title>
     <meta name="description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу.">
-    <meta name="keywords" content="Веб-сайт, интернет-магазин, landing page, e-commerce, корпоративный, визитка, бизнес, услуги, онлайн-сервисы">
+    <meta name="keywords" content="Веб-сайт, интернет-магазин, landing page, e-commerce, корпоративный, визитка, бизнес, услуги, онлайн-сервисы, digital, lynx, digitallynx">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta property="og:site_name" content="DigitaLynx — цифровизация Вашего бизнеса">
