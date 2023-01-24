@@ -8,7 +8,7 @@
         <h3 class="portfolio__subtitle headline portfolio-subtitle-js">project</h3>
     </div>
     <div class="portfolio mx-auto">
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/mic_ru.png" data-name="Onlinemic">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/mic_ru.png" data-name="Onlinemic">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/bitcoin-property_ru.png" data-name="bitcoin">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/bitcoin-property_ru.png" data-name="bitcoin">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/affilnett_ru.png" data-name="Affilnett">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/affilnett_ru.png" data-name="Affilnett">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/lauramissmacaron_ru.png" data-name="Laura">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/lauramissmacaron_ru.png" data-name="Laura">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/dom_ru.png" data-name="DomDecora">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/dom_ru.png" data-name="DomDecora">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -58,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/dor_ru.png" data-name="DorNakash">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/dor_ru.png" data-name="DorNakash">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/gdb_ru.png" data-name="GDB">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/gdb_ru.png" data-name="GDB">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/itdelight_ru.png" data-name="IT Delight">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/itdelight_ru.png" data-name="IT Delight">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/marina_ru.png" data-name="Marina">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/marina_ru.png" data-name="Marina">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -98,7 +98,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/rooms_ru.png" data-name="R-gallery">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/rooms_ru.png" data-name="R-gallery">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -108,7 +108,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/mps_ru.png" data-name="MPS">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/mps_ru.png" data-name="MPS">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -118,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/portfolio/haus_ru.png" data-name="HDD">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/haus_ru.png" data-name="HDD">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -137,7 +137,7 @@
 </main>
 <div class="portfolio-modal portfolio-modal-js">
     <div class="portfolio-modal__page portfolio-modal-page-js">
-        <img src="/portfolio/mic_ru.png" alt="bitcoin property">
+        <img src="/projects/mic_ru.png" alt="bitcoin property">
     </div>
     <div class="portfolio-modal__shadow portfolio-modal-shadow-js"></div>
 </div>
