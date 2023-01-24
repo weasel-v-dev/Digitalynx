@@ -34,7 +34,7 @@
                                     Общие вопросы:
                                 </h3>
                                 <p class="step__desc text-center">
-                                    <a href="mailto:info@digitalynx.org">info@digitalynx.org</a>
+                                    <a title="E-mail" href="mailto:info@digitalynx.org">info@digitalynx.org</a>
                                 </p>
                             </div>
                         </div>
