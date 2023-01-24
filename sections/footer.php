@@ -2,7 +2,7 @@
     <footer>
         <ul class="layer soc js-soc">
             <li>
-                <a href="#"><img src="/assets/img/bh.svg" alt="Behance"></a>
+                <a href="https://www.behance.net/lynxfoundation"><img src="/assets/img/bh.svg" alt="Behance"></a>
             </li>
             <li>
                 <a href="https://t.me/SerbianLynx"><img src="/assets/img/tg.svg" alt="Telegram"></a>
@@ -11,7 +11,7 @@
                 <a href="#"><img src="/assets/img/sk.svg" alt="Skype"></a>
             </li>
             <li>
-                <a href="#"><img src="/assets/img/inst.svg" alt="Instagram"></a>
+                <a href="https://www.instagram.com/lynxfoundation/"><img src="/assets/img/inst.svg" alt="Instagram"></a>
             </li>
         </ul>
     </footer>
