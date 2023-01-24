@@ -168,6 +168,10 @@
                         <img src="/assets/img/fg.svg" alt="Figma">
                         <figcaption>Figma</figcaption>
                     </figure>
+                    <figure>
+                        <img src=/assets/img/aae.svg alt="After Effects">
+                        <figcaption>After Effects</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
