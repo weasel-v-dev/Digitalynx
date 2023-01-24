@@ -14,7 +14,7 @@
                         <div class="col-xl-6">
                             <div class="pe-xl-5">
                                 <h3 class="step__title" align="center">
-                                    Свяжитесь с нами в удобном для вас сервисе:
+                                    Свяжитесь с нами в соц. сетях:
                                 </h3>
                                 <div class="contacts__socials d-flex justify-content-around pt-1 pb-3 mb-3 pt-xxl-2 pb-xxl-4 mb-xxl-5">
                                     <a target="_blank" href="https://www.instagram.com/lynxfoundation/">
@@ -60,8 +60,8 @@
 <!--                                            </div>-->
                                             <p class="step__desc" align="center">
                                                 <a target="_blank" href="https://goo.gl/maps/64zikwvPK3aRoNzr9">
-                                                    Ušće Business Center,
-                                                    Bulevar Mihajla Pupina 6,
+                                                    Ušće Business Center, <br>
+                                                    Bulevar Mihajla Pupina 6,  <br>
                                                     Белград 11070, Сербия
                                                 </a>
                                             </p>
