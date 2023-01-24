@@ -170,7 +170,7 @@
                     </figure>
                     <figure>
                         <img src=/assets/img/aae.svg alt="After Effects">
-                        <figcaption>After Effects</figcaption>
+                        <figcaption>AfterEffects</figcaption>
                     </figure>
                 </div>
             </div>
