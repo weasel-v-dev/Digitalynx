@@ -31,6 +31,10 @@ body {
 }
 a {
   text-decoration: none;
+  color: #212529;
+  &:hover {
+    color: #212529;
+  }
 }
 .main__subtitle {
   font-family: 'Comfortaa', cursive;
