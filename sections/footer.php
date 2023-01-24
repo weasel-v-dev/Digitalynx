@@ -14,7 +14,7 @@
         </li>
     </ul>
 </footer>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="/rainbow.js"></script>
 <script src="/assets/js/main.js"></script>
 </body>
