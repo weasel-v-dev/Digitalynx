@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="index,follow">
@@ -8,6 +8,8 @@
     <meta name="keywords" content="Веб-сайт, интернет-магазин, landing page, e-commerce, корпоративный, визитка, бизнес, услуги, онлайн-сервисы">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:locale" content="uk_UA">
     <meta property="og:site_name" content="DigitaLynx — цифровизация Вашего бизнеса">
     <meta property="og:url" content="https://digitalynx.org/">
     <meta property="og:type" content="website">

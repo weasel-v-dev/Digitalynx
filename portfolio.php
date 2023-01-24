@@ -5,7 +5,20 @@
     </div>
     <div class="portfolio__header">
         <h2 class="portfolio__title headline portfolio-title-js">Laura</h2>
-        <h3 class="portfolio__subtitle headline portfolio-subtitle-js">project</h3>
+        <p class="portfolio__subtitle headline portfolio-subtitle-js">project</p>
+    </div>
+    <div style="pointer-events: none;opacity: 0;position: absolute;">
+        <h2>Onlinemic</h2>
+        <h2>Bitcoin</h2>
+        <h2>Affilnett</h2>
+        <h2>DomDecora</h2>
+        <h2>DorNakash</h2>
+        <h2>GDB</h2>
+        <h2>IT Delight</h2>
+        <h2>Marina</h2>
+        <h2>R-gallery</h2>
+        <h2>MPS</h2>
+        <h2>HDD</h2>
     </div>
     <div class="portfolio mx-auto">
         <div class="portfolio__item portfolio-item-js" data-image="/projects/lauramissmacaron_ru.png" data-name="Laura">
@@ -28,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/bitcoin-property_ru.png" data-name="bitcoin">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/bitcoin-property_ru.png" data-name="Bitcoin">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
