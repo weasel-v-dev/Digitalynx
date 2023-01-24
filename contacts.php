@@ -13,7 +13,7 @@
                     <div class="row">
                         <div class="col-xl-6">
                             <div class="pe-xl-5">
-                                <h3 class="step__title" align="center">
+                                <h3 class="step__title text-center">
                                     Для связи с нами:
                                 </h3>
                                 <div class="contacts__socials d-flex justify-content-around pt-1 pb-3 mb-3 pt-xxl-2 pb-xxl-4">
