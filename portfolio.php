@@ -8,6 +8,16 @@
         <h3 class="portfolio__subtitle headline portfolio-subtitle-js">project</h3>
     </div>
     <div class="portfolio mx-auto">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/lauramissmacaron_ru.png" data-name="Laura">
+            <div>
+                <div class="glass position-relative d-flex justify-content-center align-items-center">
+                    <div class="glass__visible glass-visible-js"></div>
+                    <div>
+                        <img src="/assets/img/l.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="portfolio__item portfolio-item-js" data-image="/projects/mic_ru.png" data-name="Onlinemic">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
@@ -34,16 +44,6 @@
                     <div class="glass__visible glass-visible-js"></div>
                     <div>
                         <img src="/assets/img/aff.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/lauramissmacaron_ru.png" data-name="Laura">
-            <div>
-                <div class="glass position-relative d-flex justify-content-center align-items-center">
-                    <div class="glass__visible glass-visible-js"></div>
-                    <div>
-                        <img src="/assets/img/l.png" alt="">
                     </div>
                 </div>
             </div>
