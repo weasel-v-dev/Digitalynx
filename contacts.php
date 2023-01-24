@@ -14,9 +14,9 @@
                         <div class="col-xl-6">
                             <div class="pe-xl-5">
                                 <h3 class="step__title" align="center">
-                                    Свяжитесь с нами в соц. сетях:
+                                    Для связи с нами:
                                 </h3>
-                                <div class="contacts__socials d-flex justify-content-around pt-1 pb-3 mb-3 pt-xxl-2 pb-xxl-4 mb-xxl-5">
+                                <div class="contacts__socials d-flex justify-content-around pt-1 pb-3 mb-3 pt-xxl-2 pb-xxl-4">
                                     <a target="_blank" href="https://www.instagram.com/lynxfoundation/">
                                         <img src="/assets/img/inst-c.svg" alt="Instagram">
                                     </a>
@@ -45,24 +45,23 @@
                                         <h3 class="step__title mt-3 mt-lg-0" align="center">
                                             Локация:
                                         </h3>
-                                        <p class="step__desc mb-3 mb-xxl-5" align="center">
-                                            Мы - удаленная outsource команда со штаб-
-                                            квартирой в Белграде.
+                                        <p class="step__desc contacts__socials contacts__socials--only-desk pb-xl-3 pb-xxl-4 mb-3" align="center">
+                                            Мы - удаленная outsource команда со штаб-квартирой в Белграде.
                                         </p>
                                     </div>
                                     <div class="col-lg-6 col-xl-12">
                                         <h3 class="step__title" align="center">
                                             Адрес:
                                         </h3>
-                                        <div class="d-flex contacts__address">
+                                        <div class="d-flex contacts__address ">
 <!--                                            <div>-->
 <!--                                                <a target="_blank" href="https://goo.gl/maps/64zikwvPK3aRoNzr9"><img src="/assets/img/map.svg" alt=""></a>-->
 <!--                                            </div>-->
                                             <p class="step__desc" align="center">
                                                 <a target="_blank" href="https://goo.gl/maps/64zikwvPK3aRoNzr9">
-                                                    Ušće Business Center, <br>
-                                                    Bulevar Mihajla Pupina 6,  <br>
-                                                    Белград 11070, Сербия
+                                                    <span class="d-inline-block">Ušće Business Center,</span>
+                                                    <span class="d-inline-block">Bulevar Mihajla Pupina 6,</span>
+                                                    <span class="d-inline-block">Белград 11070, Сербия</span>
                                                 </a>
                                             </p>
                                         </div>

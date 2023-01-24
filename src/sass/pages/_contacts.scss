@@ -25,6 +25,9 @@
   }
   &__socials {
     position: relative;
+    @media screen and (min-width: 1500px) {
+      margin-bottom: 3rem;
+    }
     img {
       width: 42px;
       height: 42px;
@@ -33,6 +36,11 @@
         height: 56px;
       }
       display: block;
+      transform: scale(1);
+      transition: transform .2s ease-in-out;
+      &:hover {
+        transform: scale(1.15);
+      }
     }
     &::before {
       content: '';
@@ -44,6 +52,13 @@
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
+    }
+    @media screen and (max-width: 1200px) {
+      &--only-desk {
+        &::before {
+          content: none;
+        }
+      }
     }
   }
 }
