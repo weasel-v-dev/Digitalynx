@@ -1,4 +1,19 @@
 .contacts {
+  @media screen and (min-width: 1200px){
+    &__divider {
+      position: relative;
+      &::before {
+        content: '';
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: #8b958c;
+        width: 1px;
+        display: block;
+      }
+    }
+  }
   &__address {
     div {
       margin-right: 15px;
@@ -13,6 +28,10 @@
     img {
       width: 42px;
       height: 42px;
+      @media screen and (min-width: 1440px){
+        width: 56px;
+        height: 56px;
+      }
       display: block;
     }
     &::before {

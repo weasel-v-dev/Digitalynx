@@ -37,7 +37,7 @@
                             </p>
                         </div>
                         <div class="col-xl-6">
-                            <div class="row">
+                            <div class="row contacts__divider">
                                 <div class="col-lg-6 col-xl-12">
                                     <h3 class="step__title mt-3 mt-lg-0" align="center">
                                         Локация:
