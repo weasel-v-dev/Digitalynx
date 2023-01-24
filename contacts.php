@@ -17,23 +17,23 @@
                                     Для связи с нами:
                                 </h3>
                                 <div class="contacts__socials d-flex justify-content-around pt-1 pb-3 mb-3 pt-xxl-2 pb-xxl-4">
-                                    <a target="_blank" href="https://www.instagram.com/lynxfoundation/">
+                                    <a target="_blank" href="https://www.instagram.com/lynxfoundation/" title="Instagram">
                                         <img src="/assets/img/inst-c.svg" alt="Instagram">
                                     </a>
-                                    <a target="_blank" href="#">
+                                    <a target="_blank" href="#" title="Skype">
                                         <img src="/assets/img/sk-c.svg" alt="Skype">
                                     </a>
-                                    <a target="_blank" href="tg://resolve?domain=SerbianLynx">
+                                    <a target="_blank" href="tg://resolve?domain=SerbianLynx" title="Telegram">
                                         <img src="/assets/img/tg-c.svg" alt="Telegram">
                                     </a>
-                                    <a target="_blank" href="tg://resolve?domain=SerbianLynx">
-                                        <img src="/assets/img/vk-c.svg" alt="Telegram">
+                                    <a target="_blank" href="tg://resolve?domain=SerbianLynx" title="Vkontakte">
+                                        <img src="/assets/img/vk-c.svg" alt="Vkontakte">
                                     </a>
                                 </div>
-                                <h3 class="step__title" align="center">
+                                <h3 class="step__title text-center">
                                     Общие вопросы:
                                 </h3>
-                                <p class="step__desc" align="center">
+                                <p class="step__desc text-center">
                                     <a href="mailto:info@digitalynx.org">info@digitalynx.org</a>
                                 </p>
                             </div>
@@ -42,23 +42,20 @@
                             <div class="ps-xl-5 contacts__divider">
                                 <div class="row">
                                     <div class="col-lg-6 col-xl-12">
-                                        <h3 class="step__title mt-3 mt-lg-0" align="center">
+                                        <h3 class="step__title mt-3 mt-lg-0 text-center">
                                             Локация:
                                         </h3>
-                                        <p class="step__desc contacts__socials contacts__socials--only-desk pb-xl-3 pb-xxl-4 mb-3" align="center">
+                                        <p class="step__desc contacts__socials contacts__socials--only-desk pb-xl-3 pb-xxl-4 mb-3 text-center">
                                             Мы - удаленная outsource команда со штаб-квартирой в Белграде.
                                         </p>
                                     </div>
                                     <div class="col-lg-6 col-xl-12">
-                                        <h3 class="step__title" align="center">
+                                        <h3 class="step__title text-center">
                                             Адрес:
                                         </h3>
-                                        <div class="d-flex contacts__address ">
-<!--                                            <div>-->
-<!--                                                <a target="_blank" href="https://goo.gl/maps/64zikwvPK3aRoNzr9"><img src="/assets/img/map.svg" alt=""></a>-->
-<!--                                            </div>-->
-                                            <p class="step__desc" align="center">
-                                                <a target="_blank" href="https://goo.gl/maps/64zikwvPK3aRoNzr9">
+                                        <div class="d-flex contacts__address">
+                                            <p class="step__desc text-center">
+                                                <a target="_blank" href="https://goo.gl/maps/64zikwvPK3aRoNzr9" title="Google Maps">
                                                     <span class="d-inline-block">Ušće Business Center,</span>
                                                     <span class="d-inline-block">Bulevar Mihajla Pupina 6,</span>
                                                     <span class="d-inline-block">Белград 11070, Сербия</span>
