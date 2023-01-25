@@ -3,6 +3,7 @@
 use HostBrook\SypexGeo\SypexGeo;
 
 session_start();
+$_SESSION['lang'] = 'en';
 if(empty($_SESSION['lang'])){
     header('Content-type: text/plain; charset=utf8');
 
