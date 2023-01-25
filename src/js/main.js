@@ -116,7 +116,7 @@
         const $aboutWindow = $('.about-window-js');
         if($aboutWindow.length > 0) {
             $('.page-js').on('wheel', async function (e) {
-                console.log(stopWheel);
+                $('clue-vertical-js').hide();
                 if (stopWheel) {
                     e.preventDefault();
                     e.stopImmediatePropagation();
@@ -156,7 +156,7 @@
         const $offerWindow = $('.offer-window-js');
         if($offerWindow.length > 0) {
             $('.page-js').on('wheel', async function (e) {
-                console.log(stopWheel);
+                $('clue-vertical-js').hide();
                 if (stopWheel) {
                     e.preventDefault();
                     e.stopImmediatePropagation();

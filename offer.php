@@ -1,6 +1,6 @@
 <?php include 'sections/header.php' ?>
     <main class="about offer page-js">
-        <div class="clue clue--vertical clue-js">
+        <div class="clue clue--vertical clue-vertical-js">
             <span>SCROLL DOWN</span>&nbsp;&nbsp;
             <img src="/assets/img/mouse.svg" alt="icon">
         </div>
