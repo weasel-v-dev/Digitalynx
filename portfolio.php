@@ -1,7 +1,7 @@
 <?php include 'sections/header.php' ?>
-<main class="glass-wrap d-flex flex-column">
+<main class="glass-wrap glass-wrap--main d-flex flex-column">
     <div class="container-fluid">
-        <h1 class="title-bread">Портфолио</h1>
+        <h1 class="title-bread"><?= __('Портфолио', 'Portfolio') ?></h1>
     </div>
     <div class="portfolio__header">
         <h2 class="portfolio__title headline portfolio-title-js">Laura</h2>
@@ -21,7 +21,7 @@
         <h2>HDD</h2>
     </div>
     <div class="portfolio mx-auto">
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/lauramissmacaron_ru.png" data-name="Laura">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('lauramissmacaron_ru.png', 'lauramissmacaron_ru.png') ?>" data-name="Laura">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/mic_ru.png" data-name="Onlinemic">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('mic_ru.png', 'mic_ru.png') ?>" data-name="Onlinemic">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/bitcoin-property_ru.png" data-name="Bitcoin">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('bitcoin-property_ru.png', 'bitcoin-property_ru.png') ?>" data-name="Bitcoin">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/affilnett_ru.png" data-name="Affilnett">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('affilnett_ru.png', 'affilnett_ru.png') ?>" data-name="Affilnett">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -61,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/dom_ru.png" data-name="DomDecora">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('dom_ru.png', 'dom_ru.png') ?>" data-name="DomDecora">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/dor_ru.png" data-name="DorNakash">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('dor_ru.png', 'dor_ru.png') ?>" data-name="DorNakash">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -81,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/gdb_ru.png" data-name="GDB">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('gdb_ru.png', 'gdb_ru.png') ?>" data-name="GDB">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -91,7 +91,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/itdelight_ru.png" data-name="IT Delight">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('itdelight_ru.png', 'itdelight_ru.png') ?>" data-name="IT Delight">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/marina_ru.png" data-name="Marina">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('marina_ru.png', 'marina_ru.png') ?>" data-name="Marina">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/rooms_ru.png" data-name="R-gallery">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('rooms_ru.png', 'rooms_ru.png') ?>" data-name="R-gallery">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -121,7 +121,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/mps_ru.png" data-name="MPS">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('mps_ru.png', 'mps_ru.png') ?>" data-name="MPS">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio__item portfolio-item-js" data-image="/projects/haus_ru.png" data-name="HDD">
+        <div class="portfolio__item portfolio-item-js" data-image="/projects/<?= __('haus_ru.png', 'haus_ru.png') ?>" data-name="HDD">
             <div>
                 <div class="glass position-relative d-flex justify-content-center align-items-center">
                     <div class="glass__visible glass-visible-js"></div>
@@ -149,9 +149,7 @@
     </div>
 </main>
 <div class="portfolio-modal portfolio-modal-js">
-    <div class="portfolio-modal__page portfolio-modal-page-js">
-
-    </div>
+    <div class="portfolio-modal__page portfolio-modal-page-js"></div>
     <div class="portfolio-modal__shadow portfolio-modal-shadow-js"></div>
 </div>
 <?php include 'sections/footer.php' ?>

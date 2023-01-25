@@ -1,6 +1,6 @@
 <?php include 'sections/header.php' ?>
- <main class="glass-wrap glass-wrap--main">
-    <h1 class="main__subtitle">Мы воплотим все Ваши идеи в реальность</h1>
+ <main class="glass-wrap glass-wrap--untouch glass-wrap--main">
+    <h1 class="main__subtitle"><?= __('Мы воплотим все Ваши идеи в реальность', 'We will turn all your ideas into reality') ?></h1>
      <div class="glass-inner">
         <div>
             <div class="glass glass--standart d-flex justify-content-center align-items-center">
@@ -9,8 +9,8 @@
                 </h2>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-center mt-2 mt-lg-3 mt-xxl-5 w-100">
-                <a href="tg://resolve?domain=SerbianLynx" class="cta mb-3 mb-md-0">Cвязаться</a>
-                <a href="/portfolio" class="link">Оценить портфолио</a>
+                <a href="tg://resolve?domain=SerbianLynx" class="cta mb-3 mb-md-0"><?= __('Cвязаться', 'Get in touch') ?></a>
+                <a href="/portfolio" class="link"><?= __('Оценить портфолио', 'Evaluate the portfolio') ?></a>
             </div>
         </div>
      </div>

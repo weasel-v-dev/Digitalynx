@@ -1,6 +1,12 @@
 <?php
 session_start();
 if(empty($_SESSION['lang'])) $_SESSION['lang'] = 'en';
+function __($langRu = '', $langEn = '') {
+    if($_SESSION['lang'] == 'en') {
+         return $langEn;
+    }
+    return $langRu;
+}
 ?>
 <!doctype html>
 <html lang="<?= $_SESSION['lang'] ?>">
@@ -79,10 +85,10 @@ if(empty($_SESSION['lang'])) $_SESSION['lang'] = 'en';
             <nav>
                 <ul class="d-flex align-items-center layer menu">
                     <li>
-                        <a class="a" href="/portfolio" title="Портфолио"><img src="/assets/img/portfolio.svg" alt="portfolio" class="d-md-none"><span>Портфолио</span></a>
+                        <a class="a" href="/portfolio"><img src="/assets/img/portfolio.svg" alt="portfolio" class="d-md-none"><span><?= __('Портфолио', 'Portfolio') ?></span></a>
                     </li>
                     <li>
-                        <a class="a" href="/contacts" title="Контакты"><img src="/assets/img/contacts.svg" alt="contacts" class="d-md-none"><span>Контакты</span></a>
+                        <a class="a" href="/contacts"><img src="/assets/img/contacts.svg" alt="contacts" class="d-md-none"><span><?= __('Контакты', 'Contacts') ?></span></a>
                     </li>
 <!--                    <li class="d-md-none">-->
 <!--                        <a class="js-menu transparent-btn">-->
@@ -98,13 +104,13 @@ if(empty($_SESSION['lang'])) $_SESSION['lang'] = 'en';
 <!--                        </ul>-->
 <!--                    </li>-->
                     <li>
-                        <a class="a" href="/offer" title="Услуги"><img src="/assets/img/product.svg" alt="services" class="d-md-none main-img"><span>Услуги</span></a>
+                        <a class="a" href="/offer"><img src="/assets/img/product.svg" alt="services" class="d-md-none main-img"><span><?= __('Услуги', 'Services') ?></span></a>
                     </li>
                     <li>
-                        <a class="a" href="/about" title="О нас"><img src="/assets/img/about.svg" alt="about" class="d-md-none"><span>О нас</span></a>
+                        <a class="a" href="/about"><img src="/assets/img/about.svg" alt="about" class="d-md-none"><span><?= __('О нас', 'About us') ?></span></a>
                     </li>
                     <li class="d-md-none">
-                        <span class="a js-social" title="Мы в сети"><img src="/assets/img/social.svg" alt="social" class="d-md-none"><span>Мы в сети</span></span>
+                        <span class="a js-social"><img src="/assets/img/social.svg" alt="social" class="d-md-none"><span><?= __('Мы в сети', 'Socials') ?></span></span>
                     </li>
                 </ul>
             </nav>

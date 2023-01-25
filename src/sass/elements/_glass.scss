@@ -33,8 +33,10 @@
         top: -95px;
       }
     }
-    &--main{
+    &--untouch {
       pointer-events: none;
+    }
+    &--main{
       position: absolute;
       top: 54%;
       transform: translateY(-50%);
