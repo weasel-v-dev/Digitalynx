@@ -3,19 +3,19 @@ $violet: #7d00fc;
 .menu {
   padding-left: 20px;
   padding-right: 20px;
-
-  li a {
+  li .a {
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
     font-size: 17px;
     padding: 20px 23px;
     font-weight: 600;
     display: inline-block;
-    transition: background-color .4s ease-in;
+    transition: background-color .3s ease-in, transform .3s ease-in-out;
+    transform: scale(1);
     &:hover {
       background-color: rgba(#DFA1CA, .18);
       @media screen and (max-width: 767px){
-        background-color: #EED6F5;
+        transform: scale(1.3);
       }
     }
     @media screen and (min-width: 1200px){
@@ -41,8 +41,8 @@ $violet: #7d00fc;
       }
     }
   }
-
   @media screen and (max-width: 767px) {
+    overflow: hidden;
     padding: 0;
     position: fixed;
     bottom: 0;
@@ -52,18 +52,15 @@ $violet: #7d00fc;
     justify-content: center;
     z-index: 10;
     text-align: center;
-
     img {
       height: 28px;
       &.main-img {
         height: 38px;
       }
-
     }
-
     & > li {
       width: 20%;
-      & > a {
+      & > .a {
         width: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -113,7 +110,7 @@ footer {
   }
   @media screen and (max-width: 575px){
     width: 50px;
-    bottom: 59px;
+    bottom: 70px;
     right: -50%;
     transform: translateX(50%);
     padding-top: 6px;

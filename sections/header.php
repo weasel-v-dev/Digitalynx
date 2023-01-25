@@ -59,13 +59,13 @@
             <div>
 <!--                <button type="button" class="lang transparent-btn">EN</button>-->
             </div>
-            <nav class="">
+            <nav>
                 <ul class="d-flex align-items-center layer menu">
                     <li>
-                        <a href="/portfolio" title="Портфолио"><img src="/assets/img/portfolio.svg" alt="portfolio" class="d-md-none"><span>Портфолио</span></a>
+                        <a class="a" href="/portfolio" title="Портфолио"><img src="/assets/img/portfolio.svg" alt="portfolio" class="d-md-none"><span>Портфолио</span></a>
                     </li>
                     <li>
-                        <a href="/contacts" title="Контакты"><img src="/assets/img/contacts.svg" alt="contacts" class="d-md-none"><span>Контакты</span></a>
+                        <a class="a" href="/contacts" title="Контакты"><img src="/assets/img/contacts.svg" alt="contacts" class="d-md-none"><span>Контакты</span></a>
                     </li>
 <!--                    <li class="d-md-none">-->
 <!--                        <a class="js-menu transparent-btn">-->
@@ -81,13 +81,13 @@
 <!--                        </ul>-->
 <!--                    </li>-->
                     <li>
-                        <a href="/offer" title="Услуги"><img src="/assets/img/product.svg" alt="services" class="d-md-none main-img"><span>Услуги</span></a>
+                        <a class="a" href="/offer" title="Услуги"><img src="/assets/img/product.svg" alt="services" class="d-md-none main-img"><span>Услуги</span></a>
                     </li>
                     <li>
-                        <a href="/about" title="О нас"><img src="/assets/img/about.svg" alt="about" class="d-md-none"><span>О нас</span></a>
+                        <a class="a" href="/about" title="О нас"><img src="/assets/img/about.svg" alt="about" class="d-md-none"><span>О нас</span></a>
                     </li>
                     <li class="d-md-none">
-                        <a class="js-social" title="Мы в сети"><img src="/assets/img/social.svg" alt="social" class="d-md-none"><span>Мы в сети</span></a>
+                        <span class="a js-social" title="Мы в сети"><img src="/assets/img/social.svg" alt="social" class="d-md-none"><span>Мы в сети</span></span>
                     </li>
                 </ul>
             </nav>
