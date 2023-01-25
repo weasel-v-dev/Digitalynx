@@ -18,9 +18,7 @@
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   img {
-    width: 30px;
     margin-top: -5px;
-    transform: rotate(270deg);
   }
   &--vertical {
     transform-origin: center;
@@ -32,6 +30,10 @@
     transition: opacity .2s ease-in-out;
     @media screen and (max-width: 1200px) {
       display: none;
+    }
+    img {
+      width: 30px;
+      transform: rotate(270deg);
     }
   }
 }
