@@ -1,0 +1,36 @@
+.clue {
+  text-align: center;
+  opacity: .5;
+  transition: opacity .3s ease-in;
+
+  &--mobile {
+    @media screen and (min-width: 490px) {
+      display: none;
+    }
+    color: white;
+    img {
+      width: 14px;
+      &:first-child {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  img {
+    width: 30px;
+    margin-top: -5px;
+    transform: rotate(270deg);
+  }
+  &--vertical {
+    transform-origin: center;
+    transform: rotate(90deg) translateY(-50%);
+    position: fixed;
+    right: 0;
+    top: 50%;
+    color: #9AA0A6;
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+}

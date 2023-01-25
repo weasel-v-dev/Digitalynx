@@ -1,5 +1,9 @@
 <?php include 'sections/header.php' ?>
     <main class="about offer page-js">
+        <div class="clue clue--vertical clue-js">
+            <span>SCROLL DOWN</span>&nbsp;&nbsp;
+            <img src="/assets/img/mouse.svg" alt="icon">
+        </div>
         <div class="glass-wrap d-flex flex-column">
             <div class="container-fluid">
                 <h1 class="title-bread">Услуги</h1>

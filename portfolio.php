@@ -142,7 +142,7 @@
             </div>
         </div>
     </div>
-    <div class="clue clue-js">
+    <div class="clue clue--mobile clue-js">
         <img src="/assets/img/arr.svg" alt="icon">&nbsp;&nbsp;
         <span>SWIPE</span>&nbsp;&nbsp;
         <img src="/assets/img/arr.svg" alt="icon">
