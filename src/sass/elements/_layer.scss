@@ -10,11 +10,6 @@ $violet: #7d00fc;
     padding: 20px 23px;
     font-weight: 600;
     display: inline-block;
-    transition: background-color .3s ease-in, transform .3s ease-in-out;
-
-    &:hover {
-      background-color: rgba(#DFA1CA, .18);
-    }
     @media screen and (min-width: 1200px){
       padding: 26px 23px;
       font-size: 20px;
@@ -56,8 +51,9 @@ $violet: #7d00fc;
       }
       transform: scale(1);
       transform-origin: center;
+      transition: transform .3s ease-in-out;
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.17);
       }
     }
     & > li {
