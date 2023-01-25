@@ -104,7 +104,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
           return _regeneratorRuntime().wrap(function _callee$(_context) {
             while (1) switch (_context.prev = _context.next) {
               case 0:
-                console.log(stopWheel);
+                $('.clue-vertical-js').css({
+                  opacity: 0,
+                  pointerEvents: 'none'
+                });
                 if (!stopWheel) {
                   _context.next = 5;
                   break;
@@ -161,7 +164,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
           return _regeneratorRuntime().wrap(function _callee2$(_context2) {
             while (1) switch (_context2.prev = _context2.next) {
               case 0:
-                console.log(stopWheel);
+                $('.clue-vertical-js').css({
+                  opacity: 0,
+                  pointerEvents: 'none'
+                });
                 if (!stopWheel) {
                   _context2.next = 5;
                   break;

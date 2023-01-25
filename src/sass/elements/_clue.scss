@@ -29,6 +29,7 @@
     right: 0;
     top: 50%;
     color: #9AA0A6;
+    transition: opacity .2s ease-in-out;
     @media screen and (max-width: 1200px) {
       display: none;
     }

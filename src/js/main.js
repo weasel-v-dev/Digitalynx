@@ -116,7 +116,10 @@
         const $aboutWindow = $('.about-window-js');
         if($aboutWindow.length > 0) {
             $('.page-js').on('wheel', async function (e) {
-                $('clue-vertical-js').hide();
+                $('.clue-vertical-js').css({
+                    opacity: 0,
+                    pointerEvents: 'none'
+                });
                 if (stopWheel) {
                     e.preventDefault();
                     e.stopImmediatePropagation();
@@ -156,7 +159,10 @@
         const $offerWindow = $('.offer-window-js');
         if($offerWindow.length > 0) {
             $('.page-js').on('wheel', async function (e) {
-                $('clue-vertical-js').hide();
+                $('.clue-vertical-js').css({
+                    opacity: 0,
+                    pointerEvents: 'none'
+                });
                 if (stopWheel) {
                     e.preventDefault();
                     e.stopImmediatePropagation();
