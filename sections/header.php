@@ -1,27 +1,6 @@
 <?php
-
-use HostBrook\SypexGeo\SypexGeo;
-
 session_start();
-$_SESSION['lang'] = 'en';
-if(empty($_SESSION['lang'])){
-    header('Content-type: text/plain; charset=utf8');
-
-// Подключаем SypexGeo.php класс
-    require_once("location/SypexGeo.php");
-    $SxGeo = new SypexGeo();
-
-// get your IP address, for example:
-    $userIP = $_SERVER['REMOTE_ADDR'];
-
-// Option 1 to get the ISO country code:
-    $userCountry = $SxGeo->getCountry($userIP); // returns string, the country code
-// Option 2  is a short equialent for country database only:
-
-
-//    $_SESSION['lang'] = 'en';
-
-}
+if(empty($_SESSION['lang'])) $_SESSION['lang'] = 'en';
 ?>
 <!doctype html>
 <html lang="<?= $_SESSION['lang'] ?>">
