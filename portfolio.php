@@ -150,7 +150,7 @@
 </main>
 <div class="portfolio-modal portfolio-modal-js">
     <div class="portfolio-modal__page portfolio-modal-page-js">
-        <img src="/projects/mic_ru.png" alt="bitcoin property">
+
     </div>
     <div class="portfolio-modal__shadow portfolio-modal-shadow-js"></div>
 </div>
