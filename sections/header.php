@@ -5,7 +5,7 @@
     <meta name="robots" content="index,follow">
     <title>Создание сайтов любой сложности | Веб-студия Digital Lynx</title>
     <meta name="description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу.">
-    <meta name="keywords" content="Веб-сайт, Веб-студія, интернет-магазин, Веб-агенция, digital агенция, web-lynx, lynx студия, lynx digital, Lynx студия, Lynx агенция, Lynx комания, landing page, e-commerce, корпоративный, визитка, бизнес, услуги, онлайн-сервисы, digital, lynx, digitallynx">
+    <meta name="keywords" content="Веб-сайт, Веб-студія, Веб-агенция, digital агенция, web-lynx, lynx студия, lynx digital, Lynx студия, Lynx агенция, Lynx компания, landing page, e-commerce, digital студия, Lynx agency, Lynx company, онлайн-сервисы, digital, lynx, digitallynx">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta property="og:locale" content="ru_RU">
@@ -51,7 +51,7 @@
 <body>
 <canvas class="live-color"></canvas>
 <div class="container-fluid">
-    <header class="d-flex align-items-center justify-content-between mx-xl-3 me-xl-3">
+    <header class="d-flex align-items-center justify-content-between mx-xl-3 me-xl-3 position-relative" style="z-index: 1;">
         <a href="/" title="Digital Lynx">
             <img src="/assets/img/logo.png" class="logo" alt="digital lynx">
         </a>
