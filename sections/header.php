@@ -17,11 +17,9 @@ if(empty($_SESSION['lang'])){
     $userCountry = $SxGeo->getCountry($userIP); // returns string, the country code
 // Option 2  is a short equialent for country database only:
 
-    var_dump($userIP);
-    var_dump($userIP);
 
 //    $_SESSION['lang'] = 'en';
-    die;
+
 }
 ?>
 <!doctype html>
