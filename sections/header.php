@@ -1,5 +1,31 @@
+<?php
+
+use HostBrook\SypexGeo\SypexGeo;
+
+session_start();
+if(empty($_SESSION['lang'])){
+    header('Content-type: text/plain; charset=utf8');
+
+// Подключаем SypexGeo.php класс
+    require_once("location/SypexGeo.php");
+    $SxGeo = new SypexGeo();
+
+// get your IP address, for example:
+    $userIP = $_SERVER['REMOTE_ADDR'];
+
+// Option 1 to get the ISO country code:
+    $userCountry = $SxGeo->getCountry($userIP); // returns string, the country code
+// Option 2  is a short equialent for country database only:
+
+    var_dump($userIP);
+    var_dump($userIP);
+
+//    $_SESSION['lang'] = 'en';
+    die;
+}
+?>
 <!doctype html>
-<html lang="ru">
+<html lang="<?= $_SESSION['lang'] ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="index,follow">
@@ -11,12 +37,12 @@
     <meta property="og:locale" content="ru_RU">
     <meta property="og:locale" content="uk_UA">
     <meta property="og:site_name" content="DigitaLynx — цифровизация Вашего бизнеса">
-    <meta property="og:url" content="https://digitalynx.org/">
+    <meta property="og:url" content="https://digitalynx.org">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Создание сайтов любой сложности | Веб-студия Digital Lynx">
     <meta property="og:description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу.">
     <link type="Image/x-icon" href="/assets/img/favicon.ico" rel="icon">
-    <link rel="canonical" href="https://digitalynx.org/">
+<!--    <link rel="canonical" href="https://digitalynx.org">-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script
@@ -57,7 +83,20 @@
         </a>
         <div>
             <div>
-<!--                <button type="button" class="lang transparent-btn">EN</button>-->
+                <?php
+                if(!empty(htmlspecialchars($_POST['lang']))){
+                    $lang = htmlspecialchars($_POST['lang']);
+                    if($lang == 'en') {
+                        $_SESSION['lang'] = 'ru';
+                    }
+                    else if($lang == 'ru') {
+                        $_SESSION['lang'] = 'en';
+                    }
+                }
+                ?>
+                <form method="POST" action="">
+                    <button type="submit" class="lang transparent-btn" name="lang" value="<?= $_SESSION['lang'] ?>"><?= $_SESSION['lang'] ?></button>
+                </form>
             </div>
             <nav>
                 <ul class="d-flex align-items-center layer menu">
