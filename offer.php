@@ -234,7 +234,7 @@
             <div class="d-flex justify-content-center glass-wrap about__window about__window--5 offer-window-js">
                 <div class="glass glass--big step">
                     <h2 class="about__title title-mega">
-                        <span class="black step__black"><?= __('визитка', 'business card') ?> </span><span class="white step__white"><?= __('', 'website') ?></span>
+                        <span class="black step__black"><?= __('визитка', 'business') ?> </span><span class="white step__white"><?= __('', 'website') ?></span>
                     </h2>
                     <div class="row pt-4">
                         <div class="col-xl-8">
@@ -283,7 +283,7 @@
             <div class="d-flex justify-content-center glass-wrap about__window about__window--6 offer-window-js">
                 <div class="glass glass--big step">
                     <h2 class="about__title title-mega">
-                        <span class="black step__black">корпоративный</span><span class="white step__white"><?= __('сайт', 'website') ?></span>
+                        <span class="black step__black"><?= __('корпоративный', 'corporate') ?></span><span class="white step__white"><?= __('сайт', 'website') ?></span>
                     </h2>
                     <div class="row pt-4">
                         <div class="col-xl-8">
