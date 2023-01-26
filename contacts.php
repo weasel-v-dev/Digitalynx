@@ -14,7 +14,7 @@
                         <div class="col-xl-6">
                             <div class="pe-xl-5">
                                 <h3 class="step__title text-center">
-                                    <?= __('Для связи с нами:', 'Get in touch with usЖ') ?>
+                                    <?= __('Для связи с нами:', 'Get in touch with us:') ?>
                                 </h3>
                                 <div class="contacts__socials d-flex justify-content-around pt-1 pb-3 mb-3 pt-xxl-2 pb-xxl-4">
                                     <a target="_blank" href="https://www.instagram.com/lynxfoundation/" title="Instagram">
