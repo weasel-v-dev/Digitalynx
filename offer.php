@@ -61,7 +61,7 @@
                                 <div class="col-lg-6 col-xl-12">
                                     <p class="offer__price">
                                         <span><?= __('стоимость', 'price') ?></span>
-                                        <span><?= __('от', 'from') ?> <?= __('250 000₽', '3 300€') ?></span>
+                                        <span><?= __('от', 'from') ?> <?= __('150 000₽', '1900€') ?></span>
                                         <a href="https://t.me/SerbianLynx" class="cta cta--offer"><?= __('Заказать', 'To order') ?></a>
                                     </p>
                                 </div>
