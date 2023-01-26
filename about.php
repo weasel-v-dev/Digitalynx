@@ -15,47 +15,54 @@
                     <span class="black">Lynx</span><span class="white">foundation</span>
                 </h2>
                 <p class="mb-4">
-                    Команда молодых, креативных людей. Создаем IT-решения и помогаем
+                    <?= __('Команда молодых, креативных людей. Создаем IT-решения и помогаем
                     цифровизировать любую вашу идею. Среди проектов автоматизация
                     бизнес-процессов, онлайн-сервисы и сайты, внедрение digital-инструментов
-                    для продаж и маркетинга.
+                    для продаж и маркетинга.', 'A team of young, creative people. We create IT solutions and help
+                    digitalized any of your ideas. Automation is among the projects
+                    business processes, online services and websites, implementation of digital tools
+                    for sales and marketing.') ?>
                 </p>
                 <p>
-                    Наши основные принципы — гибкость мышления, осознанность,
+                    <?= __('Наши основные принципы — гибкость мышления, осознанность,
                     прозрачность, скорость и качество работы, высокий клиентский сервис
-                    и нацеленность на результат. Работаем с людьми и для людей.
+                    и нацеленность на результат. Работаем с людьми и для людей.', 'Our main principles are flexibility of thinking, awareness,
+                    transparency, speed and quality of work, high customer service
+                    and focus on results. We work with people and for people.') ?>
                 </p>
             </div>
         </div>
         <div class=" d-flex justify-content-center glass-wrap about__window about__window--2 about-window-js">
             <div class="glass step">
                 <h2 class="about__title title-mega">
-                    <span class="black step__black">Этапы</span>
-                    <span class="white step__white" >работы</span>
+                    <span class="black step__black"><?= __('Этапы', 'Stages') ?></span>
+                    <span class="white step__white" ><?= __('работы', 'of work') ?></span>
                 </h2>
                 <div class="d-lg-flex">
                     <div class="step__dividers pe-lg-4 pb-4">
                         <h3 class="step__title">
-                            Входные данные
+                            <?= __('Входные данные', 'Input data') ?>
                         </h3>
                         <div class="d-flex">
                             <div class="step__number">1</div>
                             <p class="step__desc">
-                                Вы объясняете, что бы
-                                хотели увидеть в результате
+                                <?= __('Вы объясняете, что бы
+                                хотели увидеть в результате','You explain that
+                                we wanted to see the result') ?>
                             </p>
                         </div>
                     </div>
                     <div class="ps-lg-4 pb-lg-4">
                         <h3 class="step__title step__title--divider">
-                            Подготовка
+                            <?= __('Подготовка','Preparation') ?>
                         </h3>
                         <div class="d-flex">
                             <div class="step__number">2</div>
                             <p class="step__desc">
-                                Мы показываем вам
+                                <?= __('Мы показываем вам
                                 наши предложения на
-                                основе ваших пожеланий
+                                основе ваших пожеланий','We show you
+                                our suggestions based on your wishes') ?>
                             </p>
                         </div>
                     </div>
@@ -63,28 +70,33 @@
                 <div class="d-lg-flex">
                     <div class="pe-lg-4 pt-4">
                         <h3 class="step__title  step__title--divider">
-                            Реализация
+                            <?= __('Реализация','Realization') ?>
                         </h3>
                         <div class="d-flex">
                             <div class="step__number">3</div>
                             <p class="step__desc">
-                                Вносим ваши коррективы,
+                                <?= __('Вносим ваши коррективы,
                                 оговариваем сроки и
-                                приступаем к выполнению
+                                приступаем к выполнению','We make your adjustments,
+                                we stipulate the terms and
+                                getting started') ?>
                             </p>
                         </div>
                     </div>
                     <div class="ps-lg-4 pt-4">
                         <h3 class="step__title  step__title--divider">
-                            Достижение результата
+                            <?= __('Достижение результата','Achieving the result') ?>
                         </h3>
                         <div class="d-flex">
                             <div class="step__number">4</div>
                             <p class="step__desc">
-                                Показываем вам
+                                <?= __('Показываем вам
                                 промежуточные результаты
                                 для коррекции. Отдаём вам
-                                готовый продукт
+                                готовый продукт','We show you
+                                interim results
+                                for correction. We give you
+                                finished product') ?>
                             </p>
                         </div>
                     </div>
@@ -94,9 +106,9 @@
         <div class=" d-flex justify-content-center glass-wrap about__window about__window--3 about-window-js">
             <div class="glass glass--big step technology">
                 <h2 class="about__title title-mega">
-                    <span class="black step__black">Наши</span><span class="white step__white">технологии</span>
+                    <span class="black step__black"><?= __('Наши','Our') ?></span><span class="white step__white"><?= __('технологии','technologies') ?></span>
                 </h2>
-                <h3 class="step__title technology__divider technology__divider--1 pt-4 pt-xl-0">Клиентская часть</h3>
+                <h3 class="step__title technology__divider technology__divider--1 pt-4 pt-xl-0"><?= __('Клиентская часть','The client part') ?></h3>
                 <div class="d-flex flex-wrap justify-content-between justify-content-md-start technology__category">
                     <figure>
                         <img src="/assets/img/vue.svg" alt="Vue.js">
@@ -127,7 +139,7 @@
                         <figcaption>Bootstrap</figcaption>
                     </figure>
                 </div>
-                <h3 class="step__title technology__divider technology__divider--2 pt-4 pt-xl-0">Серверная часть</h3>
+                <h3 class="step__title technology__divider technology__divider--2 pt-4 pt-xl-0"><?= __('Серверная часть','Server part') ?></h3>
                 <div class="d-flex flex-wrap justify-content-between justify-content-md-start technology__category">
                     <figure>
                         <img src="/assets/img/php.svg" alt="PHP">
@@ -154,7 +166,7 @@
                         <figcaption>Yii1, Yii2</figcaption>
                     </figure>
                 </div>
-                <h3 class="step__title technology__divider technology__divider--3 pt-4 pt-xl-0">Дизайн интерфейсов</h3>
+                <h3 class="step__title technology__divider technology__divider--3 pt-4 pt-xl-0"><?= __('Дизайн интерфейсов','Interface design') ?></h3>
                 <div class="d-flex flex-wrap justify-content-between justify-content-md-start technology__category">
                     <figure>
                         <img src="/assets/img/ill.svg" alt="Illustrator">

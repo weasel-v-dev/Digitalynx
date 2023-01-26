@@ -43,7 +43,6 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-xl-12">
                                         <h3 class="step__title mt-3 mt-lg-0 text-center">
-
                                             <?= __('Локация:', 'Briefly about us:') ?>
                                         </h3>
                                         <p class="step__desc contacts__socials contacts__socials--only-desk pb-xl-3 pb-xxl-4 mb-3 text-center">
