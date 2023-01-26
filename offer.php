@@ -14,7 +14,7 @@
                     <h2 class="about__title title-mega">
                         <span class="black step__black">e-shop</span><span class="white step__white"><?= __('уникальный', 'unique') ?></span>
                     </h2>
-                    <div class="row pt-4">
+                    <div class="row pt-4" style="margin-top: -2rem">
                         <div class="col-xl-8">
                             <h3 class="step__title">
                                 <?= __('Уникальный интернет-магазин.', 'A unique online store.') ?>
@@ -75,7 +75,7 @@
                     <h2 class="about__title title-mega">
                         <span class="black step__black">e-shop</span><span class="white step__white"><?= __('базовый', 'basic') ?></span>
                     </h2>
-                    <div class="row pt-3">
+                    <div class="row pt-3" style="margin-top: -2rem">
                         <div class="col-xl-8">
                             <h3 class="step__title">
                                 <?= __('Индивидуальный дизайн и базовый функционал', 'Individual design and basic functionality') ?>

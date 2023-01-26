@@ -66,31 +66,33 @@
 
   &__header {
     position: absolute;
-
     transform: translateX(-50%);
     left: 50%;
     z-index: 1;
-    top: 74%;
+    top: 69%;
     @media screen and (min-width: 390px) {
-      top: 77%;
+      top: 71%;
+    }
+    @media screen and (min-width: 490px) {
+      top: 66%;
     }
     @media screen and (min-width: 550px) {
-      top: 70%;
+      top: 68%;
     }
     @media screen and (min-width: 668px) {
-      top: 73%
+      top: 71%;
     }
     @media screen and (min-width: 900px) {
-      top: 76%;
+      top: 74%;
     }
     @media screen and (min-width: 1200px) {
-      top: 82%;
+      top: 76%;
     }
     @media screen and (min-width: 1300px) {
-      top: 84%;
+      top: 78%;
     }
     @media screen and (min-width: 1500px) {
-      top: 89%;
+      top: 81%;
     }
   }
 
