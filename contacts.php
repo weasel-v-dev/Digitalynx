@@ -1,6 +1,6 @@
 <?php include 'sections/header.php' ?>
     <main class="about contacts">
-        <div class="glass-wrap d-flex flex-column">
+        <div class="glass-wrap glass-wrap--main d-flex flex-column">
             <div class="container-fluid">
                 <h1 class="title-bread"><?= __('Контакты', 'Contacts') ?></h1>
             </div>
