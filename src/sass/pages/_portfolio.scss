@@ -31,7 +31,6 @@
     height: 350px !important;
     @media screen and (min-width: 390px) {
       width: 290px;
-
     }
     @media screen and (min-width: 490px) {
       width: 190px;
@@ -153,7 +152,7 @@
     transition: all .3s ease-in;
     background-image: url('../img/s.png');
     //background-color: #000;
-
+    z-index: 12;
     height: 60px;
     width: 60px;
 
