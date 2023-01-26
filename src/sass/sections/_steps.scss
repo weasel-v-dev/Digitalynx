@@ -1,10 +1,13 @@
 .step {
-  &__item {
-
+  &__col {
+    @media screen and (min-width: 992px) {
+      flex-basis: 50%;
+      width: 50%;
+    }
   }
-  .about__title {
-    margin-bottom: 19px;
-  }
+  //.about__title {
+  //  margin-bottom: 19px;
+  //}
   &__white {
     position: relative;
     right: -40px;

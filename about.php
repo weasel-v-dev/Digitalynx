@@ -6,7 +6,7 @@
     </div>
     <div class="glass-wrap d-flex flex-column">
         <div class="container-fluid">
-            <h1 class="title-bread">О нас</h1>
+            <h1 class="title-bread"><?= __('О нас', 'About us') ?></h1>
         </div>
         <div class="glass about__shadow"></div>
         <div class="d-flex justify-content-center glass-wrap about__window about__window--1 about-window-js">
@@ -39,7 +39,7 @@
                     <span class="white step__white" ><?= __('работы', 'of work') ?></span>
                 </h2>
                 <div class="d-lg-flex">
-                    <div class="step__dividers pe-lg-4 pb-4">
+                    <div class="step__dividers pe-lg-4 pb-4 step__col">
                         <h3 class="step__title">
                             <?= __('Входные данные', 'Input data') ?>
                         </h3>
@@ -52,7 +52,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="ps-lg-4 pb-lg-4">
+                    <div class="ps-lg-4 pb-lg-4 step__col">
                         <h3 class="step__title step__title--divider">
                             <?= __('Подготовка','Preparation') ?>
                         </h3>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="d-lg-flex">
-                    <div class="pe-lg-4 pt-4">
+                    <div class="pe-lg-4 pt-4 step__col">
                         <h3 class="step__title  step__title--divider">
                             <?= __('Реализация','Realization') ?>
                         </h3>
@@ -83,7 +83,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="ps-lg-4 pt-4">
+                    <div class="ps-lg-4 pt-4 step__col">
                         <h3 class="step__title  step__title--divider">
                             <?= __('Достижение результата','Achieving the result') ?>
                         </h3>
