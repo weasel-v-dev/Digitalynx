@@ -14,7 +14,7 @@
                     <h2 class="about__title title-mega">
                         <span class="black step__black">e-shop</span><span class="white step__white"><?= __('уникальный', 'unique') ?></span>
                     </h2>
-                    <div class="row pt-4" style="margin-top: -2rem">
+                    <div class="row pt-2 pt-lg-4">
                         <div class="col-xl-8">
                             <h3 class="step__title">
                                 <?= __('Уникальный интернет-магазин.', 'A unique online store.') ?>
@@ -75,7 +75,7 @@
                     <h2 class="about__title title-mega">
                         <span class="black step__black">e-shop</span><span class="white step__white"><?= __('базовый', 'basic') ?></span>
                     </h2>
-                    <div class="row pt-3" style="margin-top: -2rem">
+                    <div class="row pt-2 pt-lg-4">
                         <div class="col-xl-8">
                             <h3 class="step__title">
                                 <?= __('Индивидуальный дизайн и базовый функционал', 'Individual design and basic functionality') ?>
@@ -137,7 +137,7 @@
                     <h2 class="about__title title-mega">
                         <span class="black step__black">e-shop</span><span class="white step__white"><?= __('настройка', 'customization') ?></span>
                     </h2>
-                    <div class="row pt-4">
+                    <div class="row pt-lg-4">
                         <div class="col-xl-8">
                             <h3 class="step__title">
                                 <?= __('Готовое решение', 'Ready-made solution') ?>
@@ -188,7 +188,7 @@
                     <h2 class="about__title title-mega">
                         <span class="black step__black">landing</span><span class="white step__white">page</span>
                     </h2>
-                    <div class="row pt-4">
+                    <div class="row pt-lg-4">
                         <div class="col-xl-8">
                             <h3 class="step__title">
                                 One-page
@@ -236,7 +236,7 @@
                     <h2 class="about__title title-mega">
                         <span class="black step__black"><?= __('визитка', 'business') ?> </span><span class="white step__white"><?= __('сайт', 'website') ?></span>
                     </h2>
-                    <div class="row pt-4">
+                    <div class="row pt-lg-4">
                         <div class="col-xl-8">
                             <h3 class="step__title">
                                 <?= __('Виртуальная визитная карточка компании', 'Virtual business card of the company') ?>
@@ -285,7 +285,7 @@
                     <h2 class="about__title title-mega">
                         <span class="black step__black"><?= __('сайт', 'corporate') ?></span><span class="white step__white"><?= __('корпоративный', 'website') ?></span>
                     </h2>
-                    <div class="row pt-4">
+                    <div class="row pt-lg-4">
                         <div class="col-xl-8">
                             <h3 class="step__title">
                                  <?= __('Имиджевый инструмент', 'Image tool') ?>
