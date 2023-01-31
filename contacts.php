@@ -20,7 +20,7 @@
                                     <a target="_blank" href="https://www.instagram.com/lynxfoundation/" title="Instagram">
                                         <img src="/assets/img/inst-c.svg" alt="Instagram">
                                     </a>
-                                    <a target="_blank" href="#" title="Skype">
+                                    <a target="_blank" href="skype:live:.cid.7bb9beabce36bfd5?chat" title="Skype">
                                         <img src="/assets/img/sk-c.svg" alt="Skype">
                                     </a>
                                     <a target="_blank" href="tg://resolve?domain=SerbianLynx" title="Telegram">
