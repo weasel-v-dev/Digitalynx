@@ -59,7 +59,7 @@
                                                 <a target="_blank" href="https://goo.gl/maps/64zikwvPK3aRoNzr9" title="Google Maps">
                                                     <span class="d-inline-block">Ušće Business Center,</span>
                                                     <span class="d-inline-block">Bulevar Mihajla Pupina 6,</span>
-                                                    <span class="d-inline-block">Белград 11070, Сербия</span>
+                                                    <span class="d-inline-block"><?= __('Белград 11070, Сербия', 'Belgrade 11070, Serbia') ?></span>
                                                 </a>
                                             </p>
                                         </div>
