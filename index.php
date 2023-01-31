@@ -9,7 +9,7 @@
                 </h2>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-center mt-2 mt-lg-3 mt-xxl-5 w-100">
-                <a href="tg://resolve?domain=SerbianLynx" class="cta mb-3 mb-md-0"><?= __('Cвязаться', 'Get in touch') ?></a>
+                <a href="/contacts" class="cta mb-3 mb-md-0"><?= __('Cвязаться', 'get in touch') ?></a>
                 <a href="/portfolio" class="link"><?= __('Оценить портфолио', 'Evaluate the portfolio') ?></a>
             </div>
         </div>
