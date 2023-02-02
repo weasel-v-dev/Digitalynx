@@ -113,18 +113,18 @@
     if(window.matchMedia('(min-width: 1200px)')) {
         let currentPage = 1;
         let stopWheel = 0;
+        const $clue = $('.clue-vertical-js');
+
         const $aboutWindow = $('.about-window-js');
         if($aboutWindow.length > 0) {
             $('.page-js').on('wheel', async function (e) {
-                $('.clue-vertical-js').css({
-                    opacity: 0,
-                    pointerEvents: 'none'
-                });
                 if (stopWheel) {
                     e.preventDefault();
                     e.stopImmediatePropagation();
                     return false;
                 }
+                $clue.css('opacity', 0);
+
                 if (e.originalEvent.deltaY < 0) {
                     if (currentPage === 1) {
                         $aboutWindow[0].style.right = '0';
@@ -141,14 +141,20 @@
                     } else if (currentPage === 2) {
                         $aboutWindow[1].style.right = '-100%';
                         $aboutWindow[2].style.top = '50%';
+
                     }
                     ++currentPage;
                 }
+
                 if (currentPage < 1) {
+                    $clue.css('opacity', 0.5);
+                    $clue.find('span').html('SCROLL DOWN');
                     currentPage = 1;
                 }
                 if (currentPage > 2) {
                     currentPage = 2;
+                    $clue.css('opacity', 0.5);
+                    $clue.find('span').html('SCROLL UP');
                 }
 
                 stopWheel = 1;
@@ -159,15 +165,13 @@
         const $offerWindow = $('.offer-window-js');
         if($offerWindow.length > 0) {
             $('.page-js').on('wheel', async function (e) {
-                $('.clue-vertical-js').css({
-                    opacity: 0,
-                    pointerEvents: 'none'
-                });
                 if (stopWheel) {
                     e.preventDefault();
                     e.stopImmediatePropagation();
                     return false;
                 }
+                $clue.css('opacity', 0);
+
                 if (e.originalEvent.deltaY < 0) {
                     if (currentPage === 1) {
                         $offerWindow[0].style.right = '0';
@@ -213,10 +217,14 @@
                     ++currentPage;
                 }
                 if (currentPage < 1) {
+                    $clue.css('opacity', 0.5);
+                    $clue.find('span').html('SCROLL DOWN');
                     currentPage = 1;
                 }
                 if (currentPage > 5) {
                     currentPage = 5;
+                    $clue.css('opacity', 0.5);
+                    $clue.find('span').html('SCROLL UP');
                 }
 
                 stopWheel = 1;

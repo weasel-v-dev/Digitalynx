@@ -97,6 +97,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   if (window.matchMedia('(min-width: 1200px)')) {
     var currentPage = 1;
     var stopWheel = 0;
+    var $clue = $('.clue-vertical-js');
     var $aboutWindow = $('.about-window-js');
     if ($aboutWindow.length > 0) {
       $('.page-js').on('wheel', /*#__PURE__*/function () {
@@ -104,18 +105,15 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
           return _regeneratorRuntime().wrap(function _callee$(_context) {
             while (1) switch (_context.prev = _context.next) {
               case 0:
-                $('.clue-vertical-js').css({
-                  opacity: 0,
-                  pointerEvents: 'none'
-                });
                 if (!stopWheel) {
-                  _context.next = 5;
+                  _context.next = 4;
                   break;
                 }
                 e.preventDefault();
                 e.stopImmediatePropagation();
                 return _context.abrupt("return", false);
-              case 5:
+              case 4:
+                $clue.css('opacity', 0);
                 if (e.originalEvent.deltaY < 0) {
                   if (currentPage === 1) {
                     $aboutWindow[0].style.right = '0';
@@ -136,10 +134,14 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                   ++currentPage;
                 }
                 if (currentPage < 1) {
+                  $clue.css('opacity', 0.5);
+                  $clue.find('span').html('SCROLL DOWN');
                   currentPage = 1;
                 }
                 if (currentPage > 2) {
                   currentPage = 2;
+                  $clue.css('opacity', 0.5);
+                  $clue.find('span').html('SCROLL UP');
                 }
                 stopWheel = 1;
                 _context.next = 11;
@@ -164,18 +166,15 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
           return _regeneratorRuntime().wrap(function _callee2$(_context2) {
             while (1) switch (_context2.prev = _context2.next) {
               case 0:
-                $('.clue-vertical-js').css({
-                  opacity: 0,
-                  pointerEvents: 'none'
-                });
                 if (!stopWheel) {
-                  _context2.next = 5;
+                  _context2.next = 4;
                   break;
                 }
                 e.preventDefault();
                 e.stopImmediatePropagation();
                 return _context2.abrupt("return", false);
-              case 5:
+              case 4:
+                $clue.css('opacity', 0);
                 if (e.originalEvent.deltaY < 0) {
                   if (currentPage === 1) {
                     $offerWindow[0].style.right = '0';
@@ -220,10 +219,14 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                   ++currentPage;
                 }
                 if (currentPage < 1) {
+                  $clue.css('opacity', 0.5);
+                  $clue.find('span').html('SCROLL DOWN');
                   currentPage = 1;
                 }
                 if (currentPage > 5) {
                   currentPage = 5;
+                  $clue.css('opacity', 0.5);
+                  $clue.find('span').html('SCROLL UP');
                 }
                 stopWheel = 1;
                 _context2.next = 11;
