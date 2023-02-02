@@ -1,5 +1,9 @@
 <?php include 'sections/header.php' ?>
 <main class="glass-wrap glass-wrap--main d-flex flex-column">
+    <div class="clue clue--vertical">
+        <span>SCROLL SLIDES</span>&nbsp;&nbsp;
+        <img src="/assets/img/mouse.svg" alt="icon">
+    </div>
     <div class="container-fluid">
         <h1 class="title-bread"><?= __('Портфолио', 'Portfolio') ?></h1>
     </div>
@@ -142,7 +146,7 @@
             </div>
         </div>
     </div>
-    <div class="clue clue--mobile clue-js">
+    <div class="clue clue--mobile d-xl-none clue-js">
         <img src="/assets/img/arr.svg" alt="icon">&nbsp;&nbsp;
         <span>SWIPE</span>&nbsp;&nbsp;
         <img src="/assets/img/arr.svg" alt="icon">
