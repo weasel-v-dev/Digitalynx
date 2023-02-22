@@ -39,6 +39,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     });
   });
   var $titlePortfolio = $('.portfolio-title-js');
+  var $subTitlePortfolio = $('.portfolio-subtitle-js');
   $portfolio.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
     $('.glass-visible-js').css({
       opacity: 0
@@ -69,6 +70,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       marginRight: '-50px'
     });
     $titlePortfolio.text($(slick.$slides[currentSlide]).data('name'));
+    var lastName = $(slick.$slides[currentSlide]).data('last-name');
+    $subTitlePortfolio.text(lastName ? lastName : 'project');
   });
   $portfolio.on('wheel', function (e) {
     e.preventDefault();

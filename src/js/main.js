@@ -41,6 +41,7 @@
     });
 
     const $titlePortfolio = $('.portfolio-title-js');
+    const $subTitlePortfolio = $('.portfolio-subtitle-js');
 
     $portfolio.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
         $('.glass-visible-js').css({
@@ -80,6 +81,9 @@
         })
 
         $titlePortfolio.text($(slick.$slides[currentSlide]).data('name'));
+
+        let lastName = $(slick.$slides[currentSlide]).data('last-name');
+        $subTitlePortfolio.text(lastName ? lastName : 'project');
     });
 
     $portfolio.on('wheel', (function(e) {
