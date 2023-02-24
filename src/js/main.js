@@ -114,14 +114,25 @@
         });
     });
 
+
+
     if(window.matchMedia('(min-width: 1200px)')) {
+        const $as = $('.about-window-js');
+        const $os = $('.offer-window-js');
+        if($as.length > 0) {
+            slidePage($as);
+        }
+        if($os.length > 0) {
+            slidePage($os);
+        }
+    }
+
+    function slidePage($selector) {
         let currentPage = 1;
         let stopWheel = 0;
         const $clue = $('.clue-vertical-js');
 
-        const $aboutWindow = $('.about-window-js');
-        if($aboutWindow.length > 0) {
-            $('.page-js').on('wheel', async function (e) {
+        $('.page-js').on('wheel', async function (e) {
                 if (stopWheel) {
                     e.preventDefault();
                     e.stopImmediatePropagation();
@@ -130,23 +141,20 @@
                 $clue.css('opacity', 0);
 
                 if (e.originalEvent.deltaY < 0) {
-                    if (currentPage === 1) {
-                        $aboutWindow[0].style.right = '0';
-                        $aboutWindow[1].style.top = '200%';
-                    } else if (currentPage === 2) {
-                        $aboutWindow[1].style.right = '0';
-                        $aboutWindow[2].style.top = '200%';
-                    }
+                    $selector.each(function (i) {
+                        if (currentPage === i + 1) {
+                            $selector[i].style.right = '0';
+                            $selector[i + 1].style.top = '200%';
+                        }
+                    });
                     --currentPage;
                 } else {
-                    if (currentPage === 1) {
-                        $aboutWindow[0].style.right = '-100%';
-                        $aboutWindow[1].style.top = '50%';
-                    } else if (currentPage === 2) {
-                        $aboutWindow[1].style.right = '-100%';
-                        $aboutWindow[2].style.top = '50%';
-
-                    }
+                    $selector.each(function (i) {
+                        if (currentPage === i + 1) {
+                            $selector[i].style.right = '-100%';
+                            $selector[i + 1].style.top = '50%';
+                        }
+                    });
                     ++currentPage;
                 }
 
@@ -155,104 +163,16 @@
                     $clue.find('span').html('SCROLL DOWN');
                     currentPage = 1;
                 }
-                if (currentPage > 2) {
-                    currentPage = 2;
+                if (currentPage > $selector.length - 1) {
+                    currentPage = $selector.length - 1;
                     $clue.css('opacity', 0.5);
                     $clue.find('span').html('SCROLL UP');
                 }
 
                 stopWheel = 1;
-                await delay(500);
+                await new Promise(resolve => setTimeout(resolve, 500));
                 stopWheel = 0;
-            });
-        }
-        const $offerWindow = $('.offer-window-js');
+            })
 
-        if($offerWindow.length > 0) {
-            $('.page-js').on('wheel', async function (e) {
-                if (stopWheel) {
-                    e.preventDefault();
-                    e.stopImmediatePropagation();
-                    return false;
-                }
-                $clue.css('opacity', 0);
-
-                if (e.originalEvent.deltaY < 0) {
-                    $offerWindow.each(function(i) {
-                        if (currentPage === i + 1) {
-                            console.log(i)
-                            $offerWindow[i].style.right = '0';
-                            $offerWindow[i + 1].style.top = '200%';
-                        }
-                    });
-                    // if (currentPage === 1) {
-                    //     $offerWindow[0].style.right = '0';
-                    //     $offerWindow[1].style.top = '200%';
-                    // } else if (currentPage === 2) {
-                    //     $offerWindow[1].style.right = '0';
-                    //     $offerWindow[2].style.top = '200%';
-                    // } else if (currentPage === 3) {
-                    //     $offerWindow[2].style.right = '0';
-                    //     $offerWindow[3].style.top = '200%';
-                    // } else if (currentPage === 4) {
-                    //     $offerWindow[3].style.right = '0';
-                    //     $offerWindow[4].style.top = '200%';
-                    // } else if (currentPage === 5) {
-                    //     $offerWindow[4].style.right = '0';
-                    //     $offerWindow[5].style.top = '200%';
-                    // } else if (currentPage === 6) {
-                    //     $offerWindow[5].style.right = '0';
-                    //     $offerWindow[6].style.top = '200%';
-                    // }
-                    --currentPage;
-                }
-                else {
-                    $offerWindow.each(function(i) {
-                        if (currentPage === i + 1) {
-                            $offerWindow[i].style.right = '-100%';
-                            $offerWindow[i + 1].style.top = '50%';
-                        }
-                    });
-                    // if (currentPage === 1) {
-                    //     $offerWindow[0].style.right = '-100%';
-                    //     $offerWindow[1].style.top = '50%';
-                    // } else if (currentPage === 2) {
-                    //     $offerWindow[1].style.right = '-100%';
-                    //     $offerWindow[2].style.top = '50%';
-                    // } else if (currentPage === 3) {
-                    //     $offerWindow[2].style.right = '-100%';
-                    //     $offerWindow[3].style.top = '50%';
-                    // } else if (currentPage === 4) {
-                    //     $offerWindow[3].style.right = '-100%';
-                    //     $offerWindow[4].style.top = '50%';
-                    // } else if (currentPage === 5) {
-                    //     $offerWindow[4].style.right = '-100%';
-                    //     $offerWindow[5].style.top = '50%';
-                    // } else if (currentPage === 6) {
-                    //     $offerWindow[5].style.right = '-100%';
-                    //     $offerWindow[6].style.top = '50%';
-                    // }
-                    ++currentPage;
-                }
-                if (currentPage < 1) {
-                    $clue.css('opacity', 0.5);
-                    $clue.find('span').html('SCROLL DOWN');
-                    currentPage = 1;
-                }
-                if (currentPage > $offerWindow.length - 1) {
-                    currentPage = $offerWindow.length - 1;
-                    $clue.css('opacity', 0.5);
-                    $clue.find('span').html('SCROLL UP');
-                }
-
-                stopWheel = 1;
-                await delay(500);
-                stopWheel = 0;
-            });
-        }
-    }
-
-    function delay(time) {
-        return new Promise(resolve => setTimeout(resolve, time));
     }
 })(jQuery);

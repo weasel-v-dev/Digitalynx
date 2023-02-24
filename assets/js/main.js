@@ -98,173 +98,77 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     });
   });
   if (window.matchMedia('(min-width: 1200px)')) {
+    var $as = $('.about-window-js');
+    var $os = $('.offer-window-js');
+    if ($as.length > 0) {
+      slidePage($as);
+    }
+    if ($os.length > 0) {
+      slidePage($os);
+    }
+  }
+  function slidePage($selector) {
     var currentPage = 1;
     var stopWheel = 0;
     var $clue = $('.clue-vertical-js');
-    var $aboutWindow = $('.about-window-js');
-    if ($aboutWindow.length > 0) {
-      $('.page-js').on('wheel', /*#__PURE__*/function () {
-        var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(e) {
-          return _regeneratorRuntime().wrap(function _callee$(_context) {
-            while (1) switch (_context.prev = _context.next) {
-              case 0:
-                if (!stopWheel) {
-                  _context.next = 4;
-                  break;
-                }
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                return _context.abrupt("return", false);
-              case 4:
-                $clue.css('opacity', 0);
-                if (e.originalEvent.deltaY < 0) {
-                  if (currentPage === 1) {
-                    $aboutWindow[0].style.right = '0';
-                    $aboutWindow[1].style.top = '200%';
-                  } else if (currentPage === 2) {
-                    $aboutWindow[1].style.right = '0';
-                    $aboutWindow[2].style.top = '200%';
+    $('.page-js').on('wheel', /*#__PURE__*/function () {
+      var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(e) {
+        return _regeneratorRuntime().wrap(function _callee$(_context) {
+          while (1) switch (_context.prev = _context.next) {
+            case 0:
+              if (!stopWheel) {
+                _context.next = 4;
+                break;
+              }
+              e.preventDefault();
+              e.stopImmediatePropagation();
+              return _context.abrupt("return", false);
+            case 4:
+              $clue.css('opacity', 0);
+              if (e.originalEvent.deltaY < 0) {
+                $selector.each(function (i) {
+                  if (currentPage === i + 1) {
+                    $selector[i].style.right = '0';
+                    $selector[i + 1].style.top = '200%';
                   }
-                  --currentPage;
-                } else {
-                  if (currentPage === 1) {
-                    $aboutWindow[0].style.right = '-100%';
-                    $aboutWindow[1].style.top = '50%';
-                  } else if (currentPage === 2) {
-                    $aboutWindow[1].style.right = '-100%';
-                    $aboutWindow[2].style.top = '50%';
+                });
+                --currentPage;
+              } else {
+                $selector.each(function (i) {
+                  if (currentPage === i + 1) {
+                    $selector[i].style.right = '-100%';
+                    $selector[i + 1].style.top = '50%';
                   }
-                  ++currentPage;
-                }
-                if (currentPage < 1) {
-                  $clue.css('opacity', 0.5);
-                  $clue.find('span').html('SCROLL DOWN');
-                  currentPage = 1;
-                }
-                if (currentPage > 2) {
-                  currentPage = 2;
-                  $clue.css('opacity', 0.5);
-                  $clue.find('span').html('SCROLL UP');
-                }
-                stopWheel = 1;
-                _context.next = 11;
-                return delay(500);
-              case 11:
-                stopWheel = 0;
-              case 12:
-              case "end":
-                return _context.stop();
-            }
-          }, _callee);
-        }));
-        return function (_x) {
-          return _ref.apply(this, arguments);
-        };
-      }());
-    }
-    var $offerWindow = $('.offer-window-js');
-    if ($offerWindow.length > 0) {
-      $('.page-js').on('wheel', /*#__PURE__*/function () {
-        var _ref2 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(e) {
-          return _regeneratorRuntime().wrap(function _callee2$(_context2) {
-            while (1) switch (_context2.prev = _context2.next) {
-              case 0:
-                if (!stopWheel) {
-                  _context2.next = 4;
-                  break;
-                }
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                return _context2.abrupt("return", false);
-              case 4:
-                $clue.css('opacity', 0);
-                if (e.originalEvent.deltaY < 0) {
-                  $offerWindow.each(function (i) {
-                    if (currentPage === i + 1) {
-                      console.log(i);
-                      $offerWindow[i].style.right = '0';
-                      $offerWindow[i + 1].style.top = '200%';
-                    }
-                  });
-                  // if (currentPage === 1) {
-                  //     $offerWindow[0].style.right = '0';
-                  //     $offerWindow[1].style.top = '200%';
-                  // } else if (currentPage === 2) {
-                  //     $offerWindow[1].style.right = '0';
-                  //     $offerWindow[2].style.top = '200%';
-                  // } else if (currentPage === 3) {
-                  //     $offerWindow[2].style.right = '0';
-                  //     $offerWindow[3].style.top = '200%';
-                  // } else if (currentPage === 4) {
-                  //     $offerWindow[3].style.right = '0';
-                  //     $offerWindow[4].style.top = '200%';
-                  // } else if (currentPage === 5) {
-                  //     $offerWindow[4].style.right = '0';
-                  //     $offerWindow[5].style.top = '200%';
-                  // } else if (currentPage === 6) {
-                  //     $offerWindow[5].style.right = '0';
-                  //     $offerWindow[6].style.top = '200%';
-                  // }
-                  --currentPage;
-                } else {
-                  $offerWindow.each(function (i) {
-                    if (currentPage === i + 1) {
-                      $offerWindow[i].style.right = '-100%';
-                      $offerWindow[i + 1].style.top = '50%';
-                    }
-                  });
-                  // if (currentPage === 1) {
-                  //     $offerWindow[0].style.right = '-100%';
-                  //     $offerWindow[1].style.top = '50%';
-                  // } else if (currentPage === 2) {
-                  //     $offerWindow[1].style.right = '-100%';
-                  //     $offerWindow[2].style.top = '50%';
-                  // } else if (currentPage === 3) {
-                  //     $offerWindow[2].style.right = '-100%';
-                  //     $offerWindow[3].style.top = '50%';
-                  // } else if (currentPage === 4) {
-                  //     $offerWindow[3].style.right = '-100%';
-                  //     $offerWindow[4].style.top = '50%';
-                  // } else if (currentPage === 5) {
-                  //     $offerWindow[4].style.right = '-100%';
-                  //     $offerWindow[5].style.top = '50%';
-                  // } else if (currentPage === 6) {
-                  //     $offerWindow[5].style.right = '-100%';
-                  //     $offerWindow[6].style.top = '50%';
-                  // }
-                  ++currentPage;
-                }
-                if (currentPage < 1) {
-                  $clue.css('opacity', 0.5);
-                  $clue.find('span').html('SCROLL DOWN');
-                  currentPage = 1;
-                }
-                if (currentPage > $offerWindow.length - 1) {
-                  currentPage = $offerWindow.length - 1;
-                  $clue.css('opacity', 0.5);
-                  $clue.find('span').html('SCROLL UP');
-                }
-                stopWheel = 1;
-                _context2.next = 11;
-                return delay(500);
-              case 11:
-                stopWheel = 0;
-              case 12:
-              case "end":
-                return _context2.stop();
-            }
-          }, _callee2);
-        }));
-        return function (_x2) {
-          return _ref2.apply(this, arguments);
-        };
-      }());
-    }
-  }
-  function delay(time) {
-    return new Promise(function (resolve) {
-      return setTimeout(resolve, time);
-    });
+                });
+                ++currentPage;
+              }
+              if (currentPage < 1) {
+                $clue.css('opacity', 0.5);
+                $clue.find('span').html('SCROLL DOWN');
+                currentPage = 1;
+              }
+              if (currentPage > $selector.length - 1) {
+                currentPage = $selector.length - 1;
+                $clue.css('opacity', 0.5);
+                $clue.find('span').html('SCROLL UP');
+              }
+              stopWheel = 1;
+              _context.next = 11;
+              return new Promise(function (resolve) {
+                return setTimeout(resolve, 500);
+              });
+            case 11:
+              stopWheel = 0;
+            case 12:
+            case "end":
+              return _context.stop();
+          }
+        }, _callee);
+      }));
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }());
   }
 })(jQuery);
 //# sourceMappingURL=main.js.map
