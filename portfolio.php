@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-<!--        <div class="portfolio__item portfolio-item-js" data-image="/projects/--><?//= __('paypalych.png', 'paypalych.png') ?><!--" data-name="Paypalych" data-last-name="payment system">-->
+<!--        <div class="portfolio__item portfolio-item-js" data-image="/projects/paypalych.png" data-name="Paypalych" data-last-name="payment system">-->
 <!--            <div>-->
 <!--                <div class="glass position-relative d-flex justify-content-center align-items-center">-->
 <!--                    <div class="glass__visible glass-visible-js"></div>-->
