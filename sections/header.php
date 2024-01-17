@@ -13,20 +13,18 @@ function __($langRu = '', $langEn = '') {
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="index,follow">
-    <title>Создание сайтов любой сложности | Веб-студия Digital Lynx</title>
+    <title>Создание сайтов любой сложности | Digital Lynx Веб-студия</title>
     <meta name="description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу.">
     <meta name="keywords" content="Веб-сайт, Веб-студія, Веб-агенция, digital агенция, web-lynx, lynx студия, lynx digital, Lynx студия, Lynx агенция, Lynx компания, landing page, e-commerce, digital студия, Lynx agency, Lynx company, онлайн-сервисы, digital, lynx, digitallynx">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta property="og:locale" content="ru_RU">
-    <meta property="og:locale" content="uk_UA">
+    <meta property="og:locale" content="<?= __('ru_RU', 'en_US')?>">
     <meta property="og:site_name" content="DigitaLynx — цифровизация Вашего бизнеса">
     <meta property="og:url" content="https://digitalynx.org">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Создание сайтов любой сложности | Веб-студия Digital Lynx">
+    <meta property="og:title" content="Создание сайтов любой сложности | Digital Lynx Веб-студия">
     <meta property="og:description" content="Студия веб-дизайна и разработки, создает креативные веб-сайты и разрабатывает потрясающие мобильные и веб-приложения. Приведите друга и получите скидку 25% на любую услугу.">
     <link type="Image/x-icon" href="/assets/img/favicon.ico" rel="icon">
-<!--    <link rel="canonical" href="https://digitalynx.org">-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script

@@ -41,6 +41,7 @@
     });
 
     const $titlePortfolio = $('.portfolio-title-js');
+    const $subTitlePortfolio = $('.portfolio-subtitle-js');
 
     $portfolio.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
         $('.glass-visible-js').css({
@@ -80,6 +81,9 @@
         })
 
         $titlePortfolio.text($(slick.$slides[currentSlide]).data('name'));
+
+        let lastName = $(slick.$slides[currentSlide]).data('last-name');
+        $subTitlePortfolio.text(lastName ? lastName : 'project');
     });
 
     $portfolio.on('wheel', (function(e) {
@@ -110,123 +114,65 @@
         });
     });
 
+
+
     if(window.matchMedia('(min-width: 1200px)')) {
-        let currentPage = 1;
-        let stopWheel = 0;
-        const $aboutWindow = $('.about-window-js');
-        if($aboutWindow.length > 0) {
-            $('.page-js').on('wheel', async function (e) {
-                $('.clue-vertical-js').css({
-                    opacity: 0,
-                    pointerEvents: 'none'
-                });
-                if (stopWheel) {
-                    e.preventDefault();
-                    e.stopImmediatePropagation();
-                    return false;
-                }
-                if (e.originalEvent.deltaY < 0) {
-                    if (currentPage === 1) {
-                        $aboutWindow[0].style.right = '0';
-                        $aboutWindow[1].style.top = '200%';
-                    } else if (currentPage === 2) {
-                        $aboutWindow[1].style.right = '0';
-                        $aboutWindow[2].style.top = '200%';
-                    }
-                    --currentPage;
-                } else {
-                    if (currentPage === 1) {
-                        $aboutWindow[0].style.right = '-100%';
-                        $aboutWindow[1].style.top = '50%';
-                    } else if (currentPage === 2) {
-                        $aboutWindow[1].style.right = '-100%';
-                        $aboutWindow[2].style.top = '50%';
-                    }
-                    ++currentPage;
-                }
-                if (currentPage < 1) {
-                    currentPage = 1;
-                }
-                if (currentPage > 2) {
-                    currentPage = 2;
-                }
-
-                stopWheel = 1;
-                await delay(500);
-                stopWheel = 0;
-            });
+        const $as = $('.about-window-js');
+        const $os = $('.offer-window-js');
+        if($as.length > 0) {
+            slidePage($as);
         }
-        const $offerWindow = $('.offer-window-js');
-        if($offerWindow.length > 0) {
-            $('.page-js').on('wheel', async function (e) {
-                $('.clue-vertical-js').css({
-                    opacity: 0,
-                    pointerEvents: 'none'
-                });
-                if (stopWheel) {
-                    e.preventDefault();
-                    e.stopImmediatePropagation();
-                    return false;
-                }
-                if (e.originalEvent.deltaY < 0) {
-                    if (currentPage === 1) {
-                        $offerWindow[0].style.right = '0';
-                        $offerWindow[1].style.top = '200%';
-                    } else if (currentPage === 2) {
-                        $offerWindow[1].style.right = '0';
-                        $offerWindow[2].style.top = '200%';
-                    } else if (currentPage === 3) {
-                        $offerWindow[2].style.right = '0';
-                        $offerWindow[3].style.top = '200%';
-                    } else if (currentPage === 4) {
-                        $offerWindow[3].style.right = '0';
-                        $offerWindow[4].style.top = '200%';
-                    } else if (currentPage === 5) {
-                        $offerWindow[4].style.right = '0';
-                        $offerWindow[5].style.top = '200%';
-                    } else if (currentPage === 6) {
-                        $offerWindow[5].style.right = '0';
-                        $offerWindow[6].style.top = '200%';
-                    }
-                    --currentPage;
-                }
-                else {
-                    if (currentPage === 1) {
-                        $offerWindow[0].style.right = '-100%';
-                        $offerWindow[1].style.top = '50%';
-                    } else if (currentPage === 2) {
-                        $offerWindow[1].style.right = '-100%';
-                        $offerWindow[2].style.top = '50%';
-                    } else if (currentPage === 3) {
-                        $offerWindow[2].style.right = '-100%';
-                        $offerWindow[3].style.top = '50%';
-                    } else if (currentPage === 4) {
-                        $offerWindow[3].style.right = '-100%';
-                        $offerWindow[4].style.top = '50%';
-                    } else if (currentPage === 5) {
-                        $offerWindow[4].style.right = '-100%';
-                        $offerWindow[5].style.top = '50%';
-                    } else if (currentPage === 6) {
-                        $offerWindow[5].style.right = '-100%';
-                        $offerWindow[6].style.top = '50%';
-                    }
-                    ++currentPage;
-                }
-                if (currentPage < 1) {
-                    currentPage = 1;
-                }
-                if (currentPage > 5) {
-                    currentPage = 5;
-                }
-
-                stopWheel = 1;
-                await delay(500);
-                stopWheel = 0;
-            });
+        if($os.length > 0) {
+            slidePage($os);
         }
     }
 
-    function delay(time) {
-        return new Promise(resolve => setTimeout(resolve, time));
+    function slidePage($selector) {
+        let currentPage = 1;
+        let stopWheel = 0;
+        const $clue = $('.clue-vertical-js');
+
+        $('.page-js').on('wheel', async function (e) {
+                if (stopWheel) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                    return false;
+                }
+                $clue.css('opacity', 0);
+
+                if (e.originalEvent.deltaY < 0) {
+                    $selector.each(function (i) {
+                        if (currentPage === i + 1) {
+                            $selector[i].style.right = '0';
+                            $selector[i + 1].style.top = '200%';
+                        }
+                    });
+                    --currentPage;
+                } else {
+                    $selector.each(function (i) {
+                        if (currentPage === i + 1) {
+                            $selector[i].style.right = '-100%';
+                            $selector[i + 1].style.top = '50%';
+                        }
+                    });
+                    ++currentPage;
+                }
+
+                if (currentPage < 1) {
+                    $clue.css('opacity', 0.5);
+                    $clue.find('span').html('SCROLL DOWN');
+                    currentPage = 1;
+                }
+                if (currentPage > $selector.length - 1) {
+                    currentPage = $selector.length - 1;
+                    $clue.css('opacity', 0.5);
+                    $clue.find('span').html('SCROLL UP');
+                }
+
+                stopWheel = 1;
+                await new Promise(resolve => setTimeout(resolve, 500));
+                stopWheel = 0;
+            })
+
     }
 })(jQuery);

@@ -5,7 +5,7 @@
         <div>
             <div class="glass glass--standart d-flex justify-content-center align-items-center">
                 <h2 class="main__title title-mega">
-                    <span class="black">Lynx</span><span class="white">foundation</span>
+                    <span class="black">Lynx</span><span class="white"><?= __('студия', 'agency') ?></span>
                 </h2>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-center mt-2 mt-lg-3 mt-xxl-5 w-100">

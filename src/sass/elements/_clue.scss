@@ -4,9 +4,6 @@
   transition: opacity .3s ease-in;
 
   &--mobile {
-    @media screen and (min-width: 490px) {
-      display: none;
-    }
     color: white;
     img {
       width: 14px;
@@ -21,7 +18,9 @@
     margin-top: -5px;
   }
   &--vertical {
-    transform-origin: center;
+    width: 175px;
+    transform-origin: bottom;
+    pointer-events: none;
     transform: rotate(90deg) translateY(-50%);
     position: fixed;
     right: 0;
